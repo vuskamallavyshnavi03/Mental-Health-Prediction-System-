@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mental Health Prediction System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: url('https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(120deg, rgba(79, 172, 254, 0.8), rgba(0, 242, 254, 0.8));
+      z-index: 0;
+    }
+
+    header, .main-section, footer, .disorders, .appointment-section, .mood-tracker-section {
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: orange;
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .auth-buttons a {
+      padding: 10px 20px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    .auth-buttons a:hover {
+      background-color: #ffd700;
+    }
+
+    .appointment-button {
+      background-color: #00c853;
+      color: #fff;
+    }
+
+    .appointment-button:hover {
+      background: #00a045;
+    }
+
+    .main-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .image-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .image-grid img {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .image-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .disorders {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin: 50px auto;
+      max-width: 1200px;
+      padding: 20px;
+    }
+
+    .disorder-box {
+      background: #ffffffcc;
+      color: #000;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: left;
+      transition: 0.3s;
+      cursor: pointer;
+      position: relative;
+      min-height: 180px;
+    }
+
+    .disorder-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .disorder-description {
+      display: none;
+      margin-top: 10px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .disorder-box.active .disorder-description {
+      display: block;
+    }
+
+    .appointment-section {
+      background: #f7f7f7;
+      color: #333;
+      margin: 60px auto;
+      padding: 40px;
+      border-radius: 16px;
+      max-width: 1100px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .appointment-section img {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+      margin: auto;
+    }
+
+    .appointment-content h3 {
+      margin-bottom: 15px;
+      font-size: 2rem;
+      color: #6a1b9a;
+    }
+
+    .appointment-content ul {
+      margin-bottom: 20px;
+      padding-left: 20px;
+      font-size: 1.1rem;
+    }
+
+    .appointment-content a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #6a1b9a;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 8px; 
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .appointment-content a:hover {
+      background: #4a0072;
+    }
+
+    .mood-tracker-section {
+      background: rgba(255, 255, 255, 0.97);
+      padding: 40px;
+      border-radius: 20px;
+      margin: 40px auto;
+      max-width: 700px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+      color: #333;
+    }
+
+    .mood-tracker-section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 12px;
+    }
+
+    .mood-tracker-section p {
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+    }
+
+    .mood-options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin-bottom: 20px;
+    }
+
+    .mood {
+      font-size: 2.2rem;
+      cursor: pointer;
+      transition: transform 0.2s ease, background 0.2s ease;
+      padding: 10px;
+      border-radius: 12px;
+    }
+
+    .mood:hover {
+      transform: scale(1.2);
+      background: #e0f7ff;
+    }
+
+    .mood-result {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: #4a148c;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 18px;
+      background: #f0f0f0;
+      color: #555;
+      font-size: 0.95rem;
+      width: 100%;
+      margin-top: auto;
+    }
+
+    .profile-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-icon {
+    font-size: 30px;
+    cursor: pointer;
+    background: white;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: white;
+    min-width: 180px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.dropdown a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown a:hover {
+    background: #f1f1f1;
+}
+
+.profile-menu:hover .dropdown {
+    display: block;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🧠 Mental Health Prediction System</h1>
+  <div class="auth-buttons">
+    <a href="/quiz" class="quiz-button">Quiz</a>
+    <a href="/appointment" class="appointment-button">Appointment</a>
+    <a href="/contact" class="contact-button">Contact</a>
+
+    <div class="profile-menu">
+        <span class="profile-icon">👤</span>
+
+        <div class="dropdown">
+            <a href="/profile">My Profile</a>
+            <a href="/quiz">Quiz</a>
+            <a href="/doctor">Doctor</a>
+            <a href="/appointment">Appointments</a>
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+</div>
+</header>
+
+<section class="main-section">
+  <h2>Welcome to a Healthier Mind</h2>
+  <p>
+    Our Mental Health Prediction System helps you understand your emotional state by analyzing your responses to a short quiz and providing suggestions, alerts, and notifications.
+  </p>
+  <div class="image-grid">
+    <img src="https://hsph.harvard.edu/wp-content/uploads/2024/08/mental-health-technology-scaled-1.jpeg" alt="Mental Health 1">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.Hi7w4_bjzfCZr8ODHnV5CQHaFc&pid=Api&P=0&h=180" alt="Mental Health 2">
+    <img src="https://www.news-medical.net/images/Article_Images/ImageForArticle_23295_16680815010862881.jpg" alt="Mental Health 3">
+  </div>
+</section>
+
+<section class="disorders">
+  <div class="disorder-box"><div class="disorder-title">1. Depression</div><div class="disorder-description">Persistent sadness and loss of interest in activities once enjoyed.</div></div>
+  <div class="disorder-box"><div class="disorder-title">2. Anxiety Disorders</div><div class="disorder-description">Characterized by excessive fear, worry, and related behavioral disturbances.</div></div>
+  <div class="disorder-box"><div class="disorder-title">3. Bipolar Disorder</div><div class="disorder-description">Mood disorder marked by alternating periods of elation and depression.</div></div>
+  <div class="disorder-box"><div class="disorder-title">4. Schizophrenia</div><div class="disorder-description">A serious mental disorder where people interpret reality abnormally.</div></div>
+  <div class="disorder-box"><div class="disorder-title">5. PTSD</div><div class="disorder-description">Triggered by terrifying events, causing flashbacks, nightmares, and anxiety.</div></div>
+  <div class="disorder-box"><div class="disorder-title">6. OCD</div><div class="disorder-description">Unwanted, recurring thoughts and behaviors that are difficult to control.</div></div>
+  <div class="disorder-box"><div class="disorder-title">7. Eating Disorders</div><div class="disorder-description">Extreme disturbances in eating behavior like anorexia or bulimia.</div></div>
+  <div class="disorder-box"><div class="disorder-title">8. Personality Disorders</div><div class="disorder-description">Rigid and unhealthy patterns of thinking, functioning, and behaving.</div></div>
+  <div class="disorder-box"><div class="disorder-title">9. ADHD</div><div class="disorder-description">Neurodevelopmental disorder with difficulty in focus, control, and impulsivity.</div></div>
+</section>
+
+<section class="appointment-section" id="appointment">
+  <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png" alt="Doctor">
+  <div class="appointment-content">
+    <h3>Instant appointment with doctors. Guaranteed.</h3>
+    <ul>
+      <li>100,000 Verified doctors</li>
+      <li>3M+ Patient recommendations</li>
+      <li>25M Patients/year</li>
+    </ul>
+    <a href="/doctor" target="_blank">Find me the right doctor</a>
+
+  </div>
+</section>
+
+<section class="mood-tracker-section">
+  <h2>How Are You Feeling Today?</h2>
+  <p>Select the emoji that best represents your current mood:</p>
+  <div class="mood-options">
+    <span class="mood" data-mood="Happy">😊</span>
+    <span class="mood" data-mood="Sad">😢</span>
+    <span class="mood" data-mood="Angry">😠</span>
+    <span class="mood" data-mood="Anxious">😰</span>
+    <span class="mood" data-mood="Calm">😌</span>
+    <span class="mood" data-mood="Tired">🥱</span>
+  </div>
+  <div class="mood-result" id="moodResult"></div>
+</section>
+
+<footer>
+  &copy; 2025 Mental Health Predictor. All Rights Reserved.
+</footer>
+
+<!-- Add this somewhere inside home.html -->
+<div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+<a href="/chatbot" class="chatbot-button">💬 Chat with Mental Health Bot </a>
+</div>
+
+<form action="/submit" method="POST">
+  <input name="name" placeholder="Name" required>
+  <input name="age" type="number" placeholder="Age" required>
+  <input name="gender" placeholder="Gender" required>
+  <input name="email" type="email" placeholder="Email" required>
+  <input name="mood" placeholder="How are you feeling?" required>
+  <button type="submit">Submit</button>
+</form>
+
+<style>
+  .chatbot-button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s ease;
+  }
+
+  .chatbot-button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+  }
+</style>
+
+<!-- Optional styling -->
+<style>
+  .chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
+<script>
+function appendMessage(sender, text) {
+  const chatbox = document.getElementById('chatbox');
+  chatbox.innerHTML += `<div><strong>${sender}:</strong> ${text}</div>`;
+  chatbox.scrollTop = chatbox.scrollHeight;
+}
+
+function sendMessage() {
+  const userInput = document.getElementById('userInput');
+  const message = userInput.value.trim();
+  if (message === '') return;
+  appendMessage('You', message);
+  userInput.value = '';
+  
+  fetch('/get_response', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message: message })
+  })
+  .then(res => res.json())
+  .then(data => {
+    appendMessage('Bot', data.response);
+    speak(data.response); 
+  });
+}
+
+function startVoiceInput() {
+  const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+  recognition.lang = 'en-US';
+  recognition.start();
+
+  recognition.onresult = function(event) {
+    const transcript = event.results[0][0].transcript;
+    document.getElementById('userInput').value = transcript;
+    sendMessage();
+  };
+}
+
+function speak(text) {
+  const synth = window.speechSynthesis;
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'en-US';
+  synth.speak(utter);
+}
+
+</script>
+<link rel="stylesheet" href="{{ url_for('static', filename='chatbot.css') }}">
+<script src="{{ url_for('static', filename='chatbot.js') }}"></script>
+</section>
+<script>
+  document.querySelectorAll('.disorder-box').forEach(box => {
+    box.addEventListener('click', () => {
+      box.classList.toggle('active');
+    });
+  });
+
+  const moods = document.querySelectorAll('.mood');
+  const moodResult = document.getElementById('moodResult');
+
+  moods.forEach(mood => {
+    mood.addEventListener('click', () => {
+      const moodType = mood.getAttribute('data-mood');
+      moodResult.textContent = `You're feeling ${moodType} today. Take care! 💜`;
+    });
+  });
+
+</script>
+</body>
+</html>

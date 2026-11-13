@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mental Health System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+      font-family: 'Inter', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 95%;
+      max-width: 1100px;
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .form-box, .user-form-container {
+      flex: 1;
+      padding: 50px;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .form-box.active, .user-form-container.active {
+      display: flex;
+    }
+
+    h2 {
+      color: #1e3a8a;
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    input, select {
+      padding: 14px 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+      width: 100%;
+    }
+
+    input:focus, select:focus {
+      border-color: #3b82f6;
+      outline: none;
+    }
+
+    button {
+      background: #3b82f6;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 16px;
+      margin-top: 12px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #2563eb;
+    }
+
+    .switch {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .switch a {
+      color: #1e3a8a;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .social-login {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .social-login img {
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .social-login img:hover {
+      transform: scale(1.1);
+    }
+
+    .image-box {
+      flex: 1;
+      background: #f9fafb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .image-box img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .hide-image .image-box {
+      display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image-box {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container" id="container">
+
+  <div class="form-box active" id="login-form">
+    <h2>Welcome Back!</h2>
+    <form onsubmit="showUserDetails(event)">
+      <input type="email" name="Email address" required>
+      <input type="password" name="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <div class="social-login">
+      <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="Google">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+    </div>
+    <div class="switch">
+      Don’t have an account? <a onclick="toggleForms()">Sign up here</a>
+    </div>
+  </div>
+
+  <div class="form-box" id="signup-form">
+    <h2>Create Account</h2>
+    <form>
+      <input type="text" name="Full Name" required>
+      <input type="email" name="Email address" required>
+      <input type="password" name="Password" required>
+      <button type="Submit">Sign Up</button>
+    </form>
+    <div class="social-login">
+      <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="Google">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+    </div>
+    <div class="switch">
+      Already have an account? <a onclick="toggleForms()">Login here</a>
+    </div>
+  </div>
+
+  <div class="user-form-container" id="user-details-form">
+    <h2>User Details</h2>
+    <form onsubmit="goToHome(event)">
+      <input type="text" placeholder="Full Name" required>
+      <input type="number" placeholder="Age" required>
+      <select required>
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+      <select required>
+        <option value="">Select Health Status</option>
+        <option value="Anxiety">Anxiety</option>
+        <option value="Depression">Depression</option>
+        <option value="Stress">Stress</option>
+        <option value="Isnomnia">Isnomnia</option>
+        <option value="Schizophrenia">Schizophrenia</option>
+        <option value="Bipolar Disorder">Bipolar Disorder</option>
+        <option value="Eating Disorder">Eating Disorder</option>
+        <option value="Social Anxiety Disorder">Social Anxiety Disorder</option>
+        <option value="Panic Disorder">Panic Disorder</option>
+        <option value="Adjustment Disorder">Adjustment Disorder</option>
+        <option value="Obsessive-Compulsive Disorder (OCD)-Mild">Obsessive-Compulsive Disorder (OCD)-Mild</option>
+        <option value="Mild Attention Deficit Hyperactivity Disorder (ADHD)">Mild Attention Deficit Hyperactivity Disorder (ADHD)</option>
+        <option value="Grief and Bereavement (Normal or Prolonged)">Grief and Bereavement (Normal or Prolonged)</option>
+        <option value="Anger Management Issues">Anger Management Issues</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="image-box" id="logo-box">
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="Mental Health Logo">
+</div>
+</div>
+
+<script>
+  function toggleForms() {
+    const loginForm = document.getElementById('login-form');
+    const signupForm = document.getElementById('signup-form');
+    loginForm.classList.toggle("active");
+    signupForm.classList.toggle("active");
+  }
+
+  function showUserDetails(event) {
+    event.preventDefault();
+    document.getElementById("login-form").classList.remove("active");
+    document.getElementById("signup-form").classList.remove("active");
+    document.getElementById("user-details-form").classList.add("active");
+    document.getElementById("container").classList.add("hide-image");
+  }
+
+  function goToHome(event) {
+    event.preventDefault();
+    window.location.href = "/home";
+  }
+</script>
+</body>
+</html>

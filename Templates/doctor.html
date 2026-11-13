@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Doctor List - Mental Health System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      padding: 30px 20px;
+      background: url('https://absolutecorporatesolutions.com/images/hospital-management-system-in-kenya.jpg') no-repeat center center fixed;
+      background-size: cover;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2e004f;
+      margin-bottom: 20px;
+      font-size: 2.8em;
+      animation: slideDown 1s ease-in-out;
+      text-shadow: 1px 1px 2px #fff;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .filters input,
+    .filters select {
+      padding: 12px 18px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1em;
+      background: rgba(255, 255, 255, 0.9);
+      color: #333;
+    }
+
+    .doctor-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .doctor-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      padding: 30px 20px;
+      text-align: center;
+      transition: all 0.35s ease;
+      animation: floatUp 0.9s ease forwards;
+      opacity: 0;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .doctor-card:hover {
+      transform: translateY(-10px) scale(1.03);
+    }
+
+    .doctor-card img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .doctor-card h3 {
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .doctor-card p {
+      margin: 2px 0;
+    }
+
+    .doctor-info {
+      display: none;
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: #333;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 12px;
+      padding: 10px;
+    }
+
+    .appointment-button {
+      margin-top: 15px;
+      padding: 10px 24px;
+      background: linear-gradient(to right, #8e24aa, #6a1b9a);
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    @keyframes slideDown {
+      from {
+        transform: translateY(-40px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes floatUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 1.8em;
+      }
+      .filters {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Available Mental Health Specialists</h1>
+
+  <div class="filters">
+    <input type="text" id="searchInput" onkeyup="filterDoctors()" placeholder="Search by name or type...">
+    <select id="categoryFilter" onchange="filterDoctors()">
+      <option value="">All Specialties</option>
+      <option value="Psychiatrist">Psychiatrist</option>
+      <option value="Clinical Psychologist">Clinical Psychologist</option>
+      <option value="Child Psychiatrist">Child Psychiatrist</option>
+      <option value="Behavioral Therapist">Behavioral Therapist</option>
+      <option value="Counseling Psychologist">Counseling Psychologist</option>
+      <option value="Clinical Therapist">Clinical Therapist</option>
+      <option value="Neuropsychiatrist">Neuropsychiatrist</option>
+      <option value="Rehabilitation Counselor">Rehabilitation Counselor</option>
+      <option value="Psychologist">Psychologist</option>
+      <option value="Child Psychologist">Child Psychologist</option>
+      <option value="Forensic Psychiatrist">Forensic Psychiatrist</option>
+      <option value="Disorders Counselor">Disorders Counselor</option>
+      <option value="Trauma Specialist">Trauma Specialist</option>
+      <option value="Mental Wellness Coach">Mental Wellness Coach</option>
+    </select>
+    <select id="experienceFilter" onchange="filterDoctors()">
+      <option value="">All Experience</option>
+      <option value="5">5+ years</option>
+      <option value="7">7+ years</option>
+      <option value="10">10+ years</option>
+      <option value="12">12+ years</option>
+    </select>
+  </div>
+
+  <div class="doctor-container" id="doctorContainer"></div>
+
+  <a href="/appointment">Book Appointment</a>
+
+  <script>
+    const doctors = [
+      { name: "Dr. Anjali Mehta", type: "Psychiatrist", exp: 10, img: "6073873", about: "Specializes in adult psychiatry, mood disorders, and cognitive therapy.", clinic: "MindCare Hospital, Delhi", edu: "MBBS, MD Psychiatry" },
+      { name: "Dr. Rahul Sharma", type: "Clinical Psychologist", exp: 8, img: "6073872", about: "Focus on emotional and behavioral assessments.", clinic: "Serene Mind Clinic, Mumbai", edu: "MA Clinical Psychology" },
+      { name: "Dr. Priya Verma", type: "Child Psychiatrist", exp: 12, img: "6073880", about: "Expert in child development and anxiety disorders.", clinic: "ChildCare Mental Health, Bangalore", edu: "MBBS, MD Child Psychiatry" },
+      { name: "Dr. Sameer Khan", type: "Behavioral Therapist", exp: 7, img: "6073881", about: "Behavioral interventions and cognitive therapy expert.", clinic: "Behavioral Health Centre, Hyderabad", edu: "M.Phil Clinical Psychology" },
+      { name: "Dr. Neha Joshi", type: "Counseling Psychologist", exp: 5, img: "6073867", about: "Helps clients with relationship and workplace stress.", clinic: "Calm Minds, Pune", edu: "MA Counseling Psychology" },
+      { name: "Dr. Rakesh Iyer", type: "Psychiatrist", exp: 15, img: "6073875", about: "Highly experienced in mood and psychotic disorders.", clinic: "City Wellness Center, Ahmedabad", edu: "MBBS, MD Psychiatry" },
+      { name: "Dr. Kavita Singh", type: "Clinical Therapist", exp: 6, img: "6073885", about: "Specializes in trauma recovery and therapy.", clinic: "SafeSpace Therapy, Lucknow", edu: "M.A Clinical Psychology" },
+      { name: "Dr. Arjun Patel", type: "Neuropsychiatrist", exp: 11, img: "6073868", about: "Neurological-based mental conditions expert.", clinic: "NeuroMind Center, Jaipur", edu: "MBBS, DM Neuropsychiatry" },
+      { name: "Dr. Sneha Reddy", type: "Rehabilitation Counselor", exp: 9, img: "6073876", about: "Helps people adjust to disabilities and recovery.", clinic: "RehabCare, Chandigarh", edu: "MS Rehabilitation Counseling" },
+      { name: "Dr. Ajay Kapoor", type: "Psychologist", exp: 10, img: "6073869", about: "Mental health assessments and stress relief therapy.", clinic: "Tranquil Minds, Bhopal", edu: "M.A Psychology" },
+      { name: "Dr. Divya Nair", type: "Child Psychologist", exp: 6, img: "6073884", about: "Child behavior and development expert.", clinic: "KidsWell Clinic, Kochi", edu: "MA Child Psychology" },
+      { name: "Dr. Manish Bhatia", type: "Forensic Psychiatrist", exp: 13, img: "6073885", about: "Mental health evaluations for legal cases.", clinic: "Justice Mind Clinic, Delhi", edu: "MBBS, MD Forensic Psychiatry" },
+      { name: "Dr. Nisha Kulkarni", type: "Disorders Counselor", exp: 7, img: "6073878", about: "Addiction and eating disorder support.", clinic: "Hope Recovery, Goa", edu: "MA Addiction Counseling" },
+      { name: "Dr. Rajeev Das", type: "Trauma Specialist", exp: 14, img: "6073866", about: "Trauma counseling and PTSD treatment.", clinic: "Healing Minds, Kolkata", edu: "MD Psychiatry" },
+      { name: "Dr. Megha Sinha", type: "Mental Wellness Coach", exp: 4, img: "6073874", about: "Life coaching and mindfulness sessions.", clinic: "WellBeing Center, Indore", edu: "Certified Wellness Coach" }
+    ];
+
+    const container = document.getElementById("doctorContainer");
+    container.innerHTML = doctors.map(doc => `
+      <div class="doctor-card" data-type="${doc.type}" data-exp="${doc.exp}" onclick="toggleInfo(this)">
+        <img src="https://cdn-icons-png.flaticon.com/512/6073/${doc.img}.png">
+        <h3>${doc.name}</h3>
+        <p>${doc.type}, ${doc.exp} years experience</p>
+        <div class="doctor-info">
+          <p><strong>About:</strong> ${doc.about}</p>
+          <p><strong>Clinic:</strong> ${doc.clinic}</p>
+          <p><strong>Education:</strong> ${doc.edu}</p>
+        </div>
+        <a href="/appointment?doctor=${encodeURIComponent(doc.name)}" class="appointment-button">Book Appointment</a>
+      </div>
+    `).join('');
+
+    function toggleInfo(card) {
+      const info = card.querySelector('.doctor-info');
+      const isVisible = info.style.display === "block";
+      document.querySelectorAll('.doctor-info').forEach(i => i.style.display = "none");
+      info.style.display = isVisible ? "none" : "block";
+    }
+
+    function filterDoctors() {
+      const searchInput = document.getElementById("searchInput").value.toLowerCase();
+      const category = document.getElementById("categoryFilter").value;
+      const experience = document.getElementById("experienceFilter").value;
+      const cards = document.querySelectorAll(".doctor-card");
+
+      cards.forEach(card => {
+        const name = card.querySelector("h3").textContent.toLowerCase();
+        const type = card.getAttribute("data-type");
+        const exp = parseInt(card.getAttribute("data-exp"));
+        const matchesSearch = name.includes(searchInput) || type.toLowerCase().includes(searchInput);
+        const matchesType = category === "" || type === category;
+        const matchesExp = experience === "" || exp >= parseInt(experience);
+        card.style.display = (matchesSearch && matchesType && matchesExp) ? "block" : "none";
+      });
+    }
+  </script>
+</body>
+</html>

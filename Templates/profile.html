@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Profile</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(-45deg,#667eea,#764ba2,#6dd5ed,#2193b0);
+    background-size:400% 400%;
+    animation:gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+.profile-card{
+    width:420px;
+    background:rgba(255,255,255,0.18);
+    backdrop-filter:blur(15px);
+    border-radius:25px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 8px 32px rgba(0,0,0,0.25);
+    border:1px solid rgba(255,255,255,0.2);
+}
+
+.profile-img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.profile-card h2{
+    color:white;
+    margin-bottom:10px;
+}
+
+.profile-card p{
+    color:white;
+    margin:8px 0;
+    font-size:16px;
+}
+
+.info-box{
+    margin-top:25px;
+    text-align:left;
+}
+
+.info-box div{
+    background:rgba(255,255,255,0.15);
+    padding:12px;
+    margin:10px 0;
+    border-radius:10px;
+    color:white;
+}
+
+.home-btn{
+    display:inline-block;
+    margin-top:25px;
+    text-decoration:none;
+    background:#ffffff;
+    color:#4a00e0;
+    padding:12px 25px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.home-btn:hover{
+    transform:scale(1.05);
+    background:#f2f2f2;
+}
+
+.title{
+    color:white;
+    margin-bottom:25px;
+    font-size:28px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="profile-card">
+
+    <div class="profile-img">
+        👤
+    </div>
+
+    <h2>User Profile</h2>
+
+    <div class="info-box">
+
+        <div>
+            <strong>Name:</strong>
+            {{ user.name if user else 'Not Available'}}
+        </div>
+
+        <div>
+            <strong>Email:</strong>
+            {{ user.email if user else 'Not Available'}}
+        </div>
+
+        <div>
+            <strong>Age:</strong>
+            {{ user.age if user else 'Not Available'}}
+        </div>
+
+        <div>
+            <strong>Gender:</strong>
+            {{ user.gender if user else 'Not Available'}}
+        </div>
+
+        <div>
+            <strong>Mood:</strong>
+            {{ user.mood if user else 'Not Available'}}
+        </div>
+
+    </div>
+
+    <a href="/home" class="home-btn">
+        🏠 Back To Home
+    </a>
+
+</div>
+</body>
+</html>

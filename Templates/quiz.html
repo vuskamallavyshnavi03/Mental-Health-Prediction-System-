@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mental Health Quiz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url('https://cdn.pixabay.com/photo/2022/01/20/14/44/neurology-6952525_1280.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .quiz-container {
+      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.75);
+      margin-top: 40px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      width: 85%;
+      max-width: 720px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    h2 {
+      text-align: center;
+      color: #1a1a1a;
+      font-size: 28px;
+    }
+
+    .question {
+      margin: 20px 0;
+    }
+
+    .question p {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .options input {
+      margin-right: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background: #0077ff;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #005ecb;
+    }
+
+    .result {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #006400;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Hidden nav links -->
+<a href="welcome.html" style="display:none;"></a>
+<a href="home.html" style="display:none;"></a>
+<a href="login.html" style="display:none;"></a>
+<a href="quiz.html" style="display:none;"></a>
+
+<!-- Quiz Section -->
+<div class="quiz-container" id="quiz-section">
+  <h2>Mental Health Quiz</h2>
+  <form id="quizForm" onsubmit="calculateScore(event)">
+    <div class="question">
+      <p>1. How often do you feel anxious or worried?</p>
+      <label><input type="radio" name="q1" value="3">Often</label><br>
+      <label><input type="radio" name="q1" value="2">Sometimes</label><br>
+      <label><input type="radio" name="q1" value="1">Rarely</label>
+    </div>
+
+    <div class="question">
+      <p>2. Do you struggle with sleep (insomnia, waking up early)?</p>
+      <label><input type="radio" name="q2" value="3">Yes</label><br>
+      <label><input type="radio" name="q2" value="2">Occasionally</label><br>
+      <label><input type="radio" name="q2" value="1">No</label>
+    </div>
+
+    <div class="question">
+      <p>3. Do you find it hard to concentrate or focus?</p>
+      <label><input type="radio" name="q3" value="3">Very often</label><br>
+      <label><input type="radio" name="q3" value="2">Sometimes</label><br>
+      <label><input type="radio" name="q3" value="1">Not at all</label>
+    </div>
+
+    <div class="question">
+      <p>4. Have you lost interest in activities you previously enjoyed?</p>
+      <label><input type="radio" name="q4" value="3">Yes</label><br>
+      <label><input type="radio" name="q4" value="2">Somewhat</label><br>
+      <label><input type="radio" name="q4" value="1">No</label>
+    </div>
+
+    <div class="question">
+      <p>5. Do you experience mood swings or emotional ups and downs?</p>
+      <label><input type="radio" name="q5" value="3">Frequently</label><br>
+      <label><input type="radio" name="q5" value="2">Occasionally</label><br>
+      <label><input type="radio" name="q5" value="1">Rarely</label>
+    </div>
+
+    <button type="submit">Submit Quiz</button>
+    <div class="result" id="resultText"></div>
+  </form>
+
+  <button onclick="goToHome()">Back to Home</button>
+</div>
+
+<script>
+  function goToHome() {
+    window.location.href = "/home";
+  }
+
+  function calculateScore(event) {
+    event.preventDefault();
+    let totalScore = 0;
+
+    for (let i = 1; i <= 5; i++) {
+      const options = document.getElementsByName('q' + i);
+      for (const option of options) {
+        if (option.checked) {
+          totalScore += parseInt(option.value);
+          break;
+        }
+      }
+    }
+
+    let message = '';
+    let alertMsg = '';
+    let notifyMsg = '';
+    let accuracy = Math.round((totalScore / 15) * 100);
+
+    if (totalScore >= 12) {
+      message = '⚠️⚠️ High risk of mental stress. Please consult a professional.';
+      alertMsg = '⚠️⚠️ High risk of mental stress!';
+      notifyMsg = 'Please consult a professional immediately.';
+    } else if (totalScore >= 8) {
+      message = '⚠️ Moderate mental health symptoms. Consider regular tracking.';
+      alertMsg = '⚠️ Moderate mental health symptoms.';
+      notifyMsg = 'Consider regular tracking and self-care.';
+    } else {
+      message = '✅ You seem mentally well. Keep up the healthy habits!';
+      alertMsg = '✅ You seem mentally well.';
+      notifyMsg = 'Keep maintaining your mental health!';
+    }
+
+    document.getElementById('resultText').innerHTML =
+      `Prediction Accuracy: ${accuracy}%<br>${message}`;
+
+    alert(alertMsg);
+
+    if (Notification.permission === "granted") {
+      new Notification("🧠 Mental Health Update", {
+        body: notifyMsg,
+        icon: "https://cdn-icons-png.flaticon.com/512/2871/2871702.png"
+      });
+    } else if (Notification.permission !== "denied") {
+      Notification.requestPermission().then(permission => {
+        if (permission === "granted") {
+          new Notification("🧠 Mental Health Update", {
+            body: notifyMsg,
+            icon: "https://cdn-icons-png.flaticon.com/512/2871/2871702.png"
+          });
+        }
+      });
+    }
+  }
+</script>
+</body>
+</html>

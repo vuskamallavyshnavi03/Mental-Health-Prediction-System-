@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mental Health Chatbot</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #66e8ea, #4ba0a2);
+      font-family: Arial;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    #chatbox {
+      width: 80%;
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      height: 400px;
+      overflow-y: scroll;
+    }
+    input, button {
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🤖 Mental Health Chatbot</h1>
+  <div id="chatbox"></div>
+  <input type="text" id="user-input" placeholder="Say something..." />
+  <button onclick="sendMessage()">Send</button>
+  <button onclick="startVoice()">🎤 Speak</button>
+  <select id="language-select">
+  <option value="en">English</option>
+  <option value="hi">Hindi</option>
+  <option value="ta">Tamil</option>
+  <option value="te">Telugu</option>
+</select>
+
+<a href="{{ url_for('home') }}">
+    <button>🏠 Back To Home</button>
+</a> 
+ 
+
+  <script>
+    function appendMessage(sender, text) {
+      const chatbox = document.getElementById("chatbox");
+      chatbox.innerHTML += `<div><strong>${sender}:</strong> ${text}</div>`;
+      chatbox.scrollTop = chatbox.scrollHeight;
+    }
+
+    function sendMessage() {
+      const msg = document.getElementById("user-input").value;
+      appendMessage("You", msg);
+      fetch("/get_response", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: msg })
+      })
+      .then(res => res.json())
+      .then(data => {
+        appendMessage("Bot", data.response);
+        speak(data.response);
+      });
+      document.getElementById("user-input").value = "";
+    }
+
+    function speak(text) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      speechSynthesis.speak(utterance);
+    }
+
+    function startVoice() {
+      const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+      recognition.lang = 'en-US';
+      recognition.start();
+      recognition.onresult = function (event) {
+        const transcript = event.results[0][0].transcript;
+        document.getElementById("user-input").value = transcript;
+        sendMessage();
+      };
+    }
+  </script>
+</body>
+</html>

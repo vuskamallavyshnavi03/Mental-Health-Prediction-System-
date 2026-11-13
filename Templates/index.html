@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mental Health System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(-45deg, #ce9aff, #c4ebfa, #fad0c4, #fbc2eb, #a18cd1);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-radius: 25px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      padding: 50px 40px;
+      width: 90%;
+      max-width: 700px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.015);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    .card h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      color: #6a0dad;
+    }
+
+    .card p {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .card button {
+      padding: 15px 35px;
+      font-size: 18px;
+      background: #ff6f61;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 5px 20px rgba(255, 111, 97, 0.4);
+    }
+
+    .card button:hover {
+      background: #ff3e33;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 30px 20px;
+      }
+
+      .card h1 {
+        font-size: 30px;
+      }
+
+      .card p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Welcome to the Mental Health System</h1>
+    <p>Take a step toward better mental health. Log in to begin your wellness journey, take the quiz, and access personalized care tools.</p>
+    <button onclick="window.location.href='/login'">Get Started</button>
+  </div>
+
+</body>
+</html>
