@@ -1,0 +1,1001 @@
+Username,Email,Age,Gender,Quiz_Score,Accuracy,ML_Algorithm,Doctor_Name,Appointment_Mode,Appointment_Date,Appointment_Time,Payment_Method,Payment_Status,Mood,Reminder
+Devin,oschaefer@example.net,53,Male,96,75.13,ANN,Dr. Smith,Offline,2025-07-18,12:00,Card,Failed,Angry,Take medicine at 18:00
+Tyler,amber07@example.org,47,Female,77,93.5,ANN,Dr. Alice,Offline,2025-07-28,16:00,UPI,Failed,Anxious,Take medicine at 9:00
+Christopher,michelle40@example.net,35,Male,89,78.21,ANN,Dr. Smith,Offline,2025-07-14,17:00,Netbanking,Paid,Anxious,Take medicine at 21:00
+Diana,wwalker@example.com,22,Female,83,75.75,SVM,Dr. John,Offline,2025-07-05,9:00,Card,Failed,Anxious,Take medicine at 9:00
+Jessica,dwayne17@example.com,19,Female,98,93.39,Logistic Regression,Dr. Smith,Online,2025-07-24,16:00,Card,Paid,Relaxed,Take medicine at 8:00
+Louis,lauriegriffin@example.com,54,Male,50,99.63,Logistic Regression,Dr. Smith,Offline,2025-07-28,9:00,UPI,Paid,Sad,Take medicine at 20:00
+Maria,stevenraymond@example.org,41,Male,51,83.97,ANN,Dr. Smith,Online,2025-07-21,16:00,Card,Paid,Angry,Take medicine at 9:00
+Amanda,rtyler@example.org,24,Male,93,75.6,ANN,Dr. Alice,Offline,2025-07-11,9:00,Netbanking,Paid,Angry,Take medicine at 20:00
+Michael,sharonwells@example.org,33,Male,88,77.38,SVM,Dr. John,Online,2025-07-16,13:00,Netbanking,Paid,Angry,Take medicine at 9:00
+Erin,wcooley@example.org,51,Female,96,80.09,Logistic Regression,Dr. Smith,Offline,2025-07-07,15:00,Netbanking,Pending,Relaxed,Take medicine at 18:00
+Michael,dbest@example.com,21,Male,62,78.24,ANN,Dr. Alice,Online,2025-07-17,15:00,UPI,Pending,Angry,Take medicine at 18:00
+David,ruizjoshua@example.net,29,Female,59,86.85,ANN,Dr. John,Online,2025-07-03,10:00,Card,Pending,Sad,Take medicine at 9:00
+Kristin,littlealyssa@example.com,59,Female,69,94.2,SVM,Dr. Alice,Offline,2025-07-18,11:00,Netbanking,Paid,Sad,Take medicine at 22:00
+Tammy,allenkyle@example.com,51,Male,76,99.33,SVM,Dr. Alice,Online,2025-07-09,14:00,UPI,Failed,Sad,Take medicine at 22:00
+Nathan,christina32@example.com,23,Male,78,86.92,Logistic Regression,Dr. John,Online,2025-07-01,11:00,Card,Pending,Relaxed,Take medicine at 10:00
+Donna,ahernandez@example.net,51,Male,95,78.68,SVM,Dr. Alice,Online,2025-07-15,13:00,Card,Pending,Happy,Take medicine at 8:00
+Dawn,philliphammond@example.org,59,Female,79,82.24,SVM,Dr. John,Online,2025-07-14,16:00,Card,Pending,Relaxed,Take medicine at 20:00
+John,qweaver@example.com,54,Male,68,97.44,SVM,Dr. Smith,Online,2025-07-29,17:00,Netbanking,Failed,Happy,Take medicine at 20:00
+Roy,edodson@example.net,26,Female,75,76.2,ANN,Dr. Alice,Online,2025-07-08,13:00,Netbanking,Paid,Anxious,Take medicine at 21:00
+Gregory,morenotravis@example.com,34,Female,59,89.65,Logistic Regression,Dr. Smith,Online,2025-07-01,14:00,UPI,Paid,Sad,Take medicine at 10:00
+Jennifer,uball@example.net,48,Male,52,99.64,SVM,Dr. Alice,Offline,2025-07-05,12:00,Card,Paid,Relaxed,Take medicine at 20:00
+Susan,sosaryan@example.org,45,Female,77,85.44,ANN,Dr. John,Online,2025-07-19,13:00,UPI,Paid,Happy,Take medicine at 18:00
+Christina,gregorycurtis@example.net,46,Male,94,89.06,ANN,Dr. Alice,Online,2025-07-24,9:00,Card,Failed,Angry,Take medicine at 9:00
+Sherry,wsanchez@example.net,36,Female,51,91.35,ANN,Dr. Alice,Offline,2025-07-18,14:00,UPI,Failed,Anxious,Take medicine at 10:00
+Gary,awalton@example.com,51,Male,89,84.64,ANN,Dr. Smith,Offline,2025-07-08,11:00,UPI,Paid,Happy,Take medicine at 15:00
+Logan,thomasmitchell@example.com,36,Male,65,83.09,Logistic Regression,Dr. Smith,Online,2025-07-05,10:00,UPI,Pending,Angry,Take medicine at 20:00
+Calvin,thomasbrian@example.org,54,Male,83,89.98,ANN,Dr. John,Online,2025-07-09,17:00,Netbanking,Failed,Anxious,Take medicine at 10:00
+Robin,barrettharold@example.net,34,Male,100,79.38,Logistic Regression,Dr. Alice,Online,2025-07-20,15:00,Card,Paid,Angry,Take medicine at 15:00
+John,vmatthews@example.org,43,Male,53,92.85,Logistic Regression,Dr. Alice,Offline,2025-07-01,17:00,UPI,Pending,Relaxed,Take medicine at 8:00
+Amanda,edward05@example.com,45,Male,89,90.98,ANN,Dr. John,Offline,2025-07-16,17:00,UPI,Pending,Anxious,Take medicine at 21:00
+Jennifer,sgarcia@example.com,30,Female,89,96.41,ANN,Dr. Alice,Online,2025-07-07,12:00,Card,Paid,Relaxed,Take medicine at 11:00
+Juan,lthompson@example.net,50,Male,91,79.98,SVM,Dr. John,Offline,2025-07-18,15:00,UPI,Paid,Anxious,Take medicine at 10:00
+Edward,mwheeler@example.net,20,Male,100,92.39,SVM,Dr. Smith,Offline,2025-07-23,12:00,Netbanking,Failed,Sad,Take medicine at 11:00
+Amy,wcohen@example.net,31,Female,89,78.99,SVM,Dr. John,Online,2025-07-05,13:00,Card,Failed,Sad,Take medicine at 9:00
+Jennifer,mcdonaldandrew@example.com,54,Female,66,97.47,Logistic Regression,Dr. Alice,Offline,2025-07-25,9:00,Netbanking,Pending,Anxious,Take medicine at 11:00
+Eric,amystewart@example.com,59,Female,93,89.94,Logistic Regression,Dr. John,Online,2025-07-25,17:00,Card,Pending,Happy,Take medicine at 15:00
+Amanda,dgriffin@example.net,44,Male,79,78.26,SVM,Dr. Alice,Offline,2025-07-09,12:00,Card,Failed,Anxious,Take medicine at 20:00
+Eric,sonya81@example.com,60,Female,87,93.23,SVM,Dr. John,Offline,2025-07-06,9:00,Netbanking,Pending,Happy,Take medicine at 9:00
+Robert,rlowe@example.net,25,Female,90,78.71,Logistic Regression,Dr. Smith,Offline,2025-07-02,17:00,UPI,Failed,Sad,Take medicine at 15:00
+Jessica,fernandezjason@example.com,53,Female,59,94.47,SVM,Dr. Smith,Offline,2025-07-16,15:00,Netbanking,Failed,Happy,Take medicine at 8:00
+Tiffany,adamsantos@example.com,57,Male,80,75.69,ANN,Dr. Alice,Offline,2025-07-06,12:00,Netbanking,Failed,Relaxed,Take medicine at 18:00
+Jeffrey,hramos@example.net,34,Male,91,98.68,ANN,Dr. Alice,Online,2025-07-29,15:00,Card,Pending,Sad,Take medicine at 8:00
+Jessica,maycameron@example.org,45,Male,61,95.83,ANN,Dr. John,Online,2025-07-07,14:00,Netbanking,Failed,Relaxed,Take medicine at 21:00
+Nicole,dbishop@example.org,54,Male,53,87.77,SVM,Dr. Smith,Online,2025-07-14,13:00,Card,Paid,Sad,Take medicine at 9:00
+Carrie,sorr@example.org,37,Male,53,80.89,ANN,Dr. Smith,Online,2025-07-04,14:00,UPI,Failed,Relaxed,Take medicine at 11:00
+Joseph,zanthony@example.org,34,Male,74,98.31,SVM,Dr. Alice,Online,2025-07-19,15:00,UPI,Failed,Anxious,Take medicine at 9:00
+Thomas,melissa52@example.org,38,Male,73,95.43,ANN,Dr. Alice,Online,2025-07-01,15:00,Netbanking,Paid,Happy,Take medicine at 22:00
+Erin,reginaldwalsh@example.org,47,Female,75,98.1,ANN,Dr. John,Offline,2025-07-05,12:00,Card,Pending,Angry,Take medicine at 21:00
+Samuel,tduncan@example.com,38,Male,73,77.92,Logistic Regression,Dr. Smith,Online,2025-07-20,13:00,Card,Failed,Sad,Take medicine at 22:00
+Karen,james87@example.org,54,Female,94,83.54,SVM,Dr. Smith,Offline,2025-07-09,15:00,Card,Paid,Sad,Take medicine at 10:00
+Riley,markdyer@example.org,27,Male,99,79.38,ANN,Dr. John,Online,2025-07-01,17:00,Card,Failed,Angry,Take medicine at 8:00
+Adriana,villanuevagene@example.net,36,Male,69,80.11,SVM,Dr. Alice,Offline,2025-07-18,11:00,UPI,Pending,Sad,Take medicine at 11:00
+Dennis,tthompson@example.com,42,Male,59,81.05,SVM,Dr. Smith,Online,2025-07-03,17:00,Netbanking,Paid,Angry,Take medicine at 9:00
+Mary,carolyn17@example.org,27,Male,95,79.74,ANN,Dr. Alice,Online,2025-07-10,9:00,Netbanking,Paid,Relaxed,Take medicine at 22:00
+Carrie,woodskrista@example.org,49,Female,81,94.26,ANN,Dr. Alice,Online,2025-07-19,16:00,Card,Failed,Sad,Take medicine at 10:00
+Karen,alyssa99@example.org,31,Female,62,95.81,ANN,Dr. John,Online,2025-07-11,11:00,UPI,Failed,Happy,Take medicine at 10:00
+Thomas,nburns@example.org,42,Female,66,75.66,ANN,Dr. Alice,Offline,2025-07-05,11:00,Card,Failed,Happy,Take medicine at 22:00
+Monica,alicia00@example.com,34,Female,57,80.84,SVM,Dr. Smith,Offline,2025-07-10,13:00,Netbanking,Failed,Sad,Take medicine at 18:00
+Christian,robertray@example.net,38,Male,82,81.29,ANN,Dr. John,Online,2025-07-22,9:00,Netbanking,Failed,Happy,Take medicine at 11:00
+Dana,elliscarlos@example.net,46,Male,56,82.58,ANN,Dr. Smith,Offline,2025-07-14,11:00,UPI,Pending,Happy,Take medicine at 21:00
+Frederick,barbara82@example.org,52,Female,56,97.81,Logistic Regression,Dr. John,Online,2025-07-13,13:00,UPI,Paid,Relaxed,Take medicine at 21:00
+Michael,bkaufman@example.org,47,Female,60,96.03,ANN,Dr. John,Offline,2025-07-02,12:00,UPI,Paid,Happy,Take medicine at 15:00
+Christopher,pbanks@example.net,35,Female,64,77.43,SVM,Dr. Smith,Online,2025-07-16,15:00,Netbanking,Pending,Happy,Take medicine at 15:00
+Jacob,matthewsherman@example.com,38,Male,57,84.97,Logistic Regression,Dr. Smith,Online,2025-07-19,9:00,Card,Pending,Relaxed,Take medicine at 15:00
+John,jmoreno@example.com,26,Female,86,92.04,SVM,Dr. John,Online,2025-07-03,16:00,UPI,Failed,Happy,Take medicine at 11:00
+Christopher,michaelmyers@example.net,51,Male,62,88.35,ANN,Dr. John,Offline,2025-07-02,10:00,Card,Pending,Angry,Take medicine at 18:00
+Laura,zjohnson@example.org,25,Male,87,84.01,Logistic Regression,Dr. Smith,Online,2025-07-19,16:00,Card,Failed,Relaxed,Take medicine at 20:00
+Dominique,dortega@example.org,34,Male,93,97.48,SVM,Dr. Alice,Online,2025-07-18,14:00,UPI,Failed,Anxious,Take medicine at 22:00
+Michele,jduncan@example.com,19,Male,84,92.05,Logistic Regression,Dr. Smith,Offline,2025-07-07,17:00,UPI,Pending,Sad,Take medicine at 21:00
+James,rhonda49@example.net,57,Male,92,87.81,Logistic Regression,Dr. Smith,Offline,2025-07-01,9:00,UPI,Pending,Anxious,Take medicine at 8:00
+Andrew,gonzalezjennifer@example.com,22,Female,90,94.43,ANN,Dr. Smith,Offline,2025-07-15,15:00,UPI,Paid,Happy,Take medicine at 11:00
+Angel,williscarl@example.org,47,Male,61,93.59,Logistic Regression,Dr. Smith,Online,2025-07-21,14:00,Card,Pending,Anxious,Take medicine at 11:00
+Angela,matthewterry@example.org,22,Female,100,97.16,SVM,Dr. John,Offline,2025-07-23,17:00,UPI,Paid,Happy,Take medicine at 18:00
+Brenda,gonzalezmallory@example.net,44,Male,66,85.8,Logistic Regression,Dr. Smith,Online,2025-07-25,13:00,UPI,Pending,Angry,Take medicine at 9:00
+Rachel,irwinlaura@example.org,36,Male,64,78.0,ANN,Dr. John,Online,2025-07-20,9:00,Card,Pending,Anxious,Take medicine at 21:00
+Stephanie,jessicaallen@example.com,32,Female,83,76.05,SVM,Dr. Alice,Online,2025-07-09,15:00,Netbanking,Paid,Sad,Take medicine at 18:00
+Kenneth,xhart@example.org,23,Male,90,87.59,ANN,Dr. Alice,Online,2025-07-11,9:00,UPI,Paid,Relaxed,Take medicine at 10:00
+Patrick,lawrence95@example.com,18,Female,86,77.87,ANN,Dr. Alice,Online,2025-07-08,9:00,Netbanking,Paid,Angry,Take medicine at 10:00
+Patrick,villamatthew@example.net,59,Female,83,90.83,Logistic Regression,Dr. John,Online,2025-07-04,9:00,Netbanking,Paid,Angry,Take medicine at 22:00
+Maria,zsmith@example.org,43,Female,87,92.26,SVM,Dr. John,Online,2025-07-06,15:00,Netbanking,Failed,Relaxed,Take medicine at 15:00
+Austin,jessica90@example.com,54,Male,51,81.21,Logistic Regression,Dr. Alice,Online,2025-07-04,11:00,UPI,Failed,Anxious,Take medicine at 18:00
+Daniel,hayespatrick@example.net,57,Male,100,77.05,Logistic Regression,Dr. Smith,Online,2025-07-19,15:00,UPI,Pending,Angry,Take medicine at 9:00
+Eric,evansmadison@example.com,33,Female,75,78.82,Logistic Regression,Dr. John,Offline,2025-07-12,13:00,Netbanking,Failed,Happy,Take medicine at 10:00
+Amanda,davidellis@example.com,24,Female,93,99.24,ANN,Dr. John,Online,2025-07-06,13:00,UPI,Failed,Anxious,Take medicine at 21:00
+Melissa,mariajohnson@example.net,34,Male,55,92.46,SVM,Dr. Smith,Offline,2025-07-26,10:00,Card,Paid,Sad,Take medicine at 21:00
+Cheryl,audrey36@example.net,48,Male,74,84.96,Logistic Regression,Dr. Alice,Offline,2025-07-13,13:00,Netbanking,Failed,Sad,Take medicine at 22:00
+Bethany,gordonkristina@example.org,28,Female,51,90.35,Logistic Regression,Dr. John,Online,2025-07-20,13:00,Netbanking,Paid,Happy,Take medicine at 15:00
+Susan,steven11@example.net,23,Male,96,86.17,Logistic Regression,Dr. John,Online,2025-07-12,11:00,Netbanking,Failed,Relaxed,Take medicine at 8:00
+Bradley,ryan67@example.org,19,Male,87,95.72,ANN,Dr. John,Offline,2025-07-16,17:00,Card,Paid,Angry,Take medicine at 15:00
+Jason,olsonshawna@example.net,19,Male,97,80.12,SVM,Dr. John,Offline,2025-07-10,14:00,UPI,Failed,Anxious,Take medicine at 15:00
+Misty,sarahshelton@example.org,30,Male,50,87.33,ANN,Dr. Smith,Online,2025-07-18,12:00,Card,Failed,Anxious,Take medicine at 18:00
+Brittany,heather38@example.com,49,Male,87,98.76,SVM,Dr. Smith,Offline,2025-07-03,16:00,UPI,Pending,Sad,Take medicine at 18:00
+Christopher,chogan@example.net,27,Male,81,84.85,Logistic Regression,Dr. Smith,Offline,2025-07-26,14:00,UPI,Failed,Anxious,Take medicine at 8:00
+Alec,manderson@example.org,35,Male,53,83.08,SVM,Dr. Smith,Online,2025-07-29,9:00,Netbanking,Pending,Happy,Take medicine at 22:00
+Willie,rayking@example.com,49,Male,99,76.44,SVM,Dr. John,Offline,2025-07-12,11:00,Netbanking,Failed,Sad,Take medicine at 11:00
+David,millersarah@example.com,30,Male,61,87.91,SVM,Dr. John,Online,2025-07-20,14:00,Card,Failed,Angry,Take medicine at 11:00
+Nicholas,umiles@example.net,57,Female,57,87.06,SVM,Dr. Alice,Online,2025-07-03,12:00,UPI,Paid,Relaxed,Take medicine at 10:00
+Dennis,jennifercross@example.net,26,Male,62,96.81,Logistic Regression,Dr. John,Offline,2025-07-15,16:00,Card,Failed,Anxious,Take medicine at 11:00
+Amy,petersonadam@example.net,24,Male,53,84.37,SVM,Dr. Smith,Offline,2025-07-15,17:00,Netbanking,Pending,Angry,Take medicine at 21:00
+Luis,murrayhannah@example.org,18,Male,78,85.31,Logistic Regression,Dr. John,Online,2025-07-19,15:00,Card,Pending,Relaxed,Take medicine at 22:00
+Paula,elizabethcarter@example.com,51,Female,97,96.26,ANN,Dr. Alice,Online,2025-07-12,12:00,Card,Paid,Relaxed,Take medicine at 9:00
+Thomas,kchang@example.net,56,Female,57,96.6,ANN,Dr. John,Offline,2025-07-14,12:00,UPI,Failed,Anxious,Take medicine at 22:00
+Richard,lindsey84@example.com,36,Male,86,94.77,ANN,Dr. John,Online,2025-07-28,17:00,Netbanking,Failed,Relaxed,Take medicine at 15:00
+Vincent,vangheather@example.com,30,Female,82,75.43,SVM,Dr. John,Offline,2025-07-12,11:00,Card,Paid,Anxious,Take medicine at 15:00
+Joseph,cruzmichael@example.com,21,Male,75,89.71,SVM,Dr. John,Online,2025-07-22,14:00,UPI,Pending,Angry,Take medicine at 18:00
+Joy,foxmichael@example.org,52,Male,78,80.76,Logistic Regression,Dr. Alice,Online,2025-07-23,11:00,Netbanking,Pending,Sad,Take medicine at 10:00
+Amy,reedjoan@example.org,46,Male,88,94.7,SVM,Dr. Smith,Offline,2025-07-25,13:00,Card,Paid,Sad,Take medicine at 10:00
+Amy,jaredstephens@example.net,46,Male,99,75.38,Logistic Regression,Dr. Alice,Offline,2025-07-22,12:00,Netbanking,Pending,Sad,Take medicine at 18:00
+Joseph,loganmichael@example.net,39,Male,84,93.38,ANN,Dr. Alice,Online,2025-07-24,16:00,Netbanking,Paid,Sad,Take medicine at 20:00
+Daniel,jdavis@example.net,22,Female,83,96.93,SVM,Dr. Alice,Offline,2025-07-17,10:00,Card,Paid,Sad,Take medicine at 8:00
+Sharon,ellisonrobin@example.net,54,Male,70,86.51,ANN,Dr. John,Online,2025-07-07,10:00,Card,Failed,Sad,Take medicine at 9:00
+Andrew,johncampbell@example.org,31,Female,80,93.65,Logistic Regression,Dr. John,Online,2025-07-10,16:00,Card,Failed,Anxious,Take medicine at 18:00
+Mary,douglasjessica@example.org,27,Female,92,97.17,SVM,Dr. Smith,Offline,2025-07-24,16:00,Netbanking,Pending,Relaxed,Take medicine at 21:00
+James,katrina26@example.org,35,Male,99,89.33,ANN,Dr. John,Online,2025-07-16,11:00,Card,Failed,Sad,Take medicine at 15:00
+Victor,eric10@example.com,19,Male,70,90.82,ANN,Dr. Smith,Online,2025-07-27,16:00,Netbanking,Pending,Sad,Take medicine at 22:00
+Danielle,ebaker@example.org,23,Female,97,91.04,Logistic Regression,Dr. Alice,Offline,2025-07-01,13:00,Card,Failed,Anxious,Take medicine at 9:00
+Amy,matthew94@example.com,36,Male,56,90.47,Logistic Regression,Dr. Alice,Offline,2025-07-15,17:00,Card,Pending,Anxious,Take medicine at 18:00
+James,matthewoneal@example.org,18,Male,99,99.26,ANN,Dr. John,Offline,2025-07-24,15:00,UPI,Paid,Relaxed,Take medicine at 20:00
+Melissa,williamgreene@example.com,33,Female,77,89.06,ANN,Dr. John,Offline,2025-07-09,16:00,UPI,Failed,Anxious,Take medicine at 9:00
+Sarah,uallen@example.net,60,Male,81,92.24,ANN,Dr. John,Offline,2025-07-26,11:00,Card,Paid,Relaxed,Take medicine at 18:00
+Natalie,kimberly70@example.com,22,Male,85,95.81,SVM,Dr. John,Offline,2025-07-18,9:00,UPI,Paid,Sad,Take medicine at 9:00
+Stefanie,elizabeth14@example.com,18,Male,58,92.59,ANN,Dr. Smith,Offline,2025-07-20,9:00,UPI,Pending,Angry,Take medicine at 20:00
+Jessica,cynthiajohnson@example.org,58,Female,61,81.57,Logistic Regression,Dr. Smith,Online,2025-07-21,9:00,UPI,Paid,Relaxed,Take medicine at 18:00
+Christopher,pamela50@example.com,45,Female,85,88.17,SVM,Dr. Alice,Offline,2025-07-05,11:00,Card,Failed,Happy,Take medicine at 22:00
+Sara,christopherbell@example.com,38,Male,59,97.47,Logistic Regression,Dr. Alice,Offline,2025-07-16,9:00,Netbanking,Pending,Sad,Take medicine at 9:00
+James,angela44@example.net,27,Female,68,93.98,ANN,Dr. Smith,Offline,2025-07-25,12:00,UPI,Failed,Anxious,Take medicine at 9:00
+Charlotte,iedwards@example.com,23,Female,94,99.08,SVM,Dr. Alice,Offline,2025-07-03,9:00,UPI,Paid,Happy,Take medicine at 15:00
+Steven,adunn@example.net,44,Male,71,93.77,SVM,Dr. Alice,Offline,2025-07-22,12:00,Card,Paid,Relaxed,Take medicine at 18:00
+Larry,keithjuarez@example.com,36,Male,54,78.75,Logistic Regression,Dr. Alice,Online,2025-07-07,9:00,Netbanking,Paid,Angry,Take medicine at 15:00
+Edward,rogersjeffrey@example.net,47,Female,87,77.22,ANN,Dr. Smith,Offline,2025-07-16,12:00,UPI,Pending,Relaxed,Take medicine at 8:00
+Susan,xmiller@example.org,47,Female,64,75.56,SVM,Dr. Smith,Offline,2025-07-05,12:00,Card,Failed,Relaxed,Take medicine at 8:00
+Luke,ijohnson@example.com,34,Female,92,92.84,SVM,Dr. Alice,Offline,2025-07-17,17:00,Netbanking,Paid,Angry,Take medicine at 22:00
+Jennifer,cbentley@example.org,21,Male,68,95.55,SVM,Dr. John,Offline,2025-07-27,10:00,Netbanking,Pending,Sad,Take medicine at 15:00
+William,englishalejandro@example.net,26,Female,89,95.52,ANN,Dr. Alice,Offline,2025-07-17,13:00,UPI,Failed,Relaxed,Take medicine at 8:00
+Melissa,burtonanthony@example.org,31,Female,70,86.7,Logistic Regression,Dr. Alice,Offline,2025-07-19,15:00,UPI,Failed,Relaxed,Take medicine at 22:00
+Amanda,ebutler@example.net,52,Female,75,75.8,Logistic Regression,Dr. John,Offline,2025-07-29,14:00,Netbanking,Failed,Sad,Take medicine at 9:00
+Jenny,dtorres@example.org,53,Female,87,90.44,SVM,Dr. Alice,Offline,2025-07-24,12:00,Netbanking,Failed,Relaxed,Take medicine at 20:00
+Todd,ewolf@example.org,41,Female,61,84.37,SVM,Dr. John,Offline,2025-07-16,13:00,Netbanking,Pending,Angry,Take medicine at 8:00
+Charlotte,mcmillanrebecca@example.com,52,Male,93,83.3,ANN,Dr. Smith,Online,2025-07-19,15:00,UPI,Pending,Angry,Take medicine at 15:00
+Daniel,richard52@example.net,47,Female,58,77.13,SVM,Dr. Alice,Online,2025-07-01,15:00,Netbanking,Failed,Sad,Take medicine at 8:00
+Brian,imartin@example.org,54,Female,94,83.88,ANN,Dr. John,Online,2025-06-30,11:00,Netbanking,Failed,Relaxed,Take medicine at 21:00
+Malik,watkinscrystal@example.org,54,Female,86,80.51,Logistic Regression,Dr. Alice,Offline,2025-07-09,11:00,UPI,Paid,Anxious,Take medicine at 15:00
+Deborah,icox@example.org,48,Female,97,93.24,ANN,Dr. John,Offline,2025-07-04,16:00,Netbanking,Paid,Angry,Take medicine at 11:00
+Annette,brian72@example.net,26,Female,66,98.89,Logistic Regression,Dr. Alice,Online,2025-07-13,15:00,Netbanking,Paid,Relaxed,Take medicine at 18:00
+Richard,bellstephanie@example.org,41,Female,61,78.32,ANN,Dr. Alice,Online,2025-07-03,16:00,Card,Pending,Happy,Take medicine at 18:00
+Michael,john73@example.org,49,Female,85,94.41,ANN,Dr. Alice,Offline,2025-07-04,15:00,Card,Failed,Sad,Take medicine at 20:00
+Jillian,sfloyd@example.org,19,Male,90,77.39,SVM,Dr. Smith,Online,2025-07-17,15:00,Card,Paid,Sad,Take medicine at 9:00
+Christopher,emily74@example.org,25,Male,68,99.1,Logistic Regression,Dr. John,Online,2025-07-06,11:00,Netbanking,Pending,Sad,Take medicine at 15:00
+Elizabeth,mcconnelldeborah@example.com,34,Female,100,93.46,ANN,Dr. Alice,Online,2025-06-30,12:00,Card,Pending,Relaxed,Take medicine at 21:00
+Jessica,mjones@example.org,54,Female,80,90.15,ANN,Dr. Alice,Online,2025-07-03,14:00,UPI,Paid,Anxious,Take medicine at 10:00
+Robert,kristen33@example.net,19,Female,72,94.63,ANN,Dr. Alice,Offline,2025-07-09,10:00,Netbanking,Paid,Anxious,Take medicine at 10:00
+Carrie,matthewmurphy@example.org,39,Female,80,87.36,SVM,Dr. Alice,Offline,2025-07-07,13:00,Netbanking,Failed,Sad,Take medicine at 11:00
+Kevin,karlaware@example.org,29,Male,90,85.35,ANN,Dr. Alice,Online,2025-07-04,9:00,UPI,Pending,Sad,Take medicine at 21:00
+Joel,martinjacqueline@example.com,41,Female,60,93.61,Logistic Regression,Dr. Alice,Online,2025-07-05,10:00,Netbanking,Paid,Angry,Take medicine at 10:00
+Christine,dennisreyes@example.net,56,Male,79,81.66,ANN,Dr. Smith,Online,2025-07-09,11:00,Netbanking,Failed,Sad,Take medicine at 22:00
+Jo,bfigueroa@example.org,36,Female,69,78.85,SVM,Dr. Smith,Online,2025-07-04,13:00,Card,Paid,Happy,Take medicine at 18:00
+Samantha,williamhendricks@example.net,54,Female,68,82.13,Logistic Regression,Dr. Smith,Offline,2025-07-24,9:00,Netbanking,Pending,Happy,Take medicine at 20:00
+Amber,kelsey42@example.com,36,Male,99,79.28,Logistic Regression,Dr. Smith,Offline,2025-07-09,10:00,UPI,Failed,Relaxed,Take medicine at 10:00
+Elizabeth,jacobthomas@example.org,58,Female,98,75.85,SVM,Dr. Smith,Offline,2025-07-26,15:00,Card,Failed,Anxious,Take medicine at 15:00
+Caitlin,eherrera@example.net,53,Female,58,88.74,ANN,Dr. Alice,Online,2025-07-15,15:00,UPI,Paid,Angry,Take medicine at 8:00
+John,lisa08@example.net,46,Male,94,93.27,Logistic Regression,Dr. Smith,Offline,2025-07-09,14:00,Card,Paid,Relaxed,Take medicine at 15:00
+Suzanne,laurenzimmerman@example.org,53,Female,96,90.56,Logistic Regression,Dr. John,Online,2025-07-02,11:00,Card,Failed,Anxious,Take medicine at 21:00
+Kathy,wrowe@example.org,44,Female,56,86.53,Logistic Regression,Dr. Alice,Offline,2025-07-12,11:00,Netbanking,Pending,Sad,Take medicine at 18:00
+Christian,jennifer61@example.org,45,Male,98,78.3,SVM,Dr. Smith,Online,2025-07-21,9:00,UPI,Failed,Happy,Take medicine at 20:00
+Thomas,anitanelson@example.org,36,Female,96,97.21,Logistic Regression,Dr. Smith,Offline,2025-07-09,11:00,Card,Failed,Angry,Take medicine at 9:00
+Curtis,uwalker@example.org,36,Male,62,92.29,ANN,Dr. Alice,Online,2025-07-19,9:00,Netbanking,Failed,Relaxed,Take medicine at 18:00
+Melissa,ghernandez@example.net,42,Male,78,83.25,SVM,Dr. Smith,Offline,2025-07-14,9:00,Netbanking,Pending,Anxious,Take medicine at 18:00
+Kristina,richardsonkristi@example.net,45,Male,61,86.35,ANN,Dr. Smith,Online,2025-07-28,17:00,UPI,Failed,Relaxed,Take medicine at 11:00
+Linda,ronaldoconnor@example.net,26,Female,81,81.0,ANN,Dr. Smith,Online,2025-07-12,17:00,Netbanking,Failed,Sad,Take medicine at 9:00
+Tyler,schneidersamantha@example.net,36,Female,84,90.95,SVM,Dr. John,Online,2025-07-09,14:00,UPI,Paid,Anxious,Take medicine at 20:00
+Edward,jthomas@example.org,31,Female,79,89.01,SVM,Dr. John,Online,2025-07-09,14:00,Netbanking,Failed,Relaxed,Take medicine at 11:00
+Carla,thomasbriana@example.com,55,Male,96,93.03,SVM,Dr. John,Online,2025-07-04,13:00,UPI,Failed,Relaxed,Take medicine at 10:00
+Scott,robertmolina@example.org,37,Female,73,81.02,Logistic Regression,Dr. John,Offline,2025-07-13,15:00,Card,Failed,Sad,Take medicine at 11:00
+Virginia,sheila71@example.org,43,Female,69,84.58,Logistic Regression,Dr. Alice,Online,2025-07-23,15:00,Card,Pending,Relaxed,Take medicine at 18:00
+Joe,xpayne@example.com,24,Male,59,84.27,SVM,Dr. Smith,Offline,2025-07-12,14:00,UPI,Pending,Angry,Take medicine at 10:00
+Aaron,zmorgan@example.org,44,Male,62,93.3,Logistic Regression,Dr. Alice,Online,2025-07-08,14:00,Netbanking,Failed,Anxious,Take medicine at 22:00
+Shawn,josephporter@example.com,41,Male,57,83.79,ANN,Dr. Alice,Offline,2025-07-10,10:00,Netbanking,Pending,Relaxed,Take medicine at 10:00
+Leslie,michael09@example.org,28,Female,77,77.24,SVM,Dr. Alice,Online,2025-07-02,12:00,Card,Failed,Relaxed,Take medicine at 10:00
+Jennifer,athompson@example.net,39,Male,62,91.78,ANN,Dr. Alice,Online,2025-07-29,14:00,Netbanking,Pending,Angry,Take medicine at 10:00
+David,matthew46@example.org,46,Male,87,96.12,Logistic Regression,Dr. John,Online,2025-07-09,13:00,Netbanking,Paid,Sad,Take medicine at 10:00
+Jeffrey,rachel34@example.org,59,Male,83,88.68,Logistic Regression,Dr. John,Offline,2025-07-15,15:00,Netbanking,Paid,Happy,Take medicine at 20:00
+Erika,derek85@example.org,50,Female,74,86.69,ANN,Dr. Alice,Online,2025-07-14,17:00,UPI,Failed,Happy,Take medicine at 20:00
+Julie,ppena@example.org,25,Female,97,83.31,Logistic Regression,Dr. John,Offline,2025-07-21,11:00,UPI,Failed,Sad,Take medicine at 21:00
+John,sharpdavid@example.com,36,Male,98,83.37,Logistic Regression,Dr. Smith,Offline,2025-07-03,16:00,Card,Failed,Sad,Take medicine at 18:00
+Angela,bernarddavis@example.org,46,Male,73,93.59,ANN,Dr. Smith,Online,2025-07-02,12:00,Card,Paid,Sad,Take medicine at 10:00
+Kevin,leah30@example.com,39,Female,98,94.53,SVM,Dr. Alice,Offline,2025-07-22,15:00,UPI,Failed,Anxious,Take medicine at 15:00
+Kristin,lambertpaul@example.net,20,Female,52,87.21,ANN,Dr. John,Online,2025-07-04,14:00,Card,Pending,Anxious,Take medicine at 8:00
+Alison,xskinner@example.net,27,Female,62,79.46,ANN,Dr. Smith,Offline,2025-07-16,10:00,UPI,Pending,Happy,Take medicine at 22:00
+Kathryn,ybass@example.com,19,Female,74,76.37,SVM,Dr. Alice,Offline,2025-07-08,11:00,UPI,Paid,Sad,Take medicine at 15:00
+Charles,dukebridget@example.net,19,Female,81,96.23,ANN,Dr. John,Offline,2025-07-22,12:00,Netbanking,Failed,Angry,Take medicine at 15:00
+Jacob,ericajenkins@example.org,50,Female,71,81.9,ANN,Dr. John,Online,2025-07-23,12:00,UPI,Failed,Sad,Take medicine at 9:00
+Rebekah,michael50@example.net,38,Female,74,96.29,ANN,Dr. Smith,Online,2025-07-14,10:00,Card,Failed,Angry,Take medicine at 15:00
+Jessica,kelly32@example.com,38,Male,62,88.0,Logistic Regression,Dr. Alice,Offline,2025-07-13,10:00,Card,Failed,Angry,Take medicine at 8:00
+Tony,gmullen@example.net,52,Female,98,78.92,SVM,Dr. Smith,Online,2025-07-08,14:00,Card,Failed,Relaxed,Take medicine at 11:00
+Julie,mmorris@example.org,31,Female,92,97.87,SVM,Dr. Alice,Offline,2025-07-16,15:00,Card,Pending,Relaxed,Take medicine at 22:00
+Brittany,rachel37@example.com,31,Female,77,90.89,ANN,Dr. John,Offline,2025-07-24,13:00,UPI,Failed,Anxious,Take medicine at 22:00
+Lawrence,tinapayne@example.com,36,Male,76,95.81,SVM,Dr. John,Online,2025-07-17,10:00,Netbanking,Failed,Relaxed,Take medicine at 18:00
+Ashley,calvin57@example.com,58,Female,79,88.49,Logistic Regression,Dr. Alice,Offline,2025-07-10,16:00,Netbanking,Paid,Anxious,Take medicine at 10:00
+Sarah,palmermichael@example.org,34,Male,82,89.51,Logistic Regression,Dr. Smith,Online,2025-07-15,13:00,Netbanking,Paid,Happy,Take medicine at 20:00
+Courtney,eric78@example.com,59,Male,70,87.82,SVM,Dr. John,Online,2025-07-13,14:00,Card,Paid,Angry,Take medicine at 11:00
+Kelly,wilsonshelly@example.com,31,Female,61,77.64,SVM,Dr. Smith,Online,2025-07-14,12:00,Netbanking,Pending,Sad,Take medicine at 9:00
+Hannah,lisaturner@example.org,30,Female,61,97.17,Logistic Regression,Dr. John,Online,2025-07-14,15:00,UPI,Paid,Sad,Take medicine at 9:00
+Brandon,fhowell@example.net,56,Female,77,84.86,ANN,Dr. John,Offline,2025-07-12,9:00,Card,Pending,Angry,Take medicine at 8:00
+Randall,anorman@example.net,24,Female,51,93.23,SVM,Dr. Smith,Offline,2025-07-22,16:00,Card,Failed,Relaxed,Take medicine at 8:00
+Jonathan,leah30@example.net,33,Male,62,76.7,Logistic Regression,Dr. Alice,Online,2025-07-09,10:00,Card,Pending,Sad,Take medicine at 8:00
+Courtney,anthonyvasquez@example.net,41,Female,69,75.23,Logistic Regression,Dr. Alice,Online,2025-07-05,11:00,UPI,Pending,Anxious,Take medicine at 11:00
+Benjamin,xchen@example.com,55,Male,66,90.16,SVM,Dr. Smith,Online,2025-07-11,16:00,Netbanking,Paid,Relaxed,Take medicine at 21:00
+Michael,jakewilson@example.org,46,Male,93,90.67,Logistic Regression,Dr. Alice,Offline,2025-07-16,16:00,UPI,Pending,Happy,Take medicine at 21:00
+Jeffrey,margaret68@example.org,41,Male,71,75.65,ANN,Dr. Alice,Online,2025-07-05,13:00,Netbanking,Paid,Sad,Take medicine at 11:00
+Paul,murphymelanie@example.net,19,Female,54,85.67,SVM,Dr. John,Offline,2025-07-09,16:00,Netbanking,Paid,Relaxed,Take medicine at 21:00
+Jose,rebecca38@example.com,39,Male,89,97.63,SVM,Dr. Smith,Online,2025-07-05,16:00,Netbanking,Pending,Angry,Take medicine at 18:00
+Miranda,marvinnelson@example.org,23,Male,89,99.66,SVM,Dr. Alice,Offline,2025-07-26,10:00,Netbanking,Pending,Anxious,Take medicine at 11:00
+Melinda,lesterwesley@example.org,29,Male,60,80.72,SVM,Dr. Alice,Offline,2025-06-30,15:00,Card,Paid,Happy,Take medicine at 22:00
+Marilyn,oguzman@example.org,45,Female,76,98.0,ANN,Dr. Smith,Online,2025-07-06,14:00,Card,Paid,Relaxed,Take medicine at 21:00
+Marissa,eperez@example.org,28,Male,83,87.74,SVM,Dr. Alice,Online,2025-07-18,15:00,Card,Paid,Sad,Take medicine at 20:00
+Brian,fcampbell@example.org,53,Male,73,95.65,Logistic Regression,Dr. Smith,Online,2025-07-02,10:00,UPI,Failed,Sad,Take medicine at 18:00
+Thomas,douglas39@example.net,60,Male,79,92.19,ANN,Dr. John,Online,2025-07-01,10:00,Netbanking,Failed,Anxious,Take medicine at 10:00
+William,andersonphillip@example.com,50,Male,78,94.22,SVM,Dr. John,Offline,2025-07-09,13:00,Card,Failed,Happy,Take medicine at 9:00
+Cindy,oscargreen@example.org,18,Female,59,92.42,SVM,Dr. Alice,Offline,2025-07-10,9:00,UPI,Pending,Sad,Take medicine at 9:00
+Jose,timothy02@example.org,27,Female,72,77.33,SVM,Dr. Smith,Offline,2025-07-01,11:00,Card,Pending,Anxious,Take medicine at 9:00
+James,april15@example.net,47,Male,74,82.75,SVM,Dr. Smith,Online,2025-07-19,11:00,UPI,Paid,Anxious,Take medicine at 11:00
+Kathy,johnsonrobert@example.com,35,Male,96,77.94,Logistic Regression,Dr. John,Offline,2025-07-28,9:00,UPI,Pending,Happy,Take medicine at 11:00
+Nicholas,gabriel44@example.com,35,Female,52,81.23,ANN,Dr. John,Online,2025-07-26,13:00,UPI,Failed,Anxious,Take medicine at 22:00
+Rhonda,maldonadoalan@example.com,51,Male,62,85.0,ANN,Dr. Smith,Online,2025-07-01,9:00,Card,Failed,Happy,Take medicine at 22:00
+Amanda,longjillian@example.com,46,Female,61,76.81,ANN,Dr. John,Offline,2025-07-24,14:00,Card,Failed,Relaxed,Take medicine at 21:00
+Christopher,elizabeth29@example.com,48,Male,87,98.69,ANN,Dr. Alice,Online,2025-06-30,9:00,Netbanking,Failed,Anxious,Take medicine at 11:00
+Ashley,kylerowe@example.net,51,Male,62,76.52,SVM,Dr. John,Online,2025-07-22,13:00,Netbanking,Failed,Happy,Take medicine at 18:00
+Whitney,rhansen@example.com,49,Male,73,88.72,ANN,Dr. Alice,Offline,2025-07-04,15:00,Netbanking,Paid,Angry,Take medicine at 15:00
+Rebecca,rickyobrien@example.com,24,Male,84,98.63,ANN,Dr. John,Online,2025-07-09,13:00,Card,Paid,Happy,Take medicine at 22:00
+Michael,adrian76@example.com,52,Female,91,97.72,SVM,Dr. Smith,Online,2025-07-21,15:00,Netbanking,Pending,Anxious,Take medicine at 21:00
+Ellen,jim76@example.net,49,Male,84,88.62,SVM,Dr. John,Online,2025-07-03,16:00,UPI,Pending,Anxious,Take medicine at 10:00
+John,larryward@example.org,35,Female,72,84.43,Logistic Regression,Dr. John,Offline,2025-07-06,14:00,UPI,Pending,Happy,Take medicine at 15:00
+Shelley,bruce31@example.net,58,Female,61,97.59,SVM,Dr. Smith,Offline,2025-07-08,14:00,Netbanking,Failed,Happy,Take medicine at 22:00
+Brett,deborah48@example.org,18,Male,54,88.23,ANN,Dr. Smith,Offline,2025-07-04,10:00,Card,Failed,Angry,Take medicine at 11:00
+Aaron,oconnoramanda@example.net,44,Female,51,75.69,ANN,Dr. John,Offline,2025-07-07,15:00,UPI,Failed,Sad,Take medicine at 20:00
+Cindy,watkinsbrian@example.org,33,Male,64,97.65,SVM,Dr. Smith,Offline,2025-07-05,15:00,UPI,Paid,Angry,Take medicine at 11:00
+Anita,kimberly03@example.net,27,Male,94,97.27,SVM,Dr. Alice,Offline,2025-07-15,13:00,Netbanking,Failed,Relaxed,Take medicine at 22:00
+Crystal,davisshane@example.org,22,Male,88,98.7,SVM,Dr. Alice,Online,2025-07-05,14:00,Card,Failed,Angry,Take medicine at 9:00
+Steven,jonestyler@example.org,53,Male,100,92.67,ANN,Dr. Smith,Online,2025-07-06,11:00,Card,Failed,Angry,Take medicine at 20:00
+Benjamin,pbennett@example.net,36,Male,50,77.95,SVM,Dr. John,Online,2025-07-24,16:00,Card,Paid,Sad,Take medicine at 20:00
+Kim,qhernandez@example.org,60,Male,57,81.64,ANN,Dr. Smith,Offline,2025-07-11,15:00,Netbanking,Pending,Angry,Take medicine at 15:00
+Julian,freemanomar@example.org,23,Male,97,82.67,Logistic Regression,Dr. Alice,Online,2025-07-23,14:00,Netbanking,Paid,Happy,Take medicine at 22:00
+Charles,keith52@example.org,57,Female,72,86.99,Logistic Regression,Dr. John,Online,2025-07-20,12:00,Netbanking,Failed,Relaxed,Take medicine at 11:00
+Timothy,burgessgary@example.com,29,Female,83,88.18,SVM,Dr. Smith,Online,2025-07-18,15:00,Netbanking,Paid,Relaxed,Take medicine at 15:00
+Timothy,michaelhutchinson@example.net,38,Male,65,80.66,SVM,Dr. Smith,Online,2025-07-23,16:00,Netbanking,Failed,Happy,Take medicine at 9:00
+Jeffrey,troygreen@example.com,59,Male,74,80.16,ANN,Dr. Smith,Online,2025-07-03,15:00,Card,Pending,Sad,Take medicine at 9:00
+Adam,nicholas53@example.net,47,Female,100,77.86,Logistic Regression,Dr. Alice,Online,2025-07-05,17:00,Card,Pending,Sad,Take medicine at 10:00
+Andrew,steven52@example.org,38,Female,56,89.0,ANN,Dr. Alice,Offline,2025-07-19,13:00,Card,Failed,Anxious,Take medicine at 21:00
+Jason,zmedina@example.com,39,Male,79,96.97,ANN,Dr. Smith,Offline,2025-07-05,15:00,Card,Pending,Anxious,Take medicine at 9:00
+Rebecca,james18@example.net,58,Female,60,76.85,SVM,Dr. Smith,Offline,2025-07-19,16:00,Netbanking,Failed,Relaxed,Take medicine at 10:00
+Willie,dtran@example.org,30,Female,81,75.61,ANN,Dr. Alice,Offline,2025-07-21,11:00,Card,Failed,Sad,Take medicine at 22:00
+Austin,currypatricia@example.com,57,Male,98,89.05,SVM,Dr. Alice,Offline,2025-07-29,12:00,UPI,Failed,Sad,Take medicine at 8:00
+Destiny,charlene96@example.com,53,Male,73,80.49,Logistic Regression,Dr. John,Online,2025-07-12,16:00,Netbanking,Failed,Sad,Take medicine at 21:00
+Edwin,cvaughn@example.net,34,Male,89,85.19,SVM,Dr. John,Online,2025-07-25,12:00,Netbanking,Pending,Sad,Take medicine at 9:00
+Christian,christinawilliams@example.net,25,Female,81,85.57,SVM,Dr. Smith,Online,2025-07-24,13:00,Card,Failed,Happy,Take medicine at 18:00
+Lindsay,fstanley@example.net,50,Female,70,87.49,SVM,Dr. Smith,Online,2025-07-03,17:00,Netbanking,Paid,Angry,Take medicine at 22:00
+Brent,robert70@example.com,40,Female,77,92.6,Logistic Regression,Dr. Smith,Offline,2025-07-27,11:00,UPI,Failed,Sad,Take medicine at 11:00
+Benjamin,gcopeland@example.com,39,Male,58,84.53,Logistic Regression,Dr. Smith,Offline,2025-07-21,16:00,Card,Failed,Sad,Take medicine at 20:00
+Regina,odonnelldaniel@example.com,47,Male,78,85.06,Logistic Regression,Dr. John,Offline,2025-07-08,9:00,Netbanking,Failed,Anxious,Take medicine at 21:00
+Ronald,martinrichard@example.com,21,Male,89,90.93,SVM,Dr. Smith,Offline,2025-07-03,13:00,UPI,Paid,Relaxed,Take medicine at 21:00
+Brandy,joseph50@example.net,35,Female,93,97.91,SVM,Dr. Smith,Online,2025-07-16,16:00,Netbanking,Paid,Relaxed,Take medicine at 11:00
+Victoria,charlesmckinney@example.org,31,Male,90,76.38,SVM,Dr. Alice,Offline,2025-07-17,12:00,Netbanking,Pending,Sad,Take medicine at 21:00
+Steven,grahamsteven@example.com,24,Male,97,97.75,ANN,Dr. Smith,Online,2025-07-05,9:00,Netbanking,Paid,Sad,Take medicine at 11:00
+Stacie,vsmith@example.org,44,Male,96,94.48,ANN,Dr. Smith,Offline,2025-07-10,12:00,Card,Pending,Happy,Take medicine at 18:00
+Cody,michelle81@example.net,45,Female,100,90.4,ANN,Dr. Smith,Online,2025-07-19,9:00,UPI,Failed,Sad,Take medicine at 20:00
+Brianna,marksjanet@example.com,54,Female,89,78.14,Logistic Regression,Dr. Alice,Online,2025-07-19,11:00,UPI,Pending,Relaxed,Take medicine at 10:00
+Danielle,greenkimberly@example.org,48,Male,71,81.33,ANN,Dr. Alice,Online,2025-07-27,15:00,Netbanking,Pending,Sad,Take medicine at 11:00
+Gina,ijacobson@example.org,50,Female,88,92.19,Logistic Regression,Dr. Smith,Offline,2025-07-09,11:00,UPI,Pending,Sad,Take medicine at 9:00
+Cassandra,umayo@example.net,56,Male,98,83.45,SVM,Dr. Alice,Offline,2025-07-12,12:00,UPI,Pending,Sad,Take medicine at 10:00
+Zachary,wsmith@example.net,23,Male,93,96.18,Logistic Regression,Dr. Alice,Offline,2025-07-27,13:00,Netbanking,Paid,Angry,Take medicine at 8:00
+Shelly,osuarez@example.com,41,Male,86,82.57,SVM,Dr. Smith,Offline,2025-07-18,13:00,Netbanking,Paid,Angry,Take medicine at 10:00
+Sherri,hoganshawn@example.net,52,Female,68,81.96,SVM,Dr. Smith,Offline,2025-07-16,10:00,Netbanking,Paid,Anxious,Take medicine at 9:00
+Laurie,alexandersherman@example.com,59,Male,87,96.7,ANN,Dr. Smith,Online,2025-07-20,11:00,Card,Pending,Angry,Take medicine at 15:00
+Julie,charleszhang@example.net,18,Female,77,99.65,Logistic Regression,Dr. Smith,Online,2025-07-15,17:00,Netbanking,Paid,Happy,Take medicine at 10:00
+Kayla,wayne73@example.org,34,Female,94,90.09,SVM,Dr. John,Online,2025-07-18,13:00,Card,Paid,Angry,Take medicine at 21:00
+Jennifer,patrick92@example.com,34,Male,89,94.17,SVM,Dr. John,Offline,2025-07-27,9:00,Card,Failed,Sad,Take medicine at 21:00
+Jessica,david89@example.net,36,Female,74,93.69,SVM,Dr. Smith,Offline,2025-07-10,11:00,UPI,Failed,Anxious,Take medicine at 8:00
+Norma,ymurphy@example.com,32,Male,82,98.17,Logistic Regression,Dr. Alice,Online,2025-07-15,13:00,UPI,Paid,Sad,Take medicine at 8:00
+William,davidwalsh@example.org,32,Female,82,81.28,Logistic Regression,Dr. Alice,Online,2025-07-29,14:00,Netbanking,Failed,Angry,Take medicine at 10:00
+Caroline,toddpaul@example.net,18,Male,88,98.61,ANN,Dr. Smith,Offline,2025-07-04,11:00,Netbanking,Failed,Happy,Take medicine at 20:00
+Stefanie,jacobscarl@example.net,27,Female,98,89.38,SVM,Dr. John,Online,2025-07-20,15:00,UPI,Pending,Sad,Take medicine at 8:00
+Sarah,tonylong@example.net,60,Female,89,87.33,Logistic Regression,Dr. John,Offline,2025-07-05,10:00,UPI,Failed,Happy,Take medicine at 22:00
+Kevin,smithnicholas@example.org,29,Female,59,97.93,ANN,Dr. John,Online,2025-07-13,15:00,Card,Pending,Happy,Take medicine at 21:00
+Karen,austinamber@example.net,18,Female,82,75.03,Logistic Regression,Dr. Alice,Offline,2025-07-13,10:00,Netbanking,Paid,Relaxed,Take medicine at 21:00
+Matthew,quinnpatrick@example.com,54,Male,88,82.09,SVM,Dr. John,Offline,2025-07-02,15:00,Card,Paid,Sad,Take medicine at 11:00
+Dylan,nelsonmonica@example.net,59,Male,59,78.05,ANN,Dr. Smith,Online,2025-07-05,16:00,UPI,Pending,Sad,Take medicine at 9:00
+Virginia,mccarthymatthew@example.net,41,Male,50,98.72,SVM,Dr. John,Offline,2025-07-06,12:00,Card,Pending,Sad,Take medicine at 20:00
+Christina,dpeterson@example.org,34,Female,95,85.69,SVM,Dr. John,Online,2025-07-27,11:00,UPI,Failed,Anxious,Take medicine at 22:00
+Rachel,wrichards@example.net,48,Male,66,82.24,ANN,Dr. Smith,Offline,2025-07-02,13:00,Netbanking,Paid,Anxious,Take medicine at 21:00
+Natasha,zramos@example.net,23,Female,100,78.83,SVM,Dr. Smith,Offline,2025-07-29,12:00,UPI,Paid,Relaxed,Take medicine at 8:00
+Gregory,rphillips@example.org,42,Male,80,76.82,SVM,Dr. John,Offline,2025-07-11,15:00,Card,Paid,Anxious,Take medicine at 21:00
+Patricia,christopher78@example.org,26,Female,94,84.62,SVM,Dr. John,Offline,2025-07-09,17:00,Card,Paid,Happy,Take medicine at 22:00
+Sonia,mackenzie70@example.com,58,Male,85,76.3,ANN,Dr. Smith,Offline,2025-07-27,12:00,UPI,Pending,Anxious,Take medicine at 10:00
+James,hufflisa@example.com,35,Male,74,97.4,ANN,Dr. John,Offline,2025-06-30,11:00,Netbanking,Pending,Angry,Take medicine at 8:00
+Keith,oliversharon@example.net,18,Male,50,88.26,ANN,Dr. John,Online,2025-07-28,10:00,Netbanking,Paid,Anxious,Take medicine at 11:00
+Matthew,hendrickspatrick@example.net,58,Female,84,86.54,ANN,Dr. Smith,Online,2025-07-15,10:00,UPI,Paid,Sad,Take medicine at 10:00
+Janet,thomasjennifer@example.net,54,Male,83,94.1,ANN,Dr. John,Online,2025-07-29,16:00,Card,Paid,Anxious,Take medicine at 9:00
+Paul,drew12@example.com,50,Female,70,86.79,Logistic Regression,Dr. Alice,Online,2025-07-11,17:00,UPI,Pending,Anxious,Take medicine at 21:00
+Elizabeth,philip20@example.net,24,Female,95,96.96,SVM,Dr. Alice,Offline,2025-07-08,16:00,UPI,Failed,Relaxed,Take medicine at 21:00
+Kyle,donnagilmore@example.org,58,Male,91,96.18,Logistic Regression,Dr. Smith,Offline,2025-07-10,12:00,Card,Pending,Sad,Take medicine at 11:00
+Mark,schaeferlisa@example.net,34,Female,88,87.91,ANN,Dr. Smith,Online,2025-07-15,10:00,Netbanking,Failed,Angry,Take medicine at 18:00
+Cheryl,garrett21@example.net,54,Male,83,99.49,SVM,Dr. Smith,Offline,2025-07-24,16:00,Card,Pending,Relaxed,Take medicine at 20:00
+Danielle,christianvictoria@example.net,56,Female,57,94.9,ANN,Dr. Smith,Online,2025-07-26,9:00,Netbanking,Failed,Anxious,Take medicine at 20:00
+James,phammichelle@example.net,52,Female,80,82.28,Logistic Regression,Dr. Alice,Online,2025-07-28,11:00,UPI,Failed,Angry,Take medicine at 22:00
+Rebecca,kellyian@example.net,24,Female,59,77.84,ANN,Dr. Smith,Offline,2025-07-23,12:00,Card,Paid,Anxious,Take medicine at 9:00
+Kimberly,emily06@example.com,28,Male,56,89.24,Logistic Regression,Dr. Smith,Offline,2025-07-20,11:00,UPI,Paid,Happy,Take medicine at 20:00
+Joseph,natalie71@example.net,27,Male,98,75.61,ANN,Dr. Alice,Offline,2025-07-17,11:00,Netbanking,Pending,Angry,Take medicine at 20:00
+John,tiffany80@example.org,22,Male,58,98.13,SVM,Dr. John,Online,2025-07-14,16:00,Netbanking,Paid,Happy,Take medicine at 15:00
+Angela,michael79@example.org,32,Female,72,76.75,ANN,Dr. Smith,Online,2025-06-30,10:00,Netbanking,Paid,Angry,Take medicine at 18:00
+Kenneth,michealflores@example.net,21,Female,69,99.48,Logistic Regression,Dr. John,Offline,2025-07-16,13:00,Netbanking,Pending,Angry,Take medicine at 8:00
+Stacey,eharris@example.net,39,Male,79,75.91,ANN,Dr. Alice,Online,2025-07-29,16:00,Card,Pending,Angry,Take medicine at 9:00
+Samantha,patricia55@example.net,59,Female,100,77.5,Logistic Regression,Dr. John,Offline,2025-07-16,14:00,Card,Pending,Sad,Take medicine at 18:00
+Nathan,derricksmith@example.com,20,Male,66,98.56,SVM,Dr. John,Offline,2025-07-28,13:00,Card,Paid,Relaxed,Take medicine at 18:00
+Allison,jonathandelgado@example.net,22,Female,61,92.63,ANN,Dr. John,Offline,2025-07-06,13:00,Card,Paid,Relaxed,Take medicine at 8:00
+Tracey,mhendrix@example.net,45,Male,83,91.91,Logistic Regression,Dr. Smith,Online,2025-07-14,13:00,UPI,Paid,Sad,Take medicine at 9:00
+Paul,kevin24@example.org,42,Female,77,81.64,Logistic Regression,Dr. Alice,Online,2025-07-22,17:00,Card,Paid,Anxious,Take medicine at 10:00
+Crystal,phillip24@example.net,22,Male,86,84.84,ANN,Dr. Smith,Offline,2025-07-24,11:00,Netbanking,Failed,Anxious,Take medicine at 9:00
+Joseph,leslie11@example.com,44,Female,55,81.24,SVM,Dr. Smith,Offline,2025-07-26,10:00,Netbanking,Pending,Relaxed,Take medicine at 21:00
+Annette,michelle99@example.org,28,Male,58,97.35,Logistic Regression,Dr. Alice,Online,2025-07-14,15:00,Card,Failed,Happy,Take medicine at 10:00
+Andrew,halexander@example.org,54,Female,68,81.12,ANN,Dr. Alice,Online,2025-07-10,11:00,Netbanking,Paid,Relaxed,Take medicine at 21:00
+Christian,ycastro@example.org,26,Female,61,97.22,SVM,Dr. Alice,Offline,2025-07-16,17:00,UPI,Paid,Relaxed,Take medicine at 22:00
+Joseph,edavis@example.net,37,Male,59,79.75,ANN,Dr. John,Online,2025-07-12,10:00,Netbanking,Failed,Anxious,Take medicine at 11:00
+James,bholmes@example.org,49,Male,51,89.82,SVM,Dr. Alice,Online,2025-07-25,15:00,UPI,Paid,Relaxed,Take medicine at 15:00
+Julie,jenniferryan@example.net,50,Male,79,79.21,ANN,Dr. Smith,Online,2025-07-04,16:00,Card,Paid,Relaxed,Take medicine at 21:00
+Jake,qhernandez@example.org,53,Male,87,92.61,ANN,Dr. Smith,Online,2025-07-02,10:00,UPI,Failed,Angry,Take medicine at 22:00
+Scott,tchoi@example.com,60,Female,70,87.55,ANN,Dr. Smith,Offline,2025-07-22,15:00,Card,Failed,Sad,Take medicine at 11:00
+Lisa,jamesmason@example.com,47,Male,54,83.32,Logistic Regression,Dr. Smith,Online,2025-07-25,11:00,Netbanking,Failed,Happy,Take medicine at 20:00
+David,russellcummings@example.org,18,Male,100,80.15,Logistic Regression,Dr. Alice,Online,2025-07-21,17:00,Netbanking,Pending,Sad,Take medicine at 9:00
+Kevin,karenfields@example.net,28,Female,82,96.05,Logistic Regression,Dr. John,Online,2025-07-28,15:00,Netbanking,Paid,Relaxed,Take medicine at 8:00
+Matthew,along@example.org,19,Female,90,92.69,ANN,Dr. Alice,Online,2025-07-16,13:00,Netbanking,Failed,Angry,Take medicine at 10:00
+Kimberly,wrightkevin@example.org,23,Female,91,97.52,ANN,Dr. Smith,Offline,2025-07-26,12:00,Card,Paid,Happy,Take medicine at 22:00
+James,pricelynn@example.net,47,Male,55,77.98,ANN,Dr. Smith,Offline,2025-07-08,17:00,UPI,Paid,Anxious,Take medicine at 11:00
+Tina,fayala@example.net,33,Male,77,81.28,SVM,Dr. Smith,Online,2025-07-05,15:00,UPI,Failed,Happy,Take medicine at 11:00
+Dawn,elizabethwatkins@example.net,28,Male,77,80.82,Logistic Regression,Dr. Smith,Online,2025-07-03,10:00,UPI,Failed,Sad,Take medicine at 22:00
+Eric,ndavis@example.org,42,Male,97,99.16,Logistic Regression,Dr. Alice,Offline,2025-07-17,11:00,Card,Pending,Sad,Take medicine at 11:00
+Anne,denisemoyer@example.org,37,Female,83,85.05,ANN,Dr. Smith,Offline,2025-06-30,14:00,Netbanking,Failed,Anxious,Take medicine at 18:00
+Thomas,frank07@example.net,36,Male,60,90.06,Logistic Regression,Dr. Smith,Offline,2025-07-14,13:00,Netbanking,Failed,Relaxed,Take medicine at 11:00
+Dana,jdominguez@example.com,26,Female,55,88.08,Logistic Regression,Dr. Alice,Online,2025-07-11,14:00,Netbanking,Failed,Relaxed,Take medicine at 15:00
+Brooke,jgonzalez@example.org,55,Male,75,99.76,SVM,Dr. John,Offline,2025-07-18,14:00,Netbanking,Pending,Anxious,Take medicine at 20:00
+Diana,nancy32@example.com,49,Female,78,98.5,SVM,Dr. John,Offline,2025-07-28,9:00,UPI,Pending,Angry,Take medicine at 10:00
+Steven,rubioashley@example.org,35,Female,50,80.13,Logistic Regression,Dr. John,Online,2025-07-17,17:00,UPI,Paid,Happy,Take medicine at 10:00
+Juan,lorimiddleton@example.com,23,Male,94,79.98,ANN,Dr. Smith,Offline,2025-07-29,12:00,UPI,Failed,Sad,Take medicine at 18:00
+Dustin,kevin40@example.org,25,Male,52,90.58,SVM,Dr. John,Online,2025-07-25,12:00,Netbanking,Pending,Angry,Take medicine at 18:00
+Jennifer,zwatson@example.net,30,Female,97,90.32,Logistic Regression,Dr. Smith,Online,2025-07-06,17:00,Card,Paid,Anxious,Take medicine at 18:00
+Mary,bhenry@example.org,32,Male,92,79.13,Logistic Regression,Dr. John,Online,2025-07-02,11:00,Netbanking,Paid,Anxious,Take medicine at 18:00
+Kimberly,patrickthornton@example.com,57,Female,88,82.96,Logistic Regression,Dr. Smith,Offline,2025-07-13,14:00,Card,Pending,Anxious,Take medicine at 22:00
+Scott,danielle87@example.com,49,Female,70,91.59,Logistic Regression,Dr. Alice,Online,2025-07-16,13:00,Card,Pending,Happy,Take medicine at 8:00
+Joseph,griffithross@example.com,51,Female,78,92.1,Logistic Regression,Dr. Smith,Online,2025-07-24,10:00,Netbanking,Paid,Happy,Take medicine at 9:00
+John,tlewis@example.net,35,Male,59,89.09,ANN,Dr. John,Offline,2025-07-04,10:00,UPI,Failed,Sad,Take medicine at 11:00
+Sarah,hoeric@example.org,35,Male,50,75.22,Logistic Regression,Dr. Smith,Offline,2025-07-12,9:00,UPI,Failed,Angry,Take medicine at 20:00
+Jay,jonesmarco@example.org,39,Male,58,81.93,Logistic Regression,Dr. Alice,Offline,2025-07-27,12:00,UPI,Failed,Anxious,Take medicine at 9:00
+Caitlyn,teresahudson@example.org,28,Male,83,75.72,ANN,Dr. Alice,Offline,2025-07-18,13:00,UPI,Pending,Relaxed,Take medicine at 9:00
+Traci,connorgraves@example.com,48,Female,86,84.27,ANN,Dr. Alice,Offline,2025-07-16,11:00,UPI,Failed,Relaxed,Take medicine at 8:00
+Cameron,parkerbrooke@example.org,25,Male,75,86.41,Logistic Regression,Dr. Alice,Online,2025-07-19,13:00,Netbanking,Pending,Anxious,Take medicine at 18:00
+Summer,mary33@example.net,60,Male,59,91.53,SVM,Dr. John,Online,2025-07-05,11:00,UPI,Failed,Relaxed,Take medicine at 21:00
+Susan,wagnerashley@example.com,20,Female,77,84.89,ANN,Dr. John,Offline,2025-07-11,12:00,UPI,Pending,Anxious,Take medicine at 15:00
+Brandon,colton85@example.com,57,Male,64,76.88,Logistic Regression,Dr. Smith,Online,2025-07-26,15:00,Netbanking,Failed,Angry,Take medicine at 9:00
+Michael,burkekevin@example.net,56,Male,74,95.0,Logistic Regression,Dr. Smith,Offline,2025-07-25,10:00,Netbanking,Pending,Angry,Take medicine at 21:00
+Richard,larsonnicholas@example.net,37,Female,93,92.47,ANN,Dr. Smith,Online,2025-07-08,17:00,Card,Paid,Happy,Take medicine at 22:00
+Dennis,lhammond@example.org,37,Female,84,82.66,SVM,Dr. Alice,Offline,2025-07-23,9:00,UPI,Failed,Happy,Take medicine at 10:00
+Sheila,qjohnson@example.com,46,Male,59,94.81,Logistic Regression,Dr. Alice,Offline,2025-07-12,13:00,Card,Failed,Relaxed,Take medicine at 20:00
+Sheila,rachelford@example.com,43,Female,95,89.21,Logistic Regression,Dr. John,Online,2025-07-23,9:00,UPI,Failed,Relaxed,Take medicine at 9:00
+Rachel,billymartinez@example.com,25,Male,99,99.48,Logistic Regression,Dr. Alice,Online,2025-07-28,14:00,Netbanking,Failed,Angry,Take medicine at 15:00
+Carmen,brookegraves@example.org,31,Male,73,90.03,ANN,Dr. Alice,Online,2025-07-27,13:00,UPI,Paid,Angry,Take medicine at 20:00
+Patrick,maureen00@example.com,34,Female,75,79.23,Logistic Regression,Dr. John,Offline,2025-07-18,12:00,Card,Pending,Anxious,Take medicine at 21:00
+Vincent,jennaclark@example.net,27,Female,67,86.64,Logistic Regression,Dr. John,Online,2025-07-12,12:00,UPI,Pending,Sad,Take medicine at 18:00
+Regina,randall34@example.net,36,Male,57,79.9,SVM,Dr. John,Offline,2025-07-19,16:00,Netbanking,Failed,Anxious,Take medicine at 11:00
+Maria,michael02@example.org,49,Male,53,97.39,SVM,Dr. Alice,Offline,2025-07-23,17:00,Card,Paid,Relaxed,Take medicine at 8:00
+Melanie,franklinrichard@example.net,45,Female,58,97.83,SVM,Dr. Smith,Online,2025-07-24,16:00,Netbanking,Pending,Happy,Take medicine at 9:00
+Elizabeth,fhunter@example.net,48,Male,72,91.05,ANN,Dr. John,Offline,2025-07-21,13:00,Card,Paid,Anxious,Take medicine at 9:00
+Linda,cooperelaine@example.com,53,Female,91,86.8,SVM,Dr. Smith,Offline,2025-07-10,14:00,Netbanking,Pending,Sad,Take medicine at 18:00
+Christina,carolynmelton@example.org,21,Female,100,95.87,SVM,Dr. Alice,Online,2025-07-22,15:00,UPI,Paid,Happy,Take medicine at 8:00
+Elizabeth,villarrealchristian@example.org,57,Female,58,93.94,ANN,Dr. John,Online,2025-07-13,9:00,UPI,Failed,Relaxed,Take medicine at 20:00
+Suzanne,umartin@example.org,26,Male,65,87.64,SVM,Dr. Alice,Offline,2025-07-29,16:00,Netbanking,Paid,Sad,Take medicine at 22:00
+Christopher,jamesclements@example.net,45,Male,87,86.94,Logistic Regression,Dr. John,Offline,2025-07-14,15:00,Netbanking,Paid,Angry,Take medicine at 21:00
+Alexander,vwilliams@example.net,36,Male,68,78.3,Logistic Regression,Dr. John,Online,2025-07-14,12:00,Netbanking,Pending,Sad,Take medicine at 22:00
+Ray,princelisa@example.org,45,Male,85,99.39,ANN,Dr. Smith,Online,2025-07-09,13:00,Card,Pending,Sad,Take medicine at 22:00
+Stephanie,nathanharris@example.org,29,Female,75,84.2,SVM,Dr. Smith,Offline,2025-07-13,13:00,Netbanking,Failed,Happy,Take medicine at 8:00
+Roy,knightpaul@example.org,54,Male,81,82.63,ANN,Dr. Alice,Offline,2025-07-29,16:00,Netbanking,Pending,Sad,Take medicine at 15:00
+Jason,allenmatthew@example.com,21,Female,74,78.9,SVM,Dr. John,Offline,2025-07-26,10:00,Card,Failed,Relaxed,Take medicine at 18:00
+Gerald,fbenitez@example.org,32,Male,59,84.18,SVM,Dr. Alice,Offline,2025-07-29,11:00,Netbanking,Pending,Happy,Take medicine at 18:00
+Lisa,kgarcia@example.net,55,Male,73,76.94,Logistic Regression,Dr. Alice,Online,2025-07-23,13:00,UPI,Pending,Anxious,Take medicine at 21:00
+Amanda,heather93@example.com,55,Female,93,96.99,Logistic Regression,Dr. John,Online,2025-07-03,15:00,Card,Paid,Angry,Take medicine at 18:00
+Michael,glennjennifer@example.net,29,Male,100,98.19,ANN,Dr. John,Offline,2025-07-28,11:00,Netbanking,Pending,Happy,Take medicine at 18:00
+Dawn,carrie19@example.net,28,Male,64,88.72,Logistic Regression,Dr. John,Online,2025-07-29,13:00,UPI,Paid,Sad,Take medicine at 11:00
+Anita,fperry@example.com,18,Female,50,76.84,Logistic Regression,Dr. John,Offline,2025-07-25,9:00,Card,Pending,Relaxed,Take medicine at 10:00
+Shelley,david20@example.org,20,Male,52,93.55,Logistic Regression,Dr. John,Offline,2025-07-20,16:00,UPI,Paid,Anxious,Take medicine at 9:00
+Vincent,andrew05@example.com,45,Female,90,93.87,SVM,Dr. Alice,Online,2025-07-03,12:00,Netbanking,Paid,Sad,Take medicine at 21:00
+Valerie,irodriguez@example.org,27,Male,97,87.75,ANN,Dr. Smith,Offline,2025-07-29,12:00,UPI,Failed,Relaxed,Take medicine at 10:00
+Eugene,griffinmichael@example.net,23,Male,62,87.15,SVM,Dr. Alice,Offline,2025-07-19,11:00,Netbanking,Paid,Sad,Take medicine at 15:00
+Julie,brandon93@example.com,39,Male,51,92.66,SVM,Dr. John,Offline,2025-07-04,13:00,Netbanking,Paid,Angry,Take medicine at 11:00
+Ricky,ipreston@example.net,22,Female,63,91.12,Logistic Regression,Dr. Alice,Offline,2025-07-29,10:00,Card,Pending,Sad,Take medicine at 8:00
+Paul,jenniferdavis@example.org,41,Male,54,79.35,ANN,Dr. John,Offline,2025-07-12,10:00,Card,Paid,Sad,Take medicine at 20:00
+Donna,jenniferreyes@example.com,21,Male,99,89.23,Logistic Regression,Dr. Alice,Offline,2025-07-22,15:00,UPI,Failed,Happy,Take medicine at 11:00
+Aaron,jeremylester@example.com,56,Male,76,91.15,ANN,Dr. John,Offline,2025-07-28,13:00,Netbanking,Pending,Relaxed,Take medicine at 15:00
+Ronald,dbaker@example.com,47,Female,84,83.82,ANN,Dr. Alice,Offline,2025-07-11,14:00,UPI,Failed,Happy,Take medicine at 20:00
+Mary,emily49@example.net,54,Female,99,78.85,ANN,Dr. Alice,Online,2025-07-20,10:00,Netbanking,Paid,Relaxed,Take medicine at 18:00
+Rodney,sandrajohnson@example.com,18,Male,72,78.19,ANN,Dr. John,Offline,2025-07-03,16:00,Card,Failed,Sad,Take medicine at 18:00
+Denise,eric19@example.net,42,Female,62,95.11,SVM,Dr. Smith,Offline,2025-07-04,14:00,Netbanking,Failed,Happy,Take medicine at 8:00
+Timothy,imiller@example.net,54,Female,90,84.23,ANN,Dr. Alice,Offline,2025-07-06,17:00,Netbanking,Failed,Sad,Take medicine at 21:00
+Jeremy,rebeccaraymond@example.net,25,Male,93,75.24,Logistic Regression,Dr. John,Online,2025-07-29,12:00,Card,Failed,Relaxed,Take medicine at 20:00
+Austin,jonesjanet@example.org,47,Female,81,94.31,SVM,Dr. John,Offline,2025-07-01,13:00,Netbanking,Paid,Happy,Take medicine at 22:00
+Chad,jenniferlarson@example.net,50,Male,55,78.79,SVM,Dr. Alice,Offline,2025-07-26,16:00,Netbanking,Paid,Happy,Take medicine at 20:00
+Christine,efowler@example.org,23,Female,77,84.13,SVM,Dr. John,Online,2025-07-06,15:00,Card,Paid,Sad,Take medicine at 11:00
+David,pagejohn@example.com,24,Male,82,98.74,ANN,Dr. Smith,Offline,2025-07-13,15:00,UPI,Pending,Happy,Take medicine at 8:00
+Ryan,nicolebartlett@example.net,55,Male,78,97.28,ANN,Dr. John,Online,2025-07-27,12:00,Card,Paid,Sad,Take medicine at 9:00
+Stephanie,aaron07@example.org,29,Female,92,90.55,SVM,Dr. Smith,Offline,2025-07-09,13:00,Card,Failed,Angry,Take medicine at 15:00
+Helen,michellehill@example.net,40,Female,71,95.48,SVM,Dr. Alice,Offline,2025-07-12,14:00,UPI,Failed,Anxious,Take medicine at 22:00
+Jason,anthonyparsons@example.org,20,Female,65,99.26,SVM,Dr. Alice,Online,2025-07-20,9:00,UPI,Paid,Angry,Take medicine at 10:00
+Brian,guygentry@example.org,55,Female,51,92.6,Logistic Regression,Dr. Alice,Online,2025-07-19,10:00,UPI,Failed,Happy,Take medicine at 18:00
+Kevin,stevenhood@example.net,28,Female,75,89.68,Logistic Regression,Dr. John,Offline,2025-07-11,9:00,UPI,Paid,Anxious,Take medicine at 9:00
+Caleb,nmorrison@example.com,29,Male,50,94.73,ANN,Dr. Alice,Offline,2025-07-10,14:00,Netbanking,Pending,Anxious,Take medicine at 21:00
+Michelle,hbarton@example.com,59,Female,96,99.12,Logistic Regression,Dr. John,Offline,2025-07-20,16:00,Card,Paid,Relaxed,Take medicine at 21:00
+James,kristinburke@example.net,30,Female,76,77.61,ANN,Dr. Smith,Offline,2025-07-08,16:00,UPI,Paid,Anxious,Take medicine at 8:00
+Debbie,kevinkrueger@example.org,35,Male,89,99.2,ANN,Dr. Alice,Offline,2025-07-11,13:00,Card,Pending,Happy,Take medicine at 8:00
+Matthew,taylorjason@example.net,34,Female,81,81.46,SVM,Dr. Alice,Online,2025-07-07,17:00,UPI,Failed,Happy,Take medicine at 22:00
+Ashley,townsendrebecca@example.org,42,Male,88,91.87,SVM,Dr. Alice,Online,2025-07-28,9:00,Netbanking,Pending,Sad,Take medicine at 21:00
+Charles,cmclaughlin@example.org,56,Female,65,76.62,SVM,Dr. Smith,Online,2025-07-02,12:00,UPI,Failed,Angry,Take medicine at 8:00
+Ann,laurazimmerman@example.net,42,Female,63,85.94,SVM,Dr. Smith,Online,2025-07-21,11:00,Netbanking,Failed,Sad,Take medicine at 18:00
+Lisa,megan53@example.org,24,Male,53,96.97,ANN,Dr. Alice,Online,2025-07-04,9:00,Netbanking,Paid,Relaxed,Take medicine at 10:00
+Corey,samanthawatts@example.net,42,Female,86,91.07,Logistic Regression,Dr. Smith,Offline,2025-07-01,15:00,Netbanking,Failed,Angry,Take medicine at 8:00
+Samantha,collinsmorgan@example.org,32,Female,69,78.76,SVM,Dr. Smith,Online,2025-07-03,14:00,Card,Failed,Relaxed,Take medicine at 15:00
+Johnny,kimberly51@example.org,45,Female,79,85.55,Logistic Regression,Dr. Smith,Online,2025-07-24,16:00,UPI,Paid,Anxious,Take medicine at 10:00
+Jared,edwardpennington@example.net,38,Female,77,91.91,SVM,Dr. Smith,Offline,2025-07-17,16:00,UPI,Paid,Happy,Take medicine at 11:00
+Zachary,tfarmer@example.org,32,Female,97,76.78,SVM,Dr. Alice,Offline,2025-06-30,15:00,UPI,Paid,Angry,Take medicine at 11:00
+Sabrina,michael75@example.org,27,Male,99,79.53,SVM,Dr. John,Online,2025-07-22,10:00,UPI,Failed,Happy,Take medicine at 10:00
+Tiffany,emilythomas@example.com,46,Female,92,98.32,SVM,Dr. Smith,Offline,2025-07-18,14:00,UPI,Pending,Happy,Take medicine at 18:00
+Sarah,angela47@example.org,27,Male,99,89.24,ANN,Dr. Smith,Online,2025-07-11,17:00,UPI,Paid,Happy,Take medicine at 8:00
+Raymond,tararobbins@example.com,40,Female,61,83.92,Logistic Regression,Dr. Alice,Online,2025-07-11,9:00,Netbanking,Paid,Happy,Take medicine at 21:00
+Timothy,annette79@example.org,36,Female,61,86.39,Logistic Regression,Dr. Smith,Online,2025-07-17,17:00,Card,Pending,Happy,Take medicine at 11:00
+Lindsay,andrew02@example.net,43,Female,96,84.8,ANN,Dr. Alice,Online,2025-07-20,10:00,Netbanking,Pending,Sad,Take medicine at 22:00
+Donna,taylorkelly@example.org,53,Male,96,90.49,SVM,Dr. Smith,Online,2025-07-11,15:00,Card,Paid,Sad,Take medicine at 21:00
+Curtis,gerald55@example.net,25,Male,92,79.55,ANN,Dr. Alice,Offline,2025-07-20,10:00,Card,Failed,Sad,Take medicine at 11:00
+Melissa,david62@example.com,26,Male,95,81.34,SVM,Dr. John,Offline,2025-07-28,10:00,Netbanking,Pending,Angry,Take medicine at 8:00
+Paul,charlesbentley@example.org,45,Female,58,93.43,ANN,Dr. Smith,Online,2025-07-26,9:00,Card,Paid,Sad,Take medicine at 8:00
+Jesus,josephpatel@example.org,57,Female,82,94.69,SVM,Dr. Alice,Offline,2025-07-04,17:00,UPI,Pending,Happy,Take medicine at 8:00
+Gary,walterrhodes@example.org,19,Male,51,80.59,ANN,Dr. Smith,Online,2025-07-18,15:00,Card,Paid,Sad,Take medicine at 22:00
+Veronica,alicia01@example.com,22,Male,80,85.46,SVM,Dr. John,Offline,2025-07-14,13:00,Card,Paid,Angry,Take medicine at 10:00
+Joshua,danielmartin@example.org,18,Male,70,84.95,Logistic Regression,Dr. Alice,Online,2025-07-04,12:00,Card,Pending,Angry,Take medicine at 11:00
+Shaun,johnsonmatthew@example.net,23,Female,98,80.25,ANN,Dr. Alice,Online,2025-07-26,10:00,UPI,Paid,Relaxed,Take medicine at 9:00
+Danny,hhill@example.net,43,Male,80,78.0,SVM,Dr. Smith,Offline,2025-07-14,11:00,UPI,Paid,Angry,Take medicine at 21:00
+Jennifer,orodgers@example.org,46,Female,85,93.88,Logistic Regression,Dr. John,Online,2025-07-09,11:00,Card,Pending,Sad,Take medicine at 20:00
+Christine,kenneth75@example.net,37,Male,77,95.87,SVM,Dr. John,Online,2025-07-19,10:00,Card,Failed,Relaxed,Take medicine at 15:00
+Andrew,skane@example.com,42,Male,79,94.95,ANN,Dr. Smith,Offline,2025-07-19,13:00,Card,Pending,Angry,Take medicine at 9:00
+Dylan,hardingaaron@example.org,42,Male,58,76.12,SVM,Dr. Smith,Offline,2025-07-12,17:00,Netbanking,Pending,Relaxed,Take medicine at 15:00
+Timothy,carrkimberly@example.net,42,Female,92,95.09,Logistic Regression,Dr. John,Online,2025-07-26,14:00,Netbanking,Pending,Angry,Take medicine at 8:00
+Mark,gibsonthomas@example.com,59,Female,74,87.86,Logistic Regression,Dr. Smith,Offline,2025-07-09,9:00,Netbanking,Pending,Angry,Take medicine at 9:00
+Rebecca,ngarcia@example.org,33,Male,67,90.96,ANN,Dr. Smith,Online,2025-07-15,10:00,UPI,Paid,Angry,Take medicine at 8:00
+Claudia,brownamanda@example.org,24,Male,58,81.35,Logistic Regression,Dr. Alice,Offline,2025-07-09,9:00,UPI,Paid,Happy,Take medicine at 10:00
+Lisa,danny44@example.net,59,Male,74,81.16,ANN,Dr. Smith,Offline,2025-07-27,16:00,Card,Failed,Sad,Take medicine at 22:00
+Joshua,ebarber@example.org,30,Female,64,80.21,ANN,Dr. Alice,Offline,2025-07-06,10:00,Card,Failed,Anxious,Take medicine at 21:00
+Laura,carolyn56@example.org,44,Male,54,93.65,ANN,Dr. John,Offline,2025-07-03,11:00,Card,Pending,Happy,Take medicine at 8:00
+Mary,claytonjoseph@example.net,19,Female,52,78.06,ANN,Dr. Smith,Offline,2025-07-01,14:00,Netbanking,Failed,Happy,Take medicine at 8:00
+Joshua,jessejones@example.org,40,Male,64,91.26,Logistic Regression,Dr. Alice,Online,2025-07-12,14:00,UPI,Failed,Happy,Take medicine at 21:00
+Dale,ortegajason@example.com,47,Female,53,77.24,SVM,Dr. John,Online,2025-07-09,9:00,Netbanking,Paid,Angry,Take medicine at 21:00
+Chelsea,crystal60@example.net,48,Female,72,83.62,Logistic Regression,Dr. Alice,Online,2025-07-14,12:00,UPI,Failed,Relaxed,Take medicine at 18:00
+Michele,jasminestark@example.net,24,Female,63,92.99,ANN,Dr. Smith,Offline,2025-07-23,9:00,UPI,Pending,Relaxed,Take medicine at 15:00
+Debra,danielmiller@example.net,37,Female,73,75.78,Logistic Regression,Dr. John,Offline,2025-07-02,14:00,Netbanking,Failed,Anxious,Take medicine at 8:00
+Bianca,johnsonlaurie@example.net,44,Male,83,81.28,Logistic Regression,Dr. Smith,Online,2025-07-28,10:00,Netbanking,Paid,Anxious,Take medicine at 15:00
+John,zacharymoore@example.org,51,Female,84,89.59,Logistic Regression,Dr. Smith,Offline,2025-07-09,13:00,Card,Pending,Sad,Take medicine at 20:00
+Amy,melendezhailey@example.com,32,Female,98,80.64,Logistic Regression,Dr. Alice,Offline,2025-07-11,11:00,UPI,Paid,Happy,Take medicine at 20:00
+Michael,jessica91@example.com,59,Male,74,95.38,ANN,Dr. Smith,Online,2025-07-10,13:00,UPI,Pending,Anxious,Take medicine at 20:00
+Becky,sbuck@example.org,57,Male,84,89.55,SVM,Dr. Alice,Online,2025-07-25,10:00,Card,Pending,Relaxed,Take medicine at 11:00
+Sharon,andersonjames@example.org,45,Female,55,88.27,SVM,Dr. Smith,Offline,2025-07-03,9:00,Netbanking,Pending,Anxious,Take medicine at 18:00
+Christopher,rclark@example.org,49,Male,97,81.41,ANN,Dr. John,Offline,2025-07-16,12:00,UPI,Pending,Anxious,Take medicine at 15:00
+Stacy,wendy16@example.com,26,Male,98,82.61,ANN,Dr. John,Offline,2025-07-13,10:00,UPI,Paid,Relaxed,Take medicine at 15:00
+Kimberly,paul59@example.org,47,Female,63,99.84,Logistic Regression,Dr. Alice,Online,2025-07-18,9:00,Card,Failed,Angry,Take medicine at 20:00
+Nicholas,bowenkathleen@example.com,44,Female,68,87.0,SVM,Dr. John,Online,2025-07-18,17:00,Card,Failed,Relaxed,Take medicine at 11:00
+Angela,brownbrianna@example.com,51,Male,76,76.61,SVM,Dr. Smith,Online,2025-07-12,15:00,Card,Paid,Relaxed,Take medicine at 21:00
+Paige,imorales@example.org,34,Male,89,86.56,SVM,Dr. John,Offline,2025-07-09,15:00,Card,Pending,Sad,Take medicine at 22:00
+Martha,jrubio@example.com,28,Male,78,83.23,ANN,Dr. John,Online,2025-07-02,13:00,Card,Pending,Anxious,Take medicine at 8:00
+Michael,denisenguyen@example.org,58,Male,61,85.1,Logistic Regression,Dr. Alice,Offline,2025-07-01,10:00,UPI,Paid,Happy,Take medicine at 18:00
+Amanda,jeanetteellis@example.net,27,Female,58,97.91,ANN,Dr. Alice,Online,2025-07-01,16:00,UPI,Pending,Angry,Take medicine at 22:00
+Tonya,kevinpennington@example.net,51,Female,92,87.86,ANN,Dr. Alice,Online,2025-07-18,12:00,Netbanking,Pending,Relaxed,Take medicine at 15:00
+Shannon,bbrooks@example.com,57,Male,90,80.23,Logistic Regression,Dr. Smith,Online,2025-07-26,9:00,UPI,Pending,Angry,Take medicine at 8:00
+Amy,stephenseric@example.org,48,Male,78,86.61,ANN,Dr. John,Offline,2025-07-26,14:00,UPI,Paid,Sad,Take medicine at 21:00
+Christopher,brittany60@example.org,24,Female,53,81.21,ANN,Dr. Smith,Offline,2025-07-25,9:00,Card,Paid,Sad,Take medicine at 21:00
+Nicholas,hgordon@example.com,25,Female,65,75.07,Logistic Regression,Dr. Smith,Online,2025-07-12,9:00,Netbanking,Paid,Anxious,Take medicine at 8:00
+Jill,michaelcastillo@example.com,18,Male,86,95.81,ANN,Dr. Alice,Online,2025-07-03,15:00,UPI,Failed,Sad,Take medicine at 10:00
+Ronald,robertpineda@example.com,46,Female,55,88.46,ANN,Dr. Alice,Online,2025-07-01,17:00,Netbanking,Paid,Anxious,Take medicine at 21:00
+Wayne,xsalazar@example.net,53,Female,65,75.78,ANN,Dr. Alice,Offline,2025-07-06,12:00,Card,Paid,Happy,Take medicine at 8:00
+Brian,maria32@example.org,45,Female,82,75.14,Logistic Regression,Dr. John,Offline,2025-07-18,9:00,Card,Paid,Anxious,Take medicine at 9:00
+Tyler,jamespacheco@example.org,47,Female,97,98.15,ANN,Dr. John,Offline,2025-07-16,14:00,Card,Pending,Sad,Take medicine at 11:00
+Michelle,derek98@example.net,24,Male,88,98.61,Logistic Regression,Dr. Alice,Offline,2025-07-04,15:00,Netbanking,Paid,Anxious,Take medicine at 15:00
+Stephanie,jwarren@example.net,24,Male,58,76.62,Logistic Regression,Dr. Smith,Online,2025-07-22,14:00,UPI,Failed,Angry,Take medicine at 15:00
+John,morenomichael@example.com,22,Female,64,93.53,SVM,Dr. Smith,Online,2025-07-24,9:00,UPI,Paid,Sad,Take medicine at 18:00
+Patrick,joshuajuarez@example.org,33,Female,69,98.07,SVM,Dr. Smith,Online,2025-07-26,11:00,UPI,Pending,Happy,Take medicine at 20:00
+Cynthia,patrick82@example.com,50,Male,86,88.54,SVM,Dr. Smith,Online,2025-07-25,17:00,UPI,Pending,Happy,Take medicine at 11:00
+Laura,tadkins@example.net,25,Female,54,84.43,Logistic Regression,Dr. Smith,Online,2025-07-28,13:00,Card,Paid,Relaxed,Take medicine at 21:00
+Brian,andrew95@example.net,55,Female,69,88.31,Logistic Regression,Dr. John,Offline,2025-07-10,9:00,UPI,Paid,Angry,Take medicine at 10:00
+Mitchell,parkerdonald@example.com,26,Female,57,97.03,ANN,Dr. Smith,Offline,2025-07-01,14:00,UPI,Failed,Happy,Take medicine at 10:00
+James,morrisraven@example.org,56,Male,51,86.25,SVM,Dr. Alice,Online,2025-07-07,13:00,UPI,Paid,Angry,Take medicine at 22:00
+Erin,davidsherman@example.com,49,Female,64,93.44,SVM,Dr. John,Offline,2025-07-14,14:00,Card,Pending,Relaxed,Take medicine at 10:00
+Jamie,nataliecharles@example.net,35,Female,80,76.6,ANN,Dr. Smith,Offline,2025-07-20,10:00,Card,Failed,Happy,Take medicine at 20:00
+Amanda,richard02@example.net,56,Female,90,75.17,Logistic Regression,Dr. Smith,Offline,2025-07-09,10:00,UPI,Paid,Relaxed,Take medicine at 22:00
+Susan,qthomas@example.org,45,Male,67,75.6,ANN,Dr. Smith,Offline,2025-07-17,10:00,Netbanking,Paid,Anxious,Take medicine at 20:00
+Kelly,hlyons@example.net,40,Female,56,87.69,ANN,Dr. John,Offline,2025-07-10,15:00,UPI,Pending,Happy,Take medicine at 11:00
+Kyle,owilson@example.com,33,Male,56,77.55,Logistic Regression,Dr. Alice,Online,2025-07-01,14:00,UPI,Failed,Happy,Take medicine at 8:00
+Matthew,eramirez@example.org,25,Female,90,88.0,Logistic Regression,Dr. Alice,Offline,2025-07-20,16:00,Netbanking,Paid,Sad,Take medicine at 18:00
+James,wolferonald@example.net,30,Female,59,91.73,ANN,Dr. John,Online,2025-07-20,15:00,Netbanking,Paid,Happy,Take medicine at 21:00
+Tiffany,amberbeck@example.net,22,Female,67,95.36,ANN,Dr. Alice,Offline,2025-07-07,11:00,Netbanking,Pending,Relaxed,Take medicine at 9:00
+Mario,hdickerson@example.net,21,Male,53,78.46,SVM,Dr. John,Offline,2025-07-10,9:00,UPI,Paid,Anxious,Take medicine at 18:00
+Kyle,jennifer76@example.com,39,Female,63,84.09,SVM,Dr. Alice,Offline,2025-07-18,16:00,UPI,Paid,Happy,Take medicine at 9:00
+Lisa,mayeryvonne@example.net,57,Male,62,80.12,Logistic Regression,Dr. Smith,Online,2025-07-02,17:00,Card,Paid,Sad,Take medicine at 22:00
+Kathryn,alisha04@example.org,56,Male,90,86.05,Logistic Regression,Dr. John,Offline,2025-07-27,13:00,UPI,Paid,Happy,Take medicine at 18:00
+Katie,amiles@example.org,34,Male,98,96.68,SVM,Dr. John,Online,2025-07-24,16:00,Card,Paid,Sad,Take medicine at 8:00
+Matthew,joshua58@example.org,47,Male,75,97.31,ANN,Dr. Alice,Offline,2025-07-06,17:00,Netbanking,Paid,Happy,Take medicine at 20:00
+Ryan,loganraymond@example.com,37,Female,59,88.16,Logistic Regression,Dr. Smith,Online,2025-07-01,17:00,Card,Failed,Angry,Take medicine at 15:00
+Jennifer,amy43@example.org,40,Male,71,93.54,ANN,Dr. Smith,Online,2025-07-22,10:00,UPI,Paid,Sad,Take medicine at 20:00
+Teresa,hendersondouglas@example.com,46,Female,93,98.04,Logistic Regression,Dr. Alice,Offline,2025-07-14,14:00,Card,Paid,Sad,Take medicine at 8:00
+Thomas,cynthia55@example.net,47,Female,63,86.95,ANN,Dr. John,Online,2025-07-11,9:00,Card,Paid,Angry,Take medicine at 20:00
+Michael,moorekathy@example.org,33,Female,55,98.28,ANN,Dr. John,Online,2025-07-29,16:00,Netbanking,Failed,Sad,Take medicine at 22:00
+Carlos,diane42@example.com,24,Male,97,81.06,ANN,Dr. Smith,Offline,2025-07-22,12:00,Netbanking,Failed,Relaxed,Take medicine at 9:00
+Nancy,kolson@example.com,41,Male,53,82.83,ANN,Dr. Smith,Online,2025-07-15,15:00,Netbanking,Failed,Anxious,Take medicine at 10:00
+Tammie,jonathan49@example.org,41,Female,80,76.66,ANN,Dr. Alice,Online,2025-07-15,14:00,Netbanking,Pending,Anxious,Take medicine at 11:00
+Todd,nrogers@example.net,46,Female,100,78.09,Logistic Regression,Dr. Smith,Offline,2025-07-19,10:00,Card,Failed,Angry,Take medicine at 21:00
+Tracie,erincline@example.net,37,Female,56,96.85,ANN,Dr. Alice,Online,2025-07-26,13:00,Card,Pending,Anxious,Take medicine at 21:00
+James,hmalone@example.net,28,Male,85,94.07,SVM,Dr. Alice,Online,2025-07-05,15:00,UPI,Paid,Sad,Take medicine at 20:00
+Claire,jennifer15@example.net,36,Female,81,78.99,ANN,Dr. Alice,Offline,2025-07-15,10:00,Netbanking,Pending,Happy,Take medicine at 21:00
+Stephen,mitchellgoodwin@example.org,37,Male,94,95.91,SVM,Dr. John,Online,2025-07-12,15:00,Netbanking,Failed,Sad,Take medicine at 10:00
+Nicole,shawn63@example.net,25,Male,100,78.76,ANN,Dr. Alice,Offline,2025-07-01,13:00,Netbanking,Pending,Sad,Take medicine at 18:00
+Susan,yhudson@example.net,20,Female,95,80.87,SVM,Dr. John,Online,2025-07-07,13:00,Netbanking,Paid,Happy,Take medicine at 20:00
+Kathleen,rbailey@example.net,20,Male,84,88.15,SVM,Dr. Alice,Online,2025-07-18,12:00,UPI,Pending,Happy,Take medicine at 8:00
+Jessica,lpeterson@example.net,23,Male,93,78.09,Logistic Regression,Dr. Alice,Offline,2025-07-12,13:00,UPI,Paid,Happy,Take medicine at 22:00
+Eugene,joshua67@example.com,37,Male,58,79.18,ANN,Dr. Smith,Offline,2025-07-12,10:00,Netbanking,Paid,Relaxed,Take medicine at 9:00
+Patrick,nicole94@example.com,26,Male,55,98.43,Logistic Regression,Dr. Smith,Offline,2025-07-26,13:00,UPI,Paid,Happy,Take medicine at 22:00
+Travis,kristischmidt@example.org,29,Female,67,96.72,SVM,Dr. Alice,Offline,2025-07-03,16:00,Card,Pending,Sad,Take medicine at 11:00
+Katelyn,judithwilliams@example.com,50,Male,92,83.82,Logistic Regression,Dr. John,Online,2025-07-01,15:00,Card,Pending,Angry,Take medicine at 10:00
+Jacqueline,edward09@example.com,36,Female,100,88.09,ANN,Dr. Alice,Offline,2025-07-12,17:00,Card,Paid,Anxious,Take medicine at 21:00
+Christian,andrewhill@example.com,28,Male,83,88.0,SVM,Dr. John,Offline,2025-07-20,15:00,UPI,Paid,Happy,Take medicine at 20:00
+Sarah,tarasloan@example.net,34,Male,87,76.81,Logistic Regression,Dr. Alice,Online,2025-07-27,16:00,UPI,Failed,Angry,Take medicine at 22:00
+Michelle,cthompson@example.com,19,Male,54,77.79,SVM,Dr. Alice,Offline,2025-07-07,13:00,Netbanking,Failed,Anxious,Take medicine at 11:00
+Michelle,gallagherjohn@example.org,54,Male,79,77.33,SVM,Dr. John,Online,2025-07-02,9:00,Card,Paid,Anxious,Take medicine at 9:00
+Kristin,destiny72@example.com,25,Female,75,77.7,SVM,Dr. Alice,Online,2025-07-12,11:00,Netbanking,Failed,Sad,Take medicine at 18:00
+Daniel,adrianharrison@example.net,43,Male,78,78.96,SVM,Dr. Alice,Online,2025-07-16,15:00,Netbanking,Paid,Angry,Take medicine at 9:00
+Michelle,ashleycompton@example.com,39,Male,63,87.81,ANN,Dr. Smith,Online,2025-07-21,17:00,UPI,Failed,Sad,Take medicine at 11:00
+Carly,martinbrent@example.com,25,Male,76,99.9,Logistic Regression,Dr. Smith,Offline,2025-07-17,9:00,Card,Pending,Anxious,Take medicine at 21:00
+Erika,dennis81@example.net,38,Female,54,98.85,ANN,Dr. Alice,Online,2025-07-09,11:00,Netbanking,Failed,Sad,Take medicine at 22:00
+Elizabeth,sanchezdonald@example.org,31,Male,87,79.3,Logistic Regression,Dr. John,Online,2025-07-20,10:00,Card,Failed,Happy,Take medicine at 8:00
+Robert,marcogriffin@example.org,29,Male,62,93.1,Logistic Regression,Dr. Alice,Offline,2025-06-30,11:00,Netbanking,Failed,Relaxed,Take medicine at 15:00
+Tracey,fisherbobby@example.org,55,Female,87,78.91,Logistic Regression,Dr. Smith,Online,2025-07-28,14:00,Netbanking,Failed,Happy,Take medicine at 8:00
+Kenneth,jennifer04@example.org,34,Female,62,79.76,Logistic Regression,Dr. Smith,Online,2025-07-01,15:00,UPI,Failed,Sad,Take medicine at 8:00
+Trevor,juan10@example.net,28,Female,56,95.38,ANN,Dr. John,Offline,2025-07-03,16:00,Card,Failed,Angry,Take medicine at 22:00
+Christina,grahammadison@example.com,22,Male,96,84.89,SVM,Dr. Smith,Online,2025-07-25,16:00,Card,Failed,Angry,Take medicine at 9:00
+Cathy,efields@example.org,53,Male,51,89.75,ANN,Dr. Alice,Offline,2025-07-04,9:00,UPI,Pending,Sad,Take medicine at 22:00
+Tabitha,johnwright@example.com,54,Male,50,80.76,SVM,Dr. John,Offline,2025-07-01,11:00,UPI,Failed,Sad,Take medicine at 21:00
+Roger,grimesbrittany@example.com,30,Male,82,78.43,SVM,Dr. Smith,Offline,2025-07-06,14:00,Card,Failed,Anxious,Take medicine at 15:00
+David,anna93@example.net,40,Male,90,78.82,Logistic Regression,Dr. Alice,Online,2025-07-04,13:00,Card,Pending,Happy,Take medicine at 11:00
+Christopher,heather63@example.com,40,Male,95,91.78,SVM,Dr. John,Online,2025-07-14,12:00,Card,Paid,Happy,Take medicine at 8:00
+Rebecca,john71@example.com,43,Male,63,76.61,SVM,Dr. Smith,Online,2025-07-25,9:00,Card,Failed,Happy,Take medicine at 21:00
+Kevin,paulajames@example.com,29,Male,52,89.62,ANN,Dr. Smith,Online,2025-07-10,17:00,Netbanking,Paid,Anxious,Take medicine at 15:00
+Kimberly,andersonrobert@example.net,35,Male,73,92.48,SVM,Dr. John,Offline,2025-07-07,14:00,Card,Pending,Angry,Take medicine at 22:00
+Kristine,john33@example.org,59,Female,63,91.95,Logistic Regression,Dr. John,Online,2025-07-25,13:00,Card,Failed,Anxious,Take medicine at 18:00
+Carrie,sara17@example.org,46,Female,62,86.82,Logistic Regression,Dr. Smith,Offline,2025-07-02,16:00,Netbanking,Pending,Sad,Take medicine at 21:00
+Penny,tonyarodgers@example.org,43,Male,83,77.05,SVM,Dr. Smith,Online,2025-07-19,13:00,Netbanking,Pending,Sad,Take medicine at 21:00
+Kathleen,pughrichard@example.net,45,Male,81,90.28,Logistic Regression,Dr. Smith,Online,2025-07-29,12:00,Card,Paid,Happy,Take medicine at 18:00
+John,tamarahayes@example.org,59,Female,52,90.97,Logistic Regression,Dr. John,Offline,2025-07-02,13:00,Netbanking,Pending,Angry,Take medicine at 9:00
+Amber,andreabrown@example.org,47,Female,84,89.32,Logistic Regression,Dr. John,Online,2025-07-02,13:00,Card,Paid,Anxious,Take medicine at 18:00
+Gerald,tgarcia@example.org,20,Male,62,76.63,Logistic Regression,Dr. John,Offline,2025-07-13,14:00,Card,Failed,Sad,Take medicine at 22:00
+John,holdentheodore@example.org,57,Male,84,90.44,Logistic Regression,Dr. Smith,Offline,2025-07-21,10:00,Card,Pending,Relaxed,Take medicine at 18:00
+Monica,ethanstewart@example.org,31,Male,60,88.99,Logistic Regression,Dr. Alice,Offline,2025-07-23,11:00,Netbanking,Failed,Happy,Take medicine at 11:00
+Kevin,fwilliamson@example.com,44,Female,54,91.01,SVM,Dr. Alice,Offline,2025-07-20,10:00,UPI,Paid,Angry,Take medicine at 21:00
+Theresa,davidpope@example.org,56,Male,73,88.49,SVM,Dr. Alice,Online,2025-07-21,10:00,Card,Paid,Anxious,Take medicine at 9:00
+Brandon,sullivanbrent@example.org,20,Female,94,97.42,SVM,Dr. Alice,Online,2025-07-14,10:00,Card,Pending,Sad,Take medicine at 18:00
+Stacy,zgriffith@example.com,45,Male,98,92.65,SVM,Dr. Smith,Offline,2025-07-14,15:00,UPI,Pending,Anxious,Take medicine at 21:00
+Bryan,harrisonwilliam@example.org,54,Female,93,76.38,ANN,Dr. Smith,Offline,2025-07-21,16:00,Netbanking,Pending,Angry,Take medicine at 8:00
+Mark,fcooper@example.org,26,Male,55,85.06,SVM,Dr. Smith,Offline,2025-06-30,15:00,UPI,Pending,Angry,Take medicine at 8:00
+Kenneth,abell@example.org,48,Male,50,90.63,ANN,Dr. Alice,Online,2025-07-23,11:00,UPI,Pending,Angry,Take medicine at 8:00
+Lisa,johnsonvictor@example.org,35,Female,79,76.03,SVM,Dr. Smith,Online,2025-07-27,10:00,Card,Paid,Sad,Take medicine at 15:00
+Patricia,seanbradley@example.com,47,Male,92,89.38,Logistic Regression,Dr. John,Online,2025-07-06,13:00,UPI,Paid,Anxious,Take medicine at 9:00
+Jeffrey,kristenbaker@example.net,51,Female,66,83.44,SVM,Dr. Smith,Offline,2025-07-25,12:00,UPI,Failed,Angry,Take medicine at 9:00
+Richard,tcarrillo@example.net,53,Female,56,76.72,ANN,Dr. Alice,Offline,2025-07-06,10:00,Card,Pending,Angry,Take medicine at 22:00
+Michael,jbryant@example.net,24,Female,98,90.26,Logistic Regression,Dr. John,Online,2025-07-15,9:00,Card,Failed,Anxious,Take medicine at 21:00
+Sylvia,harrisadrienne@example.org,22,Female,84,83.02,SVM,Dr. Smith,Online,2025-06-30,16:00,Netbanking,Failed,Relaxed,Take medicine at 10:00
+Alex,deborahjohnson@example.com,18,Male,58,86.84,SVM,Dr. Smith,Offline,2025-07-25,12:00,Card,Pending,Relaxed,Take medicine at 18:00
+Morgan,jessica98@example.net,35,Male,72,88.25,ANN,Dr. Alice,Offline,2025-06-30,15:00,Netbanking,Paid,Angry,Take medicine at 8:00
+Melanie,dpratt@example.net,40,Female,83,78.39,ANN,Dr. Alice,Online,2025-07-01,16:00,Card,Paid,Sad,Take medicine at 15:00
+Drew,jeromesalazar@example.net,60,Female,64,98.77,Logistic Regression,Dr. Alice,Online,2025-07-17,11:00,UPI,Paid,Angry,Take medicine at 9:00
+Steven,christina90@example.net,55,Female,94,86.78,SVM,Dr. Alice,Online,2025-07-28,14:00,Card,Paid,Anxious,Take medicine at 15:00
+Nathan,brian24@example.org,51,Female,83,84.92,SVM,Dr. Alice,Online,2025-07-20,17:00,UPI,Pending,Happy,Take medicine at 9:00
+Jerry,gomezbecky@example.net,39,Female,98,98.98,SVM,Dr. John,Online,2025-07-22,17:00,Netbanking,Paid,Happy,Take medicine at 11:00
+Robert,wileypaul@example.com,29,Male,82,96.42,Logistic Regression,Dr. Smith,Online,2025-07-24,9:00,Card,Paid,Anxious,Take medicine at 22:00
+Donald,osexton@example.com,41,Female,50,75.64,SVM,Dr. Smith,Offline,2025-07-14,12:00,Card,Failed,Happy,Take medicine at 22:00
+Gabriel,mccallbryan@example.net,44,Male,56,89.29,ANN,Dr. John,Offline,2025-07-14,12:00,UPI,Pending,Relaxed,Take medicine at 20:00
+Henry,katie25@example.net,54,Female,98,90.69,ANN,Dr. John,Online,2025-07-19,15:00,Netbanking,Paid,Sad,Take medicine at 9:00
+Wendy,ealvarez@example.com,58,Male,77,79.07,Logistic Regression,Dr. Alice,Offline,2025-07-05,9:00,UPI,Failed,Anxious,Take medicine at 22:00
+Haley,eedwards@example.org,59,Male,93,76.44,Logistic Regression,Dr. John,Offline,2025-07-13,9:00,UPI,Failed,Relaxed,Take medicine at 9:00
+Jordan,hintontyler@example.com,45,Male,82,86.19,ANN,Dr. Smith,Offline,2025-07-23,10:00,Card,Failed,Happy,Take medicine at 10:00
+Alison,mroberts@example.net,22,Female,90,89.25,SVM,Dr. John,Online,2025-07-12,15:00,Card,Failed,Anxious,Take medicine at 18:00
+Brenda,aaronroach@example.net,31,Male,73,96.93,SVM,Dr. John,Online,2025-07-16,9:00,Card,Pending,Sad,Take medicine at 21:00
+Scott,benjaminhill@example.com,31,Female,78,78.79,Logistic Regression,Dr. Alice,Online,2025-07-18,13:00,Card,Pending,Angry,Take medicine at 22:00
+Brian,wstewart@example.com,36,Male,67,77.9,ANN,Dr. Alice,Online,2025-07-14,17:00,UPI,Failed,Angry,Take medicine at 10:00
+Jason,amandamolina@example.net,43,Female,97,96.09,ANN,Dr. Smith,Online,2025-07-09,12:00,Netbanking,Pending,Angry,Take medicine at 9:00
+Monica,mcdonaldsarah@example.com,52,Male,89,76.64,ANN,Dr. Alice,Offline,2025-07-06,15:00,Card,Failed,Happy,Take medicine at 8:00
+Erica,fergusonrobin@example.com,26,Female,90,76.54,SVM,Dr. Alice,Offline,2025-07-26,14:00,Card,Failed,Anxious,Take medicine at 21:00
+Larry,xgomez@example.com,55,Male,78,80.19,Logistic Regression,Dr. John,Online,2025-07-07,15:00,UPI,Pending,Relaxed,Take medicine at 15:00
+Shawn,baileydaniel@example.com,38,Female,97,94.58,ANN,Dr. Alice,Offline,2025-07-28,15:00,UPI,Failed,Angry,Take medicine at 20:00
+Paul,manuel70@example.com,22,Female,72,77.11,ANN,Dr. Alice,Online,2025-07-18,13:00,UPI,Failed,Sad,Take medicine at 8:00
+David,jblake@example.net,27,Male,71,89.52,Logistic Regression,Dr. John,Offline,2025-07-01,16:00,Netbanking,Failed,Sad,Take medicine at 15:00
+Michael,moorealfred@example.com,57,Male,74,81.81,SVM,Dr. Alice,Online,2025-07-29,9:00,Netbanking,Paid,Angry,Take medicine at 22:00
+Daniel,zglenn@example.com,35,Male,55,91.87,ANN,Dr. John,Offline,2025-07-13,10:00,Netbanking,Paid,Anxious,Take medicine at 10:00
+Eric,onewman@example.net,29,Male,100,94.62,ANN,Dr. John,Online,2025-07-20,13:00,UPI,Pending,Anxious,Take medicine at 9:00
+Natalie,pmcdonald@example.org,38,Female,94,98.77,Logistic Regression,Dr. Smith,Online,2025-07-26,13:00,Netbanking,Failed,Happy,Take medicine at 18:00
+Shelby,kimberlyyoung@example.org,25,Female,56,85.74,SVM,Dr. John,Offline,2025-07-09,15:00,UPI,Paid,Anxious,Take medicine at 9:00
+Antonio,pamelabrown@example.com,24,Female,72,95.8,Logistic Regression,Dr. Alice,Online,2025-07-01,9:00,Netbanking,Pending,Angry,Take medicine at 18:00
+Max,michelle49@example.com,46,Female,51,92.99,SVM,Dr. Alice,Online,2025-07-06,12:00,Netbanking,Failed,Anxious,Take medicine at 22:00
+Sheri,gardnerjames@example.com,19,Male,76,90.53,Logistic Regression,Dr. John,Online,2025-07-06,9:00,UPI,Failed,Sad,Take medicine at 15:00
+William,annedouglas@example.com,38,Female,98,80.69,ANN,Dr. Alice,Offline,2025-07-18,17:00,Card,Pending,Sad,Take medicine at 20:00
+Alejandra,rothteresa@example.org,60,Female,60,84.16,SVM,Dr. Alice,Offline,2025-07-27,17:00,UPI,Failed,Relaxed,Take medicine at 10:00
+Robin,terrystewart@example.net,49,Male,87,79.07,SVM,Dr. Alice,Offline,2025-07-11,11:00,UPI,Failed,Relaxed,Take medicine at 8:00
+Robert,erica77@example.com,39,Female,66,86.41,ANN,Dr. Alice,Offline,2025-07-29,15:00,Card,Pending,Anxious,Take medicine at 20:00
+Ashley,anthonywinters@example.org,47,Female,98,78.38,ANN,Dr. John,Offline,2025-07-11,12:00,Netbanking,Failed,Sad,Take medicine at 20:00
+Stephanie,andrea76@example.com,47,Male,59,99.3,SVM,Dr. Smith,Online,2025-07-19,12:00,Card,Pending,Happy,Take medicine at 18:00
+Melissa,wmann@example.net,27,Female,86,81.23,ANN,Dr. Alice,Online,2025-07-07,9:00,UPI,Failed,Happy,Take medicine at 18:00
+Jesse,garciarick@example.com,28,Male,69,87.18,ANN,Dr. John,Offline,2025-07-19,13:00,UPI,Paid,Angry,Take medicine at 22:00
+Adrian,deborahweiss@example.net,54,Male,88,80.95,SVM,Dr. Smith,Online,2025-06-30,16:00,Card,Pending,Angry,Take medicine at 15:00
+Andrew,russellandrew@example.com,34,Male,94,86.84,ANN,Dr. John,Online,2025-07-23,15:00,Card,Paid,Relaxed,Take medicine at 11:00
+Jamie,jason41@example.com,25,Female,72,78.45,Logistic Regression,Dr. John,Offline,2025-07-21,14:00,Card,Paid,Relaxed,Take medicine at 18:00
+Willie,usoto@example.com,43,Male,100,94.53,ANN,Dr. Smith,Online,2025-07-10,16:00,Card,Failed,Anxious,Take medicine at 9:00
+Amber,harrisbridget@example.org,39,Female,69,81.86,Logistic Regression,Dr. Smith,Online,2025-07-28,16:00,Netbanking,Pending,Angry,Take medicine at 18:00
+Ashley,hharrington@example.net,23,Male,78,96.34,ANN,Dr. John,Online,2025-07-21,17:00,Card,Pending,Happy,Take medicine at 20:00
+Michael,phillipskaren@example.net,48,Female,81,82.23,Logistic Regression,Dr. Alice,Offline,2025-07-27,12:00,Netbanking,Paid,Sad,Take medicine at 22:00
+James,ashleyperez@example.org,54,Male,99,87.88,Logistic Regression,Dr. John,Online,2025-07-08,14:00,Netbanking,Paid,Sad,Take medicine at 9:00
+Julie,gonzalezsteve@example.net,31,Male,55,89.8,Logistic Regression,Dr. Alice,Online,2025-07-26,17:00,UPI,Paid,Relaxed,Take medicine at 18:00
+Hannah,todd46@example.com,42,Male,75,83.57,Logistic Regression,Dr. Smith,Online,2025-07-06,16:00,UPI,Pending,Sad,Take medicine at 22:00
+Elijah,allennicole@example.org,35,Female,98,77.97,SVM,Dr. John,Offline,2025-07-29,9:00,Card,Paid,Happy,Take medicine at 11:00
+Henry,nchambers@example.net,56,Male,82,94.65,Logistic Regression,Dr. Smith,Offline,2025-07-24,17:00,Netbanking,Paid,Sad,Take medicine at 18:00
+Brandon,amy93@example.org,56,Female,69,91.29,SVM,Dr. Smith,Offline,2025-07-09,15:00,Card,Failed,Relaxed,Take medicine at 21:00
+Sandra,katherine52@example.org,31,Male,84,82.96,SVM,Dr. John,Online,2025-07-24,9:00,UPI,Paid,Relaxed,Take medicine at 11:00
+Andrew,jessica87@example.net,52,Male,75,78.64,SVM,Dr. Alice,Offline,2025-07-28,11:00,Card,Paid,Anxious,Take medicine at 18:00
+Sarah,lance18@example.com,56,Male,58,76.36,Logistic Regression,Dr. Smith,Online,2025-07-10,11:00,Netbanking,Failed,Anxious,Take medicine at 20:00
+Jennifer,vlynn@example.org,43,Male,100,92.13,SVM,Dr. Alice,Offline,2025-07-04,12:00,Card,Failed,Happy,Take medicine at 22:00
+Sonya,xrobinson@example.net,58,Male,89,93.78,ANN,Dr. John,Offline,2025-07-18,13:00,Netbanking,Pending,Angry,Take medicine at 9:00
+Jared,fshort@example.org,57,Male,62,97.16,ANN,Dr. John,Offline,2025-07-17,11:00,UPI,Paid,Happy,Take medicine at 20:00
+Elizabeth,marshallamy@example.org,27,Male,50,96.72,SVM,Dr. Smith,Offline,2025-07-07,9:00,UPI,Failed,Anxious,Take medicine at 20:00
+Donna,lawrencearnold@example.com,21,Male,75,94.65,ANN,Dr. John,Online,2025-07-02,15:00,Netbanking,Pending,Sad,Take medicine at 8:00
+Benjamin,odouglas@example.net,44,Female,71,79.98,ANN,Dr. John,Offline,2025-07-05,11:00,UPI,Failed,Relaxed,Take medicine at 11:00
+Christine,daltonjason@example.net,29,Male,71,92.02,Logistic Regression,Dr. Smith,Offline,2025-07-14,15:00,Netbanking,Pending,Angry,Take medicine at 10:00
+Danielle,michelle08@example.org,22,Male,65,93.12,Logistic Regression,Dr. John,Offline,2025-07-06,9:00,Netbanking,Pending,Angry,Take medicine at 15:00
+John,staceyjohnson@example.net,48,Female,76,79.08,SVM,Dr. Smith,Offline,2025-07-06,10:00,UPI,Failed,Anxious,Take medicine at 8:00
+Peter,jimenezbrittney@example.net,36,Female,92,86.47,Logistic Regression,Dr. Alice,Online,2025-07-06,12:00,Card,Pending,Angry,Take medicine at 15:00
+David,jpowell@example.net,47,Male,92,76.0,SVM,Dr. John,Online,2025-07-13,11:00,Netbanking,Failed,Sad,Take medicine at 8:00
+Anne,george58@example.com,21,Female,77,83.06,ANN,Dr. Alice,Online,2025-07-02,10:00,Card,Pending,Happy,Take medicine at 8:00
+Rhonda,trevorhoward@example.com,37,Female,54,75.82,ANN,Dr. Alice,Online,2025-07-16,11:00,Card,Pending,Relaxed,Take medicine at 15:00
+Linda,johnsolomon@example.org,40,Male,70,77.44,Logistic Regression,Dr. John,Offline,2025-07-23,14:00,Card,Failed,Sad,Take medicine at 20:00
+Mary,ericcrawford@example.com,38,Female,95,80.16,SVM,Dr. Alice,Offline,2025-07-22,12:00,Netbanking,Failed,Relaxed,Take medicine at 11:00
+Sara,bryan11@example.org,27,Male,65,92.04,SVM,Dr. Alice,Online,2025-07-09,15:00,Netbanking,Failed,Relaxed,Take medicine at 20:00
+Sean,yhammond@example.com,60,Female,89,97.39,Logistic Regression,Dr. John,Online,2025-07-12,11:00,UPI,Failed,Sad,Take medicine at 10:00
+Amy,jennifer47@example.com,39,Male,99,95.58,ANN,Dr. Smith,Offline,2025-07-12,14:00,UPI,Pending,Anxious,Take medicine at 10:00
+Sierra,paula67@example.org,31,Female,60,84.47,Logistic Regression,Dr. John,Offline,2025-07-08,9:00,Card,Failed,Sad,Take medicine at 10:00
+Tracy,donaldlogan@example.org,34,Female,90,76.35,ANN,Dr. Alice,Offline,2025-07-05,16:00,UPI,Paid,Sad,Take medicine at 22:00
+Christian,nicole18@example.com,48,Female,71,80.19,SVM,Dr. John,Online,2025-07-15,9:00,Card,Failed,Happy,Take medicine at 9:00
+Meagan,monicaoneill@example.org,20,Male,95,97.47,ANN,Dr. John,Offline,2025-07-24,13:00,Card,Pending,Sad,Take medicine at 11:00
+Jennifer,andrewbishop@example.com,30,Male,92,94.99,ANN,Dr. John,Online,2025-06-30,15:00,Card,Failed,Sad,Take medicine at 15:00
+Carrie,sotomichaela@example.com,51,Male,90,75.36,SVM,Dr. Smith,Online,2025-07-11,9:00,Card,Failed,Angry,Take medicine at 11:00
+Antonio,charding@example.org,46,Male,62,83.18,SVM,Dr. John,Online,2025-07-08,14:00,UPI,Pending,Happy,Take medicine at 21:00
+Brian,yreed@example.org,29,Male,70,93.11,ANN,Dr. John,Online,2025-07-26,16:00,Netbanking,Paid,Happy,Take medicine at 21:00
+Matthew,carlajohnston@example.org,51,Male,91,78.8,ANN,Dr. John,Offline,2025-07-27,16:00,Card,Failed,Anxious,Take medicine at 21:00
+Jason,brandon49@example.org,32,Female,92,75.25,SVM,Dr. Smith,Offline,2025-07-15,17:00,Netbanking,Paid,Sad,Take medicine at 8:00
+Kimberly,sydneybaxter@example.net,51,Female,87,91.14,ANN,Dr. Smith,Offline,2025-07-13,16:00,Card,Failed,Angry,Take medicine at 9:00
+John,barkerbenjamin@example.net,58,Female,93,75.68,SVM,Dr. Alice,Online,2025-07-05,15:00,Netbanking,Pending,Relaxed,Take medicine at 21:00
+Jonathan,sanderson@example.net,55,Female,92,76.57,SVM,Dr. Alice,Offline,2025-07-21,14:00,Card,Failed,Sad,Take medicine at 20:00
+Brian,ocruz@example.net,42,Male,51,79.5,SVM,Dr. Smith,Offline,2025-07-14,14:00,Netbanking,Failed,Relaxed,Take medicine at 21:00
+Darlene,david29@example.org,32,Male,75,97.3,Logistic Regression,Dr. Alice,Online,2025-07-25,12:00,Netbanking,Pending,Anxious,Take medicine at 21:00
+Sheryl,kristenmiller@example.org,35,Female,51,81.18,SVM,Dr. Alice,Online,2025-07-10,11:00,Netbanking,Failed,Relaxed,Take medicine at 22:00
+Sharon,iberry@example.com,60,Male,58,88.81,SVM,Dr. Alice,Offline,2025-07-23,10:00,Card,Pending,Anxious,Take medicine at 22:00
+Suzanne,ogomez@example.com,51,Female,58,98.95,SVM,Dr. Smith,Online,2025-07-11,17:00,Netbanking,Pending,Happy,Take medicine at 20:00
+Rachael,sarahjacobs@example.org,45,Female,59,91.46,ANN,Dr. Smith,Offline,2025-07-03,12:00,Card,Paid,Anxious,Take medicine at 9:00
+Melissa,dennis03@example.org,39,Male,82,96.7,SVM,Dr. Alice,Online,2025-07-07,11:00,Netbanking,Failed,Happy,Take medicine at 9:00
+Stephanie,davidsonwilliam@example.org,38,Female,65,82.34,ANN,Dr. Smith,Offline,2025-07-01,9:00,Netbanking,Failed,Relaxed,Take medicine at 21:00
+Jose,phunter@example.com,48,Female,67,82.45,Logistic Regression,Dr. Alice,Online,2025-07-01,16:00,UPI,Paid,Angry,Take medicine at 22:00
+Luke,christopher35@example.org,35,Female,50,90.75,Logistic Regression,Dr. Alice,Online,2025-07-20,10:00,UPI,Pending,Angry,Take medicine at 21:00
+Peter,sandersalicia@example.com,45,Female,92,93.13,SVM,Dr. John,Offline,2025-07-05,13:00,Card,Paid,Sad,Take medicine at 11:00
+Elizabeth,kjones@example.org,55,Male,78,97.82,ANN,Dr. Smith,Online,2025-07-11,13:00,Card,Paid,Happy,Take medicine at 15:00
+John,jameswilson@example.org,40,Male,50,96.7,ANN,Dr. Alice,Online,2025-07-19,12:00,Card,Failed,Anxious,Take medicine at 11:00
+Kim,ryanchristensen@example.com,45,Male,66,94.45,Logistic Regression,Dr. Alice,Online,2025-07-25,15:00,Netbanking,Paid,Sad,Take medicine at 21:00
+Gina,smithmario@example.org,56,Female,72,92.33,Logistic Regression,Dr. Alice,Offline,2025-07-24,14:00,Netbanking,Pending,Happy,Take medicine at 8:00
+Angela,mscott@example.org,50,Female,84,83.25,ANN,Dr. Alice,Offline,2025-07-06,16:00,Netbanking,Paid,Happy,Take medicine at 15:00
+Francisco,virginia77@example.com,45,Male,68,97.81,SVM,Dr. Alice,Offline,2025-07-26,15:00,UPI,Pending,Sad,Take medicine at 15:00
+Victoria,matthew38@example.com,51,Female,76,84.42,Logistic Regression,Dr. Alice,Online,2025-07-24,16:00,Netbanking,Failed,Angry,Take medicine at 8:00
+Logan,kennedyjudy@example.org,18,Female,95,89.64,SVM,Dr. Smith,Offline,2025-07-08,13:00,Card,Pending,Angry,Take medicine at 9:00
+Oscar,hornechad@example.com,52,Male,89,79.08,ANN,Dr. Alice,Online,2025-07-02,13:00,Card,Paid,Angry,Take medicine at 9:00
+Daniel,kkrueger@example.net,39,Female,100,75.3,SVM,Dr. John,Offline,2025-07-25,12:00,Card,Failed,Sad,Take medicine at 10:00
+Lisa,tyler51@example.net,49,Female,53,80.01,ANN,Dr. John,Offline,2025-07-06,17:00,UPI,Failed,Happy,Take medicine at 10:00
+Michelle,ashleymartin@example.net,19,Female,96,84.28,Logistic Regression,Dr. John,Online,2025-07-15,12:00,Netbanking,Failed,Angry,Take medicine at 21:00
+Laura,hjackson@example.com,43,Male,55,95.43,Logistic Regression,Dr. Smith,Offline,2025-07-26,17:00,Netbanking,Pending,Angry,Take medicine at 10:00
+Phyllis,ralph58@example.net,44,Male,65,91.76,Logistic Regression,Dr. John,Offline,2025-07-12,11:00,Card,Failed,Angry,Take medicine at 9:00
+Devin,leonwilliam@example.com,48,Male,75,79.77,SVM,Dr. Smith,Offline,2025-07-07,10:00,UPI,Paid,Happy,Take medicine at 8:00
+Justin,russelljennifer@example.com,41,Male,100,90.88,ANN,Dr. Smith,Offline,2025-07-17,15:00,Card,Failed,Anxious,Take medicine at 22:00
+Patricia,jerryburton@example.org,57,Male,88,87.74,SVM,Dr. Alice,Online,2025-07-17,10:00,Netbanking,Paid,Happy,Take medicine at 11:00
+Jonathon,dhale@example.org,36,Male,59,76.46,SVM,Dr. Smith,Offline,2025-07-23,17:00,Netbanking,Pending,Sad,Take medicine at 22:00
+Kimberly,robinsonbryan@example.org,52,Female,62,94.96,Logistic Regression,Dr. John,Offline,2025-07-26,12:00,Card,Paid,Sad,Take medicine at 15:00
+Michelle,georgestevenson@example.com,57,Male,58,82.81,Logistic Regression,Dr. Smith,Offline,2025-07-14,17:00,UPI,Paid,Angry,Take medicine at 18:00
+Chris,jflores@example.org,25,Female,81,84.82,SVM,Dr. John,Online,2025-07-21,13:00,UPI,Pending,Angry,Take medicine at 8:00
+Mark,alicourtney@example.com,29,Female,98,78.26,Logistic Regression,Dr. John,Offline,2025-07-07,13:00,UPI,Pending,Sad,Take medicine at 9:00
+Clayton,edwardsmichael@example.net,43,Female,92,94.36,Logistic Regression,Dr. John,Online,2025-07-16,9:00,Card,Failed,Angry,Take medicine at 20:00
+David,sarah42@example.org,51,Male,71,75.87,ANN,Dr. Smith,Online,2025-07-08,9:00,UPI,Pending,Angry,Take medicine at 22:00
+Elizabeth,evan28@example.org,34,Male,77,81.52,ANN,Dr. Smith,Offline,2025-07-16,9:00,Netbanking,Pending,Relaxed,Take medicine at 21:00
+Kenneth,jeanettenelson@example.com,51,Female,98,77.43,SVM,Dr. Alice,Offline,2025-07-09,10:00,Netbanking,Paid,Anxious,Take medicine at 8:00
+Alejandro,donald62@example.com,25,Male,74,84.95,ANN,Dr. Smith,Offline,2025-07-09,10:00,UPI,Pending,Relaxed,Take medicine at 15:00
+Cindy,kimberly48@example.org,52,Female,60,77.59,Logistic Regression,Dr. Smith,Offline,2025-07-04,12:00,Netbanking,Failed,Anxious,Take medicine at 21:00
+Jessica,ronaldsavage@example.org,19,Female,96,87.21,SVM,Dr. Alice,Online,2025-07-14,16:00,Card,Pending,Happy,Take medicine at 20:00
+Linda,hillmelanie@example.com,27,Male,91,99.65,SVM,Dr. Smith,Online,2025-07-25,14:00,UPI,Paid,Angry,Take medicine at 15:00
+Charles,jeffrey94@example.com,59,Male,76,77.51,Logistic Regression,Dr. Alice,Offline,2025-07-25,9:00,UPI,Paid,Relaxed,Take medicine at 8:00
+Kristen,emily00@example.com,20,Female,73,99.22,SVM,Dr. John,Offline,2025-07-04,10:00,UPI,Pending,Angry,Take medicine at 21:00
+Mary,robertsonalan@example.org,47,Male,62,98.49,SVM,Dr. Alice,Offline,2025-07-24,14:00,Netbanking,Failed,Sad,Take medicine at 11:00
+Kathy,calderonjasmine@example.net,46,Female,65,94.36,ANN,Dr. Alice,Offline,2025-07-06,9:00,UPI,Paid,Relaxed,Take medicine at 15:00
+Dana,duncandonna@example.net,23,Female,96,82.27,ANN,Dr. Smith,Online,2025-07-04,12:00,Netbanking,Paid,Sad,Take medicine at 8:00
+Joel,brownstephanie@example.net,35,Female,91,89.95,ANN,Dr. John,Offline,2025-07-08,9:00,Netbanking,Failed,Sad,Take medicine at 15:00
+Victoria,karina88@example.org,42,Female,78,88.12,SVM,Dr. Smith,Online,2025-07-08,16:00,Card,Pending,Relaxed,Take medicine at 8:00
+Craig,fisherjoseph@example.com,47,Male,98,79.33,ANN,Dr. Smith,Online,2025-07-14,14:00,Card,Pending,Anxious,Take medicine at 21:00
+Melanie,preed@example.net,53,Female,93,75.59,SVM,Dr. Alice,Offline,2025-07-02,10:00,Card,Failed,Angry,Take medicine at 9:00
+Rebecca,jjones@example.com,32,Female,84,93.25,Logistic Regression,Dr. Alice,Offline,2025-07-05,10:00,UPI,Paid,Angry,Take medicine at 9:00
+Jennifer,bradleymartin@example.net,47,Female,79,84.82,ANN,Dr. Alice,Online,2025-07-21,16:00,Card,Pending,Happy,Take medicine at 22:00
+Sheri,reginald12@example.com,58,Male,83,80.67,ANN,Dr. Alice,Online,2025-07-03,10:00,UPI,Failed,Sad,Take medicine at 11:00
+Sharon,elizabethgarrett@example.org,41,Female,75,96.17,SVM,Dr. Alice,Offline,2025-07-14,15:00,Netbanking,Pending,Sad,Take medicine at 21:00
+Joan,charlene69@example.net,30,Male,97,83.9,Logistic Regression,Dr. Smith,Online,2025-07-03,12:00,Netbanking,Failed,Anxious,Take medicine at 8:00
+Suzanne,melissa24@example.com,32,Male,96,99.08,ANN,Dr. Alice,Online,2025-07-21,16:00,Card,Pending,Happy,Take medicine at 11:00
+Patrick,abrown@example.net,22,Female,92,95.26,SVM,Dr. Smith,Offline,2025-07-03,10:00,Card,Pending,Sad,Take medicine at 8:00
+Melissa,russellbell@example.org,43,Male,79,77.3,Logistic Regression,Dr. Alice,Offline,2025-07-19,15:00,Card,Failed,Happy,Take medicine at 21:00
+Kimberly,james39@example.org,27,Male,88,99.39,Logistic Regression,Dr. John,Online,2025-07-04,15:00,UPI,Failed,Happy,Take medicine at 9:00
+Timothy,whenderson@example.com,24,Male,51,90.95,SVM,Dr. Smith,Online,2025-07-21,17:00,Card,Paid,Anxious,Take medicine at 21:00
+Christopher,natasha46@example.net,48,Female,93,76.59,SVM,Dr. John,Offline,2025-07-29,11:00,Card,Pending,Angry,Take medicine at 20:00
+David,gjenkins@example.com,25,Male,59,94.74,ANN,Dr. Smith,Online,2025-07-09,17:00,Card,Pending,Happy,Take medicine at 22:00
+Anna,msummers@example.org,33,Female,94,90.11,ANN,Dr. Smith,Offline,2025-07-21,14:00,UPI,Failed,Sad,Take medicine at 18:00
+Judy,eingram@example.com,24,Male,62,90.1,SVM,Dr. John,Offline,2025-07-05,15:00,Netbanking,Paid,Angry,Take medicine at 22:00
+Ronald,shawn01@example.net,41,Male,89,95.15,Logistic Regression,Dr. John,Online,2025-07-08,13:00,Card,Failed,Angry,Take medicine at 22:00
+Madison,jglass@example.org,37,Male,70,80.87,Logistic Regression,Dr. Alice,Offline,2025-07-08,9:00,Netbanking,Paid,Relaxed,Take medicine at 8:00
+Rebecca,jacob52@example.net,21,Female,100,90.51,ANN,Dr. Alice,Offline,2025-07-15,11:00,Netbanking,Failed,Anxious,Take medicine at 15:00
+Anthony,fbailey@example.com,39,Female,76,87.42,Logistic Regression,Dr. John,Online,2025-06-30,9:00,Card,Failed,Sad,Take medicine at 15:00
+Andrew,amy02@example.com,26,Female,65,75.76,SVM,Dr. Smith,Online,2025-07-15,13:00,UPI,Paid,Anxious,Take medicine at 11:00
+Stephanie,mbuck@example.net,24,Female,97,83.96,SVM,Dr. Smith,Online,2025-07-20,17:00,Netbanking,Failed,Angry,Take medicine at 21:00
+Andrea,glee@example.com,27,Male,56,85.85,ANN,Dr. Alice,Offline,2025-07-10,10:00,Netbanking,Failed,Sad,Take medicine at 21:00
+Emily,wwalker@example.com,50,Male,80,85.73,ANN,Dr. Smith,Offline,2025-07-02,11:00,Card,Paid,Angry,Take medicine at 21:00
+Billy,ushepherd@example.com,45,Female,66,96.69,SVM,Dr. Smith,Offline,2025-07-09,9:00,Netbanking,Pending,Sad,Take medicine at 18:00
+James,hallbrian@example.com,52,Male,65,91.48,SVM,Dr. Alice,Online,2025-07-10,16:00,UPI,Failed,Relaxed,Take medicine at 15:00
+Donna,brooke97@example.net,26,Male,51,78.94,SVM,Dr. John,Online,2025-07-19,15:00,Netbanking,Failed,Relaxed,Take medicine at 18:00
+Julie,michaeljimenez@example.net,28,Female,78,81.54,ANN,Dr. John,Online,2025-07-27,15:00,UPI,Failed,Angry,Take medicine at 20:00
+Joel,melissa79@example.com,49,Male,97,94.94,Logistic Regression,Dr. Alice,Online,2025-07-02,13:00,Netbanking,Failed,Angry,Take medicine at 20:00
+Sabrina,pandrews@example.org,46,Male,96,98.45,SVM,Dr. Smith,Online,2025-07-12,12:00,UPI,Paid,Happy,Take medicine at 9:00
+Tina,victoriagraves@example.net,36,Male,76,98.86,ANN,Dr. Smith,Offline,2025-07-23,9:00,Netbanking,Pending,Relaxed,Take medicine at 8:00
+Alyssa,brandon53@example.org,52,Female,65,84.38,Logistic Regression,Dr. Smith,Online,2025-07-22,17:00,Card,Pending,Sad,Take medicine at 10:00
+Joshua,jennifer96@example.com,27,Male,90,76.96,SVM,Dr. Smith,Online,2025-07-08,9:00,UPI,Failed,Anxious,Take medicine at 20:00
+Jason,morganrobert@example.net,40,Female,97,95.48,SVM,Dr. Smith,Offline,2025-07-23,9:00,UPI,Pending,Happy,Take medicine at 20:00
+Matthew,karenwilliams@example.org,25,Male,83,91.88,SVM,Dr. Smith,Offline,2025-07-09,11:00,UPI,Pending,Anxious,Take medicine at 20:00
+David,goodwinnicholas@example.net,26,Male,50,94.54,SVM,Dr. John,Online,2025-07-08,16:00,UPI,Pending,Relaxed,Take medicine at 22:00
+Sean,ryanfoley@example.org,46,Male,70,96.36,SVM,Dr. Smith,Offline,2025-07-28,9:00,UPI,Failed,Happy,Take medicine at 18:00
+Michael,fitzpatrickcaitlyn@example.net,58,Male,90,82.12,Logistic Regression,Dr. Alice,Offline,2025-07-02,17:00,Card,Failed,Sad,Take medicine at 21:00
+Emily,pduncan@example.com,19,Male,80,91.07,Logistic Regression,Dr. John,Offline,2025-07-11,14:00,Card,Pending,Angry,Take medicine at 20:00
+Maria,lcooley@example.com,37,Female,74,75.25,SVM,Dr. Smith,Online,2025-07-27,14:00,Card,Pending,Angry,Take medicine at 18:00
+Jessica,ustephens@example.org,47,Female,89,94.59,ANN,Dr. John,Offline,2025-07-29,14:00,Card,Pending,Happy,Take medicine at 20:00
+Jonathan,oramos@example.org,37,Female,78,98.46,SVM,Dr. Alice,Offline,2025-07-11,14:00,UPI,Paid,Sad,Take medicine at 11:00
+Matthew,evansjustin@example.com,54,Female,92,85.14,SVM,Dr. John,Online,2025-07-28,11:00,Card,Paid,Relaxed,Take medicine at 8:00
+Taylor,lisaalexander@example.com,38,Male,100,93.26,ANN,Dr. Smith,Online,2025-07-06,9:00,Card,Paid,Happy,Take medicine at 15:00
+Timothy,pthomas@example.org,55,Female,86,89.04,ANN,Dr. Alice,Online,2025-07-18,10:00,Netbanking,Pending,Happy,Take medicine at 15:00
+Leslie,robert72@example.net,31,Female,96,80.56,ANN,Dr. Smith,Offline,2025-07-03,13:00,Card,Failed,Sad,Take medicine at 20:00
+Linda,nedwards@example.org,41,Male,64,89.71,ANN,Dr. John,Offline,2025-07-19,10:00,Card,Paid,Happy,Take medicine at 8:00
+Christopher,christopher41@example.net,43,Female,59,99.03,Logistic Regression,Dr. John,Offline,2025-07-03,11:00,Card,Paid,Anxious,Take medicine at 15:00
+Anthony,jbryan@example.net,56,Female,75,99.42,SVM,Dr. Alice,Online,2025-07-15,12:00,Card,Paid,Happy,Take medicine at 22:00
+Victoria,lorigrant@example.com,42,Female,99,93.45,ANN,Dr. Alice,Offline,2025-07-26,9:00,UPI,Failed,Sad,Take medicine at 11:00
+Alejandro,davidpatrick@example.org,38,Female,90,75.77,ANN,Dr. Smith,Online,2025-07-15,17:00,Card,Paid,Anxious,Take medicine at 10:00
+Teresa,kanejames@example.com,33,Male,78,94.62,Logistic Regression,Dr. John,Offline,2025-07-04,14:00,UPI,Failed,Anxious,Take medicine at 22:00
+Sylvia,jennifer79@example.net,38,Male,66,90.38,Logistic Regression,Dr. Alice,Offline,2025-07-21,16:00,UPI,Pending,Angry,Take medicine at 15:00
+James,richard77@example.com,60,Male,92,90.49,ANN,Dr. Smith,Online,2025-07-02,16:00,Netbanking,Pending,Angry,Take medicine at 9:00
+Deborah,kevin43@example.org,28,Male,72,96.76,SVM,Dr. Smith,Online,2025-07-06,12:00,Netbanking,Paid,Happy,Take medicine at 21:00
+Brittany,eparks@example.org,55,Male,83,88.91,ANN,Dr. Smith,Online,2025-07-05,12:00,UPI,Pending,Anxious,Take medicine at 9:00
+Michelle,jonathan95@example.org,50,Female,78,99.25,ANN,Dr. Smith,Online,2025-07-25,15:00,UPI,Paid,Sad,Take medicine at 10:00
+Jose,riverakyle@example.com,41,Male,65,91.16,Logistic Regression,Dr. Alice,Online,2025-07-08,15:00,Netbanking,Pending,Sad,Take medicine at 11:00
+Chelsea,williamsjoseph@example.net,19,Female,50,82.83,Logistic Regression,Dr. Alice,Online,2025-07-29,9:00,Card,Failed,Sad,Take medicine at 10:00
+Sydney,jwilliams@example.org,22,Male,91,94.67,SVM,Dr. Smith,Online,2025-07-02,16:00,Card,Failed,Relaxed,Take medicine at 15:00
+Becky,tracymathews@example.org,51,Female,77,80.78,ANN,Dr. Alice,Offline,2025-07-08,17:00,Card,Failed,Happy,Take medicine at 18:00
+Todd,williamssean@example.net,25,Female,73,98.27,SVM,Dr. Smith,Online,2025-07-29,12:00,Card,Failed,Angry,Take medicine at 22:00
+Nicholas,wallaceanthony@example.com,53,Male,91,99.72,Logistic Regression,Dr. John,Online,2025-07-12,17:00,Card,Paid,Sad,Take medicine at 10:00
+Holly,wellserin@example.net,26,Female,76,89.71,ANN,Dr. Alice,Online,2025-07-02,16:00,UPI,Paid,Sad,Take medicine at 21:00
+Kristina,jon67@example.com,41,Female,72,98.69,SVM,Dr. Smith,Online,2025-07-23,14:00,Netbanking,Paid,Anxious,Take medicine at 22:00
+Carl,maldonadokimberly@example.net,38,Female,52,78.58,ANN,Dr. Alice,Online,2025-07-15,12:00,Card,Pending,Happy,Take medicine at 15:00
+Albert,jeremiahjennings@example.org,20,Male,56,88.17,Logistic Regression,Dr. Alice,Offline,2025-07-07,15:00,UPI,Failed,Sad,Take medicine at 9:00
+Danielle,jennifer58@example.org,48,Male,53,77.84,ANN,Dr. Alice,Offline,2025-07-25,9:00,Netbanking,Failed,Sad,Take medicine at 10:00
+Andrea,shogan@example.org,35,Male,77,84.0,ANN,Dr. Smith,Offline,2025-07-08,10:00,Card,Failed,Happy,Take medicine at 22:00
+Michael,martinwilliam@example.org,32,Male,71,93.71,SVM,Dr. Alice,Offline,2025-07-21,16:00,UPI,Failed,Sad,Take medicine at 20:00
+Kaitlyn,zstephenson@example.net,24,Male,100,98.02,Logistic Regression,Dr. John,Online,2025-07-26,10:00,Netbanking,Pending,Happy,Take medicine at 22:00
+Jonathan,gloriagoodwin@example.net,58,Male,57,89.31,SVM,Dr. Smith,Offline,2025-07-15,17:00,UPI,Failed,Relaxed,Take medicine at 22:00
+Melissa,bgreen@example.net,38,Female,60,83.51,Logistic Regression,Dr. John,Online,2025-07-08,15:00,UPI,Paid,Relaxed,Take medicine at 22:00
+Natalie,wstewart@example.org,27,Male,64,95.32,Logistic Regression,Dr. John,Online,2025-07-13,13:00,Netbanking,Pending,Angry,Take medicine at 20:00
+Jonathan,umitchell@example.com,59,Male,100,91.47,SVM,Dr. Smith,Online,2025-07-22,11:00,Netbanking,Paid,Angry,Take medicine at 22:00
+James,christineluna@example.org,23,Male,98,91.0,SVM,Dr. Smith,Online,2025-07-01,10:00,Netbanking,Failed,Relaxed,Take medicine at 20:00
+Kellie,davisdavid@example.org,27,Male,50,89.28,ANN,Dr. John,Offline,2025-07-17,17:00,Card,Paid,Happy,Take medicine at 18:00
+April,tarellano@example.com,46,Male,100,78.13,ANN,Dr. Alice,Online,2025-07-14,9:00,Netbanking,Paid,Anxious,Take medicine at 20:00
+Tiffany,pvasquez@example.net,28,Female,54,96.29,SVM,Dr. Alice,Online,2025-07-27,15:00,Card,Pending,Angry,Take medicine at 15:00
+Daniel,matthew73@example.com,38,Female,65,98.79,SVM,Dr. Alice,Online,2025-07-14,12:00,Netbanking,Failed,Anxious,Take medicine at 22:00
+Bruce,valerieperez@example.net,47,Male,80,79.55,Logistic Regression,Dr. John,Online,2025-07-06,13:00,UPI,Paid,Relaxed,Take medicine at 18:00
+Jason,jessica45@example.com,52,Male,98,96.56,Logistic Regression,Dr. Alice,Offline,2025-07-09,11:00,Card,Failed,Anxious,Take medicine at 11:00
+Vanessa,robert54@example.net,48,Female,87,95.58,ANN,Dr. John,Online,2025-07-04,14:00,Card,Paid,Angry,Take medicine at 11:00
+Steven,barrchristy@example.net,43,Female,80,80.89,Logistic Regression,Dr. Smith,Online,2025-07-12,9:00,UPI,Paid,Relaxed,Take medicine at 15:00
+Jonathan,zsandoval@example.com,47,Male,85,93.34,Logistic Regression,Dr. John,Offline,2025-07-23,15:00,UPI,Failed,Anxious,Take medicine at 9:00
+Anthony,brandon40@example.org,27,Female,73,84.76,Logistic Regression,Dr. Smith,Online,2025-07-25,12:00,UPI,Failed,Sad,Take medicine at 20:00
+Jacqueline,rogersadam@example.net,19,Male,69,76.86,Logistic Regression,Dr. Alice,Online,2025-07-19,14:00,UPI,Failed,Sad,Take medicine at 18:00
+Matthew,thomasryan@example.net,29,Male,68,82.29,SVM,Dr. John,Offline,2025-07-02,12:00,Netbanking,Paid,Sad,Take medicine at 9:00
+Jimmy,pbridges@example.com,38,Male,72,89.46,Logistic Regression,Dr. Alice,Offline,2025-07-12,13:00,Card,Failed,Relaxed,Take medicine at 10:00
+Heather,brownjacob@example.net,58,Male,59,85.28,Logistic Regression,Dr. Alice,Online,2025-07-23,11:00,Netbanking,Pending,Sad,Take medicine at 15:00
+Jason,allenjeffrey@example.com,38,Male,51,98.43,ANN,Dr. John,Offline,2025-07-25,16:00,Card,Pending,Sad,Take medicine at 21:00
+Adrian,aclark@example.com,56,Male,55,90.44,SVM,Dr. Alice,Online,2025-07-17,10:00,Netbanking,Pending,Relaxed,Take medicine at 11:00
+Stephanie,williamsjerry@example.com,23,Female,84,98.27,SVM,Dr. Smith,Online,2025-07-21,9:00,Card,Failed,Happy,Take medicine at 8:00
+Terri,perrykathleen@example.com,33,Female,81,78.65,SVM,Dr. John,Online,2025-07-19,11:00,Card,Paid,Relaxed,Take medicine at 10:00
+Anthony,fromero@example.org,42,Female,51,80.85,SVM,Dr. Alice,Offline,2025-07-02,13:00,Netbanking,Paid,Angry,Take medicine at 11:00
+Andre,danielle14@example.org,38,Male,52,84.97,ANN,Dr. Alice,Online,2025-07-25,10:00,Netbanking,Pending,Sad,Take medicine at 21:00
+Ashlee,jenna08@example.net,48,Male,85,83.99,ANN,Dr. Smith,Online,2025-07-06,13:00,UPI,Pending,Anxious,Take medicine at 21:00
+Curtis,richardsonjohn@example.net,27,Female,89,80.25,ANN,Dr. John,Offline,2025-07-04,12:00,Card,Failed,Relaxed,Take medicine at 15:00
+Jennifer,lisa70@example.com,18,Female,73,83.57,Logistic Regression,Dr. John,Offline,2025-07-14,10:00,UPI,Paid,Happy,Take medicine at 18:00
+Brittney,smithbrenda@example.net,32,Male,83,86.06,ANN,Dr. Smith,Online,2025-07-11,10:00,Netbanking,Pending,Happy,Take medicine at 9:00
+Dawn,miguelsosa@example.net,58,Female,100,80.43,SVM,Dr. Alice,Online,2025-07-14,15:00,Card,Failed,Sad,Take medicine at 11:00
+Christine,qdavis@example.com,44,Female,52,99.23,ANN,Dr. John,Offline,2025-07-17,12:00,Card,Failed,Angry,Take medicine at 22:00
+Christy,ascott@example.com,38,Male,76,96.03,Logistic Regression,Dr. Alice,Offline,2025-07-16,11:00,Card,Pending,Anxious,Take medicine at 22:00
+Ryan,jeremymartinez@example.net,39,Male,72,75.83,SVM,Dr. John,Online,2025-07-26,12:00,UPI,Failed,Angry,Take medicine at 9:00
+Gabriel,stevengordon@example.com,33,Female,94,86.94,Logistic Regression,Dr. Smith,Online,2025-07-29,10:00,Card,Paid,Sad,Take medicine at 15:00
+Connie,wwilkins@example.net,43,Male,60,92.43,SVM,Dr. Smith,Offline,2025-07-21,10:00,Card,Failed,Relaxed,Take medicine at 20:00
+Kristina,cathy39@example.net,52,Female,61,86.4,ANN,Dr. Smith,Online,2025-07-04,9:00,Card,Paid,Sad,Take medicine at 20:00
+Denise,bethany77@example.org,55,Female,67,95.69,SVM,Dr. John,Online,2025-07-23,17:00,Card,Pending,Angry,Take medicine at 15:00
+Monique,younganthony@example.org,31,Male,68,80.8,SVM,Dr. Smith,Offline,2025-07-21,9:00,Netbanking,Paid,Relaxed,Take medicine at 15:00
+Charles,vhouse@example.net,40,Female,54,93.35,ANN,Dr. Alice,Online,2025-07-02,10:00,Netbanking,Paid,Relaxed,Take medicine at 11:00
+Alicia,courtney76@example.net,56,Male,53,88.5,SVM,Dr. Alice,Offline,2025-07-09,12:00,UPI,Paid,Anxious,Take medicine at 18:00
+Luis,schwartzdebra@example.com,43,Male,93,87.6,Logistic Regression,Dr. John,Online,2025-07-05,11:00,UPI,Pending,Anxious,Take medicine at 15:00
+Cynthia,dawn03@example.com,51,Female,57,91.15,ANN,Dr. Smith,Offline,2025-07-02,10:00,UPI,Pending,Happy,Take medicine at 21:00
+Timothy,rosstimothy@example.org,21,Female,59,88.78,Logistic Regression,Dr. John,Offline,2025-07-19,14:00,Card,Paid,Happy,Take medicine at 9:00
+Shannon,fchandler@example.com,38,Female,74,76.53,ANN,Dr. John,Online,2025-07-09,10:00,Netbanking,Failed,Sad,Take medicine at 20:00
+Kevin,lynchcarl@example.org,25,Female,64,87.17,ANN,Dr. John,Online,2025-07-16,10:00,Netbanking,Failed,Happy,Take medicine at 20:00
+Manuel,thoffman@example.com,52,Female,64,99.74,SVM,Dr. Alice,Online,2025-07-25,10:00,Card,Paid,Happy,Take medicine at 8:00
+Erica,jennifer58@example.net,44,Male,80,82.8,SVM,Dr. John,Offline,2025-07-01,15:00,Card,Pending,Relaxed,Take medicine at 15:00
+Carl,karen16@example.com,46,Female,61,77.77,ANN,Dr. John,Online,2025-07-24,14:00,UPI,Paid,Sad,Take medicine at 10:00
+Andrew,patriciamiller@example.com,36,Female,96,93.5,SVM,Dr. John,Offline,2025-07-29,17:00,Netbanking,Paid,Relaxed,Take medicine at 9:00
+Elizabeth,lmorales@example.com,58,Female,70,94.21,SVM,Dr. Smith,Online,2025-07-22,9:00,Card,Pending,Anxious,Take medicine at 9:00
+Amber,smithmarie@example.com,40,Female,69,88.29,Logistic Regression,Dr. John,Online,2025-07-21,17:00,Card,Paid,Angry,Take medicine at 22:00
+Joshua,ian08@example.net,45,Male,56,81.4,Logistic Regression,Dr. Smith,Offline,2025-07-04,9:00,Card,Paid,Angry,Take medicine at 18:00
+Philip,shawnhester@example.com,21,Male,100,93.38,ANN,Dr. Smith,Online,2025-07-15,11:00,Netbanking,Failed,Happy,Take medicine at 22:00
+Andrea,robertsmatthew@example.org,27,Male,63,94.62,SVM,Dr. Alice,Online,2025-07-07,9:00,UPI,Failed,Happy,Take medicine at 10:00
+Walter,pwebster@example.net,40,Male,54,92.13,ANN,Dr. Alice,Offline,2025-07-10,9:00,UPI,Paid,Sad,Take medicine at 15:00
+Stephen,ebrown@example.net,31,Female,68,98.18,ANN,Dr. John,Online,2025-07-06,10:00,UPI,Paid,Angry,Take medicine at 11:00
+Michael,stewartmolly@example.org,60,Male,57,88.86,ANN,Dr. Alice,Offline,2025-07-19,10:00,Netbanking,Paid,Relaxed,Take medicine at 11:00
+Roberto,susangray@example.org,24,Male,65,91.11,Logistic Regression,Dr. John,Online,2025-07-17,13:00,Netbanking,Paid,Anxious,Take medicine at 11:00
+Katie,cruzjoshua@example.com,28,Female,91,94.88,SVM,Dr. Smith,Offline,2025-07-03,17:00,Card,Pending,Anxious,Take medicine at 18:00
+Dean,alecthomas@example.net,25,Male,58,75.65,SVM,Dr. Smith,Online,2025-07-27,16:00,UPI,Pending,Anxious,Take medicine at 10:00
+Marissa,davisjoshua@example.com,46,Female,63,90.84,Logistic Regression,Dr. Smith,Online,2025-07-29,12:00,Card,Paid,Angry,Take medicine at 15:00
+Elizabeth,lydia56@example.net,24,Female,96,84.99,Logistic Regression,Dr. John,Online,2025-07-19,14:00,Netbanking,Paid,Relaxed,Take medicine at 18:00
+James,stephaniefrey@example.org,54,Male,83,86.47,ANN,Dr. Alice,Offline,2025-07-22,14:00,UPI,Failed,Relaxed,Take medicine at 18:00
+James,gardnerspencer@example.net,46,Female,84,85.03,ANN,Dr. Alice,Online,2025-07-25,13:00,Card,Pending,Angry,Take medicine at 18:00
+Mark,kelly14@example.net,32,Female,79,90.71,Logistic Regression,Dr. Smith,Offline,2025-07-06,15:00,Card,Paid,Anxious,Take medicine at 22:00
+Lucas,johnsonjeffrey@example.com,51,Male,90,82.34,Logistic Regression,Dr. Alice,Online,2025-07-07,17:00,UPI,Failed,Happy,Take medicine at 10:00
+Nicole,ronaldroberts@example.com,44,Female,88,96.79,ANN,Dr. Alice,Offline,2025-07-06,12:00,Card,Failed,Relaxed,Take medicine at 21:00
+Laura,dfleming@example.org,47,Male,53,81.84,ANN,Dr. John,Offline,2025-07-26,11:00,UPI,Pending,Relaxed,Take medicine at 8:00
+Daniel,thomas73@example.com,36,Female,95,92.87,SVM,Dr. Smith,Offline,2025-07-23,16:00,UPI,Paid,Anxious,Take medicine at 9:00
+James,rhudson@example.org,36,Male,59,75.27,SVM,Dr. Smith,Online,2025-07-10,14:00,Netbanking,Failed,Angry,Take medicine at 22:00
+Michelle,leahhicks@example.com,36,Female,89,77.56,SVM,Dr. Alice,Offline,2025-07-16,15:00,Card,Pending,Anxious,Take medicine at 21:00
+Lisa,sbaker@example.org,38,Female,73,92.94,ANN,Dr. John,Online,2025-07-29,12:00,Card,Paid,Sad,Take medicine at 15:00
+Brandon,ahampton@example.org,35,Male,67,77.78,Logistic Regression,Dr. John,Offline,2025-07-20,12:00,UPI,Pending,Anxious,Take medicine at 11:00
+Jacob,shannon48@example.com,27,Male,75,97.78,Logistic Regression,Dr. Alice,Offline,2025-07-18,9:00,UPI,Paid,Angry,Take medicine at 18:00
+Elizabeth,meyermaria@example.net,23,Female,86,94.51,Logistic Regression,Dr. Alice,Online,2025-07-18,9:00,Card,Failed,Anxious,Take medicine at 15:00
+Andrew,jjones@example.org,35,Female,77,82.47,SVM,Dr. Alice,Offline,2025-07-27,9:00,Netbanking,Pending,Anxious,Take medicine at 21:00
+Christian,anthonyporter@example.com,19,Male,56,75.99,SVM,Dr. John,Offline,2025-07-01,9:00,Netbanking,Pending,Anxious,Take medicine at 10:00
+Lindsey,blairgregory@example.com,46,Female,79,84.78,SVM,Dr. Smith,Online,2025-07-25,12:00,Netbanking,Paid,Sad,Take medicine at 10:00
+Andrew,lindadickson@example.org,53,Male,54,84.14,SVM,Dr. Smith,Offline,2025-07-27,15:00,Card,Pending,Relaxed,Take medicine at 8:00
+Melvin,eric97@example.net,43,Female,70,87.94,ANN,Dr. Smith,Online,2025-07-12,12:00,Card,Failed,Happy,Take medicine at 22:00
+Allison,wthompson@example.net,26,Female,59,81.76,ANN,Dr. John,Offline,2025-07-22,13:00,UPI,Failed,Happy,Take medicine at 18:00
+Katelyn,edward92@example.org,41,Female,65,77.6,Logistic Regression,Dr. Smith,Offline,2025-07-05,12:00,Card,Failed,Anxious,Take medicine at 15:00
+Craig,kgrimes@example.org,31,Male,75,95.38,ANN,Dr. John,Offline,2025-06-30,11:00,Netbanking,Pending,Relaxed,Take medicine at 22:00
+Amber,azimmerman@example.com,60,Female,99,93.52,Logistic Regression,Dr. Alice,Online,2025-06-30,12:00,Card,Failed,Happy,Take medicine at 8:00
+Cindy,gregory03@example.com,50,Female,81,84.84,Logistic Regression,Dr. John,Online,2025-07-13,17:00,Netbanking,Failed,Sad,Take medicine at 8:00
+Kristen,michaelmathews@example.net,41,Male,65,98.53,SVM,Dr. Smith,Offline,2025-07-13,10:00,UPI,Paid,Angry,Take medicine at 9:00
+David,fwilson@example.com,52,Male,72,77.73,ANN,Dr. Smith,Offline,2025-07-03,16:00,Card,Failed,Anxious,Take medicine at 18:00
+Gina,taylorward@example.org,56,Male,94,98.98,Logistic Regression,Dr. Alice,Online,2025-07-03,12:00,UPI,Failed,Relaxed,Take medicine at 11:00
+Melissa,diazalexander@example.net,19,Male,83,99.13,Logistic Regression,Dr. John,Online,2025-07-22,16:00,Netbanking,Paid,Sad,Take medicine at 18:00
+David,brandy23@example.com,23,Female,90,98.69,SVM,Dr. Smith,Offline,2025-07-06,12:00,UPI,Pending,Sad,Take medicine at 20:00
+Francisco,ashley96@example.net,59,Male,65,98.96,Logistic Regression,Dr. Alice,Online,2025-07-15,11:00,UPI,Failed,Sad,Take medicine at 18:00
+Christina,tiffany43@example.net,60,Female,53,87.42,ANN,Dr. John,Offline,2025-07-10,13:00,UPI,Paid,Sad,Take medicine at 15:00
+Steven,matthew42@example.net,24,Male,84,94.84,ANN,Dr. John,Offline,2025-07-11,17:00,UPI,Pending,Anxious,Take medicine at 10:00
+Angela,jason89@example.net,58,Female,60,88.46,SVM,Dr. Alice,Online,2025-07-11,10:00,Card,Paid,Angry,Take medicine at 20:00
+Rodney,carolyn36@example.net,52,Female,56,92.91,ANN,Dr. Alice,Offline,2025-06-30,10:00,Netbanking,Pending,Relaxed,Take medicine at 9:00
+Jeffery,vegamegan@example.org,39,Male,95,84.88,SVM,Dr. Smith,Offline,2025-07-05,10:00,Netbanking,Failed,Sad,Take medicine at 15:00
+Christine,brandtelizabeth@example.org,31,Female,71,99.45,ANN,Dr. Smith,Online,2025-07-19,11:00,Netbanking,Paid,Anxious,Take medicine at 20:00
+Ashley,philip61@example.com,48,Male,53,85.68,ANN,Dr. Smith,Offline,2025-07-29,9:00,Netbanking,Paid,Angry,Take medicine at 8:00
+Elizabeth,michael05@example.com,41,Male,54,85.31,ANN,Dr. Alice,Online,2025-07-06,10:00,Card,Paid,Angry,Take medicine at 8:00
+Kayla,enichols@example.com,35,Male,75,77.61,Logistic Regression,Dr. Smith,Offline,2025-07-01,10:00,Netbanking,Pending,Happy,Take medicine at 11:00
+James,taylorjennifer@example.org,44,Male,87,77.71,SVM,Dr. John,Offline,2025-07-12,10:00,Netbanking,Failed,Anxious,Take medicine at 15:00
+Russell,kaitlyn39@example.org,57,Female,72,90.43,Logistic Regression,Dr. Alice,Online,2025-07-01,14:00,Netbanking,Pending,Sad,Take medicine at 22:00
+Lisa,ymarshall@example.org,43,Male,60,80.33,ANN,Dr. Smith,Offline,2025-07-22,12:00,Card,Failed,Sad,Take medicine at 11:00
+Brian,hcameron@example.net,25,Male,62,75.69,SVM,Dr. John,Offline,2025-07-04,16:00,Netbanking,Paid,Relaxed,Take medicine at 18:00
+Lori,thomas15@example.com,56,Male,95,90.64,SVM,Dr. Smith,Online,2025-07-10,12:00,UPI,Failed,Anxious,Take medicine at 15:00
+Jack,claire63@example.net,57,Female,88,81.52,SVM,Dr. John,Offline,2025-07-10,10:00,Netbanking,Pending,Relaxed,Take medicine at 20:00
+Sara,heather05@example.com,53,Female,76,92.14,ANN,Dr. Alice,Online,2025-07-11,13:00,Netbanking,Paid,Happy,Take medicine at 10:00
+Douglas,browningkathryn@example.org,37,Male,76,96.86,ANN,Dr. Alice,Offline,2025-07-27,10:00,UPI,Pending,Angry,Take medicine at 10:00
+Stephanie,leeanita@example.net,45,Male,60,97.55,ANN,Dr. Alice,Online,2025-07-16,17:00,Card,Pending,Relaxed,Take medicine at 18:00
+Beth,denisehernandez@example.com,23,Male,67,81.13,ANN,Dr. Alice,Offline,2025-07-09,14:00,Netbanking,Failed,Anxious,Take medicine at 8:00
+John,pamela49@example.org,47,Female,86,97.68,ANN,Dr. Alice,Offline,2025-07-14,15:00,Netbanking,Failed,Sad,Take medicine at 21:00
+Jennifer,bryanrowland@example.org,21,Female,96,98.15,ANN,Dr. John,Offline,2025-07-21,12:00,Netbanking,Paid,Happy,Take medicine at 15:00
+Jeremy,amanda48@example.com,60,Male,87,95.67,ANN,Dr. Alice,Online,2025-07-08,14:00,Card,Failed,Anxious,Take medicine at 11:00
+Kim,combsmichelle@example.net,35,Female,50,83.41,ANN,Dr. Alice,Offline,2025-07-09,16:00,Netbanking,Failed,Relaxed,Take medicine at 15:00
+Patrick,oallen@example.org,28,Male,68,97.05,SVM,Dr. Smith,Online,2025-07-03,17:00,Card,Failed,Happy,Take medicine at 8:00
+Stephanie,dmcdonald@example.org,18,Male,86,80.87,ANN,Dr. Smith,Online,2025-07-15,13:00,Card,Failed,Sad,Take medicine at 8:00
+Debbie,okhan@example.net,41,Female,55,77.28,ANN,Dr. Smith,Online,2025-07-10,10:00,Netbanking,Failed,Sad,Take medicine at 8:00
+Jose,joy53@example.org,35,Male,50,90.93,Logistic Regression,Dr. John,Offline,2025-07-08,13:00,Netbanking,Paid,Happy,Take medicine at 9:00
+George,sconway@example.net,28,Male,89,92.96,SVM,Dr. John,Offline,2025-07-07,9:00,UPI,Failed,Anxious,Take medicine at 22:00
+Peter,rogernavarro@example.com,31,Male,93,85.47,Logistic Regression,Dr. Alice,Offline,2025-07-12,16:00,Netbanking,Paid,Happy,Take medicine at 21:00
+Carla,moralesjames@example.com,20,Male,58,90.21,SVM,Dr. John,Offline,2025-07-27,9:00,Card,Pending,Angry,Take medicine at 15:00
+Brooke,wellsmelissa@example.org,29,Male,80,99.14,SVM,Dr. Smith,Online,2025-07-17,17:00,UPI,Paid,Happy,Take medicine at 21:00
+Pamela,rbrown@example.org,37,Male,65,79.06,SVM,Dr. John,Online,2025-07-09,15:00,Card,Pending,Angry,Take medicine at 20:00
+Adam,wesleyrodriguez@example.org,53,Male,79,79.94,SVM,Dr. John,Offline,2025-07-01,16:00,UPI,Pending,Sad,Take medicine at 15:00
+Shelly,lindacharles@example.com,48,Male,63,90.79,SVM,Dr. Smith,Offline,2025-07-22,11:00,Card,Pending,Happy,Take medicine at 10:00
+Amy,whitneynichols@example.com,50,Male,71,88.16,SVM,Dr. John,Offline,2025-07-03,10:00,Netbanking,Failed,Angry,Take medicine at 10:00
+Kevin,jennifercox@example.net,33,Male,91,97.28,SVM,Dr. Smith,Online,2025-07-02,15:00,Netbanking,Failed,Anxious,Take medicine at 8:00
+Tiffany,robersoneric@example.net,22,Female,77,83.01,ANN,Dr. Alice,Online,2025-07-16,12:00,Netbanking,Paid,Relaxed,Take medicine at 15:00
+Joseph,petersonmalik@example.net,18,Male,83,97.94,ANN,Dr. John,Offline,2025-07-29,15:00,Netbanking,Paid,Angry,Take medicine at 22:00
+Claudia,carolynthomas@example.com,46,Male,72,86.43,ANN,Dr. Smith,Offline,2025-07-28,9:00,Card,Paid,Anxious,Take medicine at 11:00
+Kimberly,rbrown@example.net,37,Female,51,96.77,Logistic Regression,Dr. Alice,Offline,2025-07-01,13:00,Netbanking,Pending,Sad,Take medicine at 8:00
+Christina,kathleen02@example.org,48,Female,61,95.11,SVM,Dr. Smith,Online,2025-07-25,17:00,Netbanking,Failed,Relaxed,Take medicine at 22:00
+Joshua,danielwest@example.org,49,Male,55,86.94,ANN,Dr. Smith,Offline,2025-07-01,13:00,Card,Failed,Sad,Take medicine at 10:00
+Tyler,guzmanjudy@example.net,18,Male,94,96.6,SVM,Dr. Smith,Online,2025-07-07,17:00,Card,Pending,Sad,Take medicine at 20:00
+Cynthia,cdelgado@example.org,34,Male,91,94.04,Logistic Regression,Dr. Alice,Online,2025-07-17,13:00,Card,Failed,Angry,Take medicine at 22:00
+Maria,nathanhuerta@example.org,52,Female,89,92.68,SVM,Dr. Alice,Offline,2025-07-01,9:00,UPI,Failed,Relaxed,Take medicine at 20:00
+Cindy,mcbridejames@example.org,47,Female,72,89.93,ANN,Dr. John,Online,2025-07-06,13:00,Netbanking,Pending,Relaxed,Take medicine at 9:00
+Sharon,jackson34@example.net,35,Female,66,76.66,SVM,Dr. John,Offline,2025-07-19,16:00,Netbanking,Failed,Relaxed,Take medicine at 10:00
+Margaret,larry18@example.org,46,Female,76,94.24,SVM,Dr. Smith,Online,2025-07-02,9:00,Netbanking,Failed,Happy,Take medicine at 10:00
+Kyle,john24@example.com,58,Male,55,85.32,Logistic Regression,Dr. Alice,Offline,2025-07-17,15:00,Netbanking,Paid,Anxious,Take medicine at 15:00
+Christy,stuarterica@example.com,60,Female,84,86.85,Logistic Regression,Dr. Smith,Online,2025-07-21,16:00,Netbanking,Paid,Anxious,Take medicine at 8:00
+Michael,robert88@example.org,43,Female,70,95.47,ANN,Dr. Smith,Offline,2025-07-06,17:00,UPI,Pending,Angry,Take medicine at 21:00
+Larry,kennedychristopher@example.net,35,Male,98,80.03,ANN,Dr. Smith,Offline,2025-07-29,11:00,UPI,Paid,Angry,Take medicine at 10:00
+Tanya,matthew42@example.org,22,Female,63,92.68,SVM,Dr. John,Online,2025-07-08,16:00,Netbanking,Failed,Anxious,Take medicine at 21:00
+Alexandra,caroline47@example.com,33,Female,62,90.23,ANN,Dr. Smith,Online,2025-07-12,15:00,UPI,Pending,Anxious,Take medicine at 11:00
+Alexa,jhaynes@example.org,54,Female,96,94.14,ANN,Dr. Smith,Offline,2025-07-17,15:00,UPI,Paid,Angry,Take medicine at 10:00
+Michael,patrick13@example.com,35,Male,92,94.68,Logistic Regression,Dr. Alice,Online,2025-07-15,16:00,UPI,Paid,Sad,Take medicine at 20:00
+Lauren,judystrong@example.com,44,Male,70,88.75,ANN,Dr. Smith,Online,2025-07-20,12:00,UPI,Failed,Angry,Take medicine at 11:00
+Mark,matthew04@example.org,36,Female,62,99.01,ANN,Dr. Alice,Offline,2025-07-06,17:00,Netbanking,Paid,Happy,Take medicine at 9:00
+Rebecca,harrellandre@example.net,34,Female,84,81.54,ANN,Dr. Smith,Online,2025-07-04,9:00,Card,Failed,Happy,Take medicine at 21:00
+Nicole,david16@example.org,59,Male,97,92.29,Logistic Regression,Dr. Alice,Online,2025-07-07,11:00,UPI,Failed,Angry,Take medicine at 11:00
+Dawn,gwarren@example.com,27,Female,92,86.37,SVM,Dr. Alice,Offline,2025-07-06,10:00,Card,Failed,Angry,Take medicine at 11:00
+Travis,michaelflores@example.com,32,Female,80,88.3,ANN,Dr. Smith,Offline,2025-07-22,13:00,Card,Pending,Happy,Take medicine at 18:00
+James,michaelbrenda@example.com,47,Male,53,76.7,SVM,Dr. Smith,Online,2025-07-08,12:00,Netbanking,Pending,Sad,Take medicine at 10:00
+Larry,william69@example.com,48,Female,93,98.86,SVM,Dr. Smith,Online,2025-07-21,12:00,Netbanking,Failed,Sad,Take medicine at 11:00
+Benjamin,dominic13@example.net,31,Male,79,77.08,SVM,Dr. John,Offline,2025-07-06,11:00,Netbanking,Failed,Happy,Take medicine at 15:00
+Kelly,patriciamartin@example.net,24,Male,75,92.55,SVM,Dr. John,Offline,2025-07-11,13:00,Card,Pending,Anxious,Take medicine at 11:00
+Karen,michele42@example.com,22,Female,100,77.76,SVM,Dr. Smith,Online,2025-07-15,11:00,Card,Pending,Relaxed,Take medicine at 9:00
+John,scott79@example.com,56,Male,73,96.17,SVM,Dr. John,Offline,2025-07-24,10:00,Card,Pending,Happy,Take medicine at 9:00
+Matthew,smitherica@example.org,21,Male,85,78.3,SVM,Dr. Smith,Online,2025-07-06,16:00,Card,Paid,Relaxed,Take medicine at 20:00
+Betty,moorelisa@example.org,38,Male,97,83.33,SVM,Dr. Smith,Online,2025-07-28,9:00,Card,Failed,Anxious,Take medicine at 10:00
+Dawn,martinezashley@example.com,38,Female,97,79.26,ANN,Dr. Alice,Online,2025-07-28,9:00,Card,Paid,Sad,Take medicine at 22:00
+Joshua,travisherrera@example.com,24,Female,78,94.84,SVM,Dr. Smith,Offline,2025-07-18,13:00,Netbanking,Pending,Anxious,Take medicine at 11:00
+Shawn,xbooth@example.org,57,Male,71,91.73,SVM,Dr. John,Online,2025-07-22,10:00,UPI,Failed,Sad,Take medicine at 22:00
+Michelle,vbaker@example.org,54,Male,74,99.21,Logistic Regression,Dr. John,Offline,2025-07-28,16:00,UPI,Paid,Relaxed,Take medicine at 21:00
+Anthony,robertdaniels@example.net,21,Female,93,84.92,Logistic Regression,Dr. John,Offline,2025-07-14,13:00,Card,Paid,Happy,Take medicine at 18:00
+James,kelseybrooks@example.org,39,Female,67,76.7,SVM,Dr. John,Online,2025-07-08,12:00,Netbanking,Paid,Relaxed,Take medicine at 18:00
+Tasha,bryan93@example.net,42,Male,61,85.65,Logistic Regression,Dr. John,Online,2025-07-23,9:00,Card,Failed,Happy,Take medicine at 11:00
+Keith,melvintodd@example.org,45,Male,55,88.67,SVM,Dr. Alice,Offline,2025-07-25,17:00,Card,Failed,Happy,Take medicine at 20:00
+Roger,andersondenise@example.com,42,Female,64,94.39,Logistic Regression,Dr. Alice,Online,2025-07-05,14:00,Card,Failed,Anxious,Take medicine at 8:00
+Mark,watsonkelli@example.org,42,Female,70,99.39,ANN,Dr. Alice,Online,2025-07-27,13:00,Netbanking,Failed,Sad,Take medicine at 10:00
+Anne,ganderson@example.com,34,Male,59,81.56,SVM,Dr. Alice,Online,2025-07-13,15:00,Card,Failed,Sad,Take medicine at 20:00
+Rodney,ppeters@example.org,26,Female,91,95.2,Logistic Regression,Dr. Alice,Offline,2025-07-12,9:00,Netbanking,Failed,Angry,Take medicine at 22:00
+Amy,johnbowman@example.org,38,Male,54,93.84,Logistic Regression,Dr. John,Offline,2025-07-19,15:00,Netbanking,Paid,Sad,Take medicine at 20:00
+Ethan,matasharon@example.com,57,Male,96,86.43,SVM,Dr. Smith,Online,2025-07-08,10:00,UPI,Paid,Angry,Take medicine at 10:00
+Bethany,tiffany41@example.com,51,Male,72,84.89,Logistic Regression,Dr. John,Offline,2025-07-04,14:00,Card,Pending,Angry,Take medicine at 9:00
+Tanya,evansphillip@example.net,39,Female,63,99.53,ANN,Dr. Alice,Offline,2025-07-27,17:00,Netbanking,Pending,Happy,Take medicine at 8:00
+Jason,heathermontgomery@example.net,35,Female,54,87.95,ANN,Dr. Alice,Online,2025-07-29,10:00,Netbanking,Pending,Relaxed,Take medicine at 10:00
+Todd,randerson@example.net,31,Male,96,86.13,ANN,Dr. John,Online,2025-07-29,15:00,UPI,Paid,Angry,Take medicine at 8:00
+Tasha,coreyperry@example.com,51,Female,66,92.64,SVM,Dr. John,Online,2025-07-22,11:00,Card,Paid,Happy,Take medicine at 22:00
+Clayton,wheelermadison@example.com,43,Male,77,93.69,Logistic Regression,Dr. Alice,Offline,2025-07-29,9:00,Netbanking,Pending,Relaxed,Take medicine at 10:00
+Kristina,jonesjames@example.org,39,Male,92,79.2,ANN,Dr. John,Online,2025-07-23,13:00,Card,Failed,Happy,Take medicine at 22:00
+Tina,ijenkins@example.net,49,Male,87,85.19,SVM,Dr. Alice,Offline,2025-07-14,9:00,Card,Paid,Relaxed,Take medicine at 20:00
+Elizabeth,gina83@example.net,60,Female,93,91.88,SVM,Dr. Smith,Offline,2025-07-02,12:00,UPI,Pending,Happy,Take medicine at 18:00
+Mariah,evansrachel@example.org,39,Male,54,90.65,ANN,Dr. John,Offline,2025-07-08,15:00,Netbanking,Pending,Anxious,Take medicine at 11:00
+Lisa,smithcharles@example.net,49,Male,90,77.07,Logistic Regression,Dr. Smith,Offline,2025-07-23,10:00,UPI,Failed,Anxious,Take medicine at 8:00
+Logan,johnny93@example.org,38,Female,95,87.89,SVM,Dr. John,Online,2025-07-26,17:00,UPI,Paid,Angry,Take medicine at 21:00
+Stephanie,kfarley@example.org,38,Male,85,85.0,ANN,Dr. Smith,Online,2025-07-20,15:00,Netbanking,Paid,Angry,Take medicine at 9:00
+Gina,robert71@example.com,44,Male,90,96.97,SVM,Dr. Alice,Offline,2025-07-20,16:00,Netbanking,Failed,Anxious,Take medicine at 15:00
+Jillian,traci45@example.net,23,Male,60,99.03,ANN,Dr. John,Offline,2025-07-27,13:00,UPI,Pending,Happy,Take medicine at 21:00
+Trevor,bennettcharles@example.com,45,Female,76,91.58,SVM,Dr. Alice,Offline,2025-07-08,12:00,Netbanking,Failed,Happy,Take medicine at 10:00
+John,molly84@example.com,51,Male,91,77.0,ANN,Dr. Alice,Offline,2025-07-03,12:00,UPI,Failed,Angry,Take medicine at 18:00
+William,paula39@example.org,47,Male,96,75.27,Logistic Regression,Dr. Smith,Online,2025-07-10,9:00,Card,Failed,Angry,Take medicine at 9:00
+Allen,elizabethpeters@example.com,39,Female,98,96.66,SVM,Dr. Smith,Online,2025-07-29,11:00,Netbanking,Pending,Relaxed,Take medicine at 22:00
+Anthony,donaldmelendez@example.net,59,Male,57,88.28,Logistic Regression,Dr. Alice,Online,2025-07-05,11:00,Card,Failed,Happy,Take medicine at 18:00
+Michael,brent12@example.net,40,Female,75,87.98,Logistic Regression,Dr. Smith,Online,2025-07-27,11:00,Netbanking,Pending,Happy,Take medicine at 20:00
+Thomas,lisa08@example.com,38,Male,73,97.14,SVM,Dr. Smith,Online,2025-07-12,13:00,UPI,Paid,Sad,Take medicine at 11:00
+Elizabeth,gryan@example.com,48,Female,76,95.63,SVM,Dr. Smith,Online,2025-07-15,17:00,Netbanking,Pending,Relaxed,Take medicine at 18:00
+Daisy,zamorasharon@example.net,53,Female,97,75.41,SVM,Dr. Smith,Online,2025-07-25,12:00,Card,Paid,Sad,Take medicine at 8:00
+Daniel,umcgee@example.com,46,Female,70,88.66,ANN,Dr. John,Online,2025-07-19,11:00,Card,Pending,Anxious,Take medicine at 20:00
+Michael,achavez@example.net,30,Male,50,85.4,Logistic Regression,Dr. Smith,Online,2025-07-05,11:00,Card,Failed,Sad,Take medicine at 15:00
+Robert,rosscynthia@example.com,48,Male,84,88.69,ANN,Dr. John,Offline,2025-07-07,10:00,Netbanking,Pending,Relaxed,Take medicine at 10:00
+Ashley,xrodriguez@example.com,57,Female,74,98.14,Logistic Regression,Dr. John,Offline,2025-07-01,16:00,UPI,Failed,Angry,Take medicine at 9:00
+Kimberly,morrisdavid@example.net,25,Female,85,86.89,Logistic Regression,Dr. Alice,Offline,2025-07-14,10:00,Card,Paid,Happy,Take medicine at 21:00
+Carrie,sandrahenson@example.org,28,Female,70,83.48,Logistic Regression,Dr. Smith,Offline,2025-07-03,10:00,UPI,Pending,Anxious,Take medicine at 21:00
+Victor,mirandaandrew@example.com,40,Female,100,98.68,Logistic Regression,Dr. Smith,Online,2025-07-09,15:00,Card,Paid,Anxious,Take medicine at 10:00
+Nina,gonzalezmichelle@example.org,25,Female,50,94.33,SVM,Dr. Smith,Offline,2025-07-12,9:00,Card,Pending,Happy,Take medicine at 20:00
+Cody,jessicabriggs@example.com,31,Female,56,86.21,ANN,Dr. Alice,Online,2025-07-22,15:00,Netbanking,Paid,Sad,Take medicine at 21:00
+Susan,matthew28@example.net,45,Female,100,97.75,SVM,Dr. Alice,Offline,2025-07-18,15:00,Netbanking,Pending,Relaxed,Take medicine at 11:00
+Sandra,nbarron@example.org,56,Male,67,87.07,Logistic Regression,Dr. Smith,Online,2025-07-15,12:00,UPI,Pending,Relaxed,Take medicine at 22:00
+Nicholas,dannyreynolds@example.org,47,Male,68,98.23,Logistic Regression,Dr. Smith,Online,2025-07-08,9:00,UPI,Paid,Angry,Take medicine at 18:00
+Lisa,jaclynparker@example.org,51,Male,86,79.25,SVM,Dr. Smith,Online,2025-07-02,13:00,Card,Paid,Angry,Take medicine at 9:00
+David,rfreeman@example.net,33,Male,63,99.24,ANN,Dr. John,Offline,2025-07-16,16:00,Card,Pending,Sad,Take medicine at 18:00
+Donna,whiteheadsarah@example.net,23,Female,59,81.9,Logistic Regression,Dr. Alice,Offline,2025-07-07,14:00,Netbanking,Paid,Relaxed,Take medicine at 8:00
+Paul,courtney35@example.com,25,Male,61,89.07,ANN,Dr. John,Online,2025-07-02,9:00,Netbanking,Failed,Happy,Take medicine at 21:00
+Jessica,wilsongarrett@example.org,41,Male,58,99.2,ANN,Dr. John,Offline,2025-07-25,10:00,UPI,Pending,Angry,Take medicine at 15:00
+Jeffrey,schmidtkrystal@example.org,35,Male,84,88.69,Logistic Regression,Dr. John,Online,2025-07-02,10:00,UPI,Pending,Relaxed,Take medicine at 9:00
+Jason,mcneilchris@example.org,56,Female,81,75.84,SVM,Dr. Smith,Online,2025-07-25,12:00,Netbanking,Pending,Relaxed,Take medicine at 8:00
+Jason,dorisolson@example.org,27,Male,77,97.42,SVM,Dr. Alice,Offline,2025-07-14,13:00,UPI,Pending,Anxious,Take medicine at 11:00
