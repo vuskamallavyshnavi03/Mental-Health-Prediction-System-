@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Is anyone there?"],
+      "responses": ["Hello! How can I help you today?", "Hi there! How are you feeling?"]
+    },
+    {
+      "tag": "stress",
+      "patterns": ["I feel stressed", "I'm under pressure", "Too much stress"],
+      "responses": ["It's okay to feel stressed. Try taking deep breaths or a short walk.", "Stress is tough. Would you like to try a breathing exercise?"]
+    },
+    {
+      "tag": "depression",
+      "patterns": ["I'm feeling down", "I feel depressed", "Life is hard"],
+      "responses": ["You're not alone. Talking helps. I'm here to support you.", "It might help to speak to someone you trust or a professional."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Take care! I'm always here if you need me.", "Goodbye! Stay strong."]
+    }
+  ]
+}
