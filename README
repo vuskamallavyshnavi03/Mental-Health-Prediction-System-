@@ -1,1 +1,77 @@
+# MENTAL HEALTH PREDICTION SYSTEM
 
+Mental Health Prediction System is an intelligent web-based healthcare application designed to help users assess their mental well-being through an interactive survey, AI-powered chatbot, mood tracking, and doctor appointment services. The system analyzes user responses to predict emotional conditions and provides personalized guidance to promote mental wellness. By integrating Machine Learning, Natural Language Processing (NLP), and a user-friendly web interface, the platform offers an accessible solution for early mental health awareness and support. Built using Flask, SQLite, and a Logistic Regression model with TF-IDF vectorization, the application combines predictive analytics with real-time conversational assistance to create a seamless and supportive user experience.
+
+### Overview:
+
+• Users can securely log in and access a personalized mental health dashboard.
+
+• The application collects survey responses and stores user information in a SQLite database.
+
+• A Machine Learning model analyzes user inputs to provide mental health predictions and recommendations.
+
+• An AI-powered chatbot processes natural language queries using NLP and responds with supportive guidance in real time.
+
+• Users can interact with the chatbot using both text and voice input, while receiving voice-enabled responses through text-to-speech.
+
+• The platform includes mood tracking, doctor appointment booking, profile management, and contact support for a complete mental healthcare experience.
+
+Built using Python, Flask, SQLite, scikit-learn, HTML, CSS, and JavaScript, the project demonstrates how Machine Learning and Artificial Intelligence can be integrated into healthcare applications to improve mental health awareness, early intervention, and user engagement.
+
+### Tech Stack:
+
+• Python – Core programming language for backend development
+
+• Flask – Web framework for application development and routing
+
+• SQLite – Lightweight relational database for storing user information
+
+• SQLAlchemy – ORM for efficient database management
+
+• scikit-learn – Machine Learning model for intent classification and prediction
+
+• NLTK – Natural Language Processing for text preprocessing and tokenization
+
+• TF-IDF Vectorizer – Feature extraction for chatbot text classification
+
+• Logistic Regression – Intent classification model for chatbot responses
+
+• gTTS (Google Text-to-Speech) – Voice response generation
+
+• HTML, CSS, JavaScript – Interactive and responsive frontend
+
+### Features:
+
+🧠 Mental Health Assessment — Predicts mental well-being based on user survey responses.
+
+🤖 AI Chatbot — Provides intelligent mental health assistance using Natural Language Processing.
+
+🎤 Voice Interaction — Supports speech input and voice-enabled chatbot responses.
+
+😊 Mood Tracker — Allows users to record and monitor their emotional state.
+
+👨‍⚕️ Doctor Appointment Booking — Enables users to schedule appointments with mental health professionals.
+
+👤 User Authentication — Secure login, session management, and personalized profile dashboard.
+
+💾 Database Integration — Stores user survey responses and profile information using SQLite.
+
+🌐 Responsive Web Application — Clean, modern, and user-friendly interface accessible across devices.
+
+### Demo Preview:
+
+📋 Secure login page for user authentication.
+
+🏠 Interactive home dashboard with mental health resources and navigation.
+
+📝 Mental health survey for collecting user responses.
+
+🤖 AI chatbot with text and voice communication support.
+
+😊 Mood tracker for monitoring emotional well-being.
+
+👨‍⚕️ Doctor appointment booking interface.
+
+👤 Personalized user profile displaying stored survey information.
+
+📞 Contact page for support and assistance.
